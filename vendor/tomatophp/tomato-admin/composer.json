@@ -1,0 +1,64 @@
+{
+    "name": "tomatophp/tomato-admin",
+    "type": "library",
+    "description": "Tomato Admin Dashboard Build With FilamentPHP Theme for Laravel Splade",
+    "keywords": [
+        "Splade",
+        "Breeze",
+        "inertiajs",
+        "vuejs",
+        "blade",
+        "php8",
+        "laravel",
+        "filamentphp",
+        "plugin",
+        "tomatophp",
+        "generator"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\TomatoAdmin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\TomatoAdmin\\TomatoAdminServiceProvider"
+            ],
+            "aliases": {
+                "Tomato": "TomatoPHP\\TomatoAdmin\\Facades\\Tomato",
+                "TomatoMenu": "TomatoPHP\\TomatoAdmin\\Facades\\TomatoMenu",
+                "TomatoWidget": "TomatoPHP\\TomatoAdmin\\Facades\\TomatoWidget",
+                "TomatoSlot": "TomatoPHP\\TomatoAdmin\\Facades\\TomatoSlot"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        }
+    ],
+    "require": {
+        "tomatophp/console-helpers": "^1.1",
+        "tomatophp/tomato-splade": "^1.1",
+        "tomatophp/tomato-plugins": "^1.1",
+        "blade-ui-kit/blade-heroicons": "^2.0",
+        "spatie/laravel-medialibrary": "^10.7",
+        "maatwebsite/excel": "^3.1",
+        "kirschbaum-development/eloquent-power-joins": "^3.0",
+        "laravel/fortify": "^1.15",
+        "laravel/jetstream": "^4.0"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "php artisan tomato-admin:upgrade"
+        ]
+    }
+}

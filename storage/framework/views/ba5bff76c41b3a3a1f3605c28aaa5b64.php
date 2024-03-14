@@ -1,0 +1,2 @@
+<span class="block text-sm font-medium leading-6 text-gray-950 dark:text-white"><?php echo e($label); ?><?php if($attributes->has('required')): ?><sup class="text-danger-600 dark:text-danger-400 font-medium">*</sup><?php endif; ?></span>
+<?php /**PATH /Users/lramirez/laravel/admindoc/vendor/tomatophp/tomato-splade/src/../resources/views/form/label.blade.php ENDPATH**/ ?>

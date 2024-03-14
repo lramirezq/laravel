@@ -1,0 +1,47 @@
+{
+    "name": "tomatophp/tomato-php",
+    "type": "library",
+    "description": "Full CRUD Generator for Splade & Breeze Starter Kit",
+    "keywords": [
+        "Splade",
+        "Breeze",
+        "inertiajs",
+        "vuejs",
+        "blade",
+        "php8",
+        "laravel"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\TomatoPHP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\TomatoPHP\\TomatoPHPServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-splade": "^1.1",
+        "tomatophp/tomato-admin": "^1.1",
+        "tomatophp/console-helpers": "^1.1",
+        "tomatophp/tomato-model-generator": "^1.0",
+        "nwidart/laravel-modules": "^10.0",
+        "laravel/prompts": "^v0.1"
+    }
+}

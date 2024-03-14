@@ -1,0 +1,2 @@
+<?php if($help): ?><p class="text-gray-500 dark:text-gray-300 text-sm mt-2"><?php echo e($help); ?></p><?php endif; ?>
+<?php /**PATH /Users/lramirez/laravel/admindoc/vendor/tomatophp/tomato-splade/src/../resources/views/form/help.blade.php ENDPATH**/ ?>

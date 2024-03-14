@@ -1,0 +1,1 @@
+<!--START-SPLADE-REHYDRATE-0-->{{ $slot }}<!--END-SPLADE-REHYDRATE-0-->

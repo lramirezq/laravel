@@ -1,0 +1,44 @@
+{
+    "name": "tomatophp/tomato-translations",
+    "type": "library",
+    "description": "Database Base Translations Keys with Google Translations API Integration",
+    "keywords": [
+        "php",
+        "laravel",
+        "translations",
+        "translation loader",
+        "translation GUI",
+        "trans"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\TomatoTranslations\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\TomatoTranslations\\TomatoTranslationsServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1",
+        "tomatophp/console-helpers": "^1.1",
+        "calebporzio/sushi": "^2.4",
+        "google/cloud-translate": "^1.12",
+        "spatie/laravel-translatable": "^6.5"
+    }
+}

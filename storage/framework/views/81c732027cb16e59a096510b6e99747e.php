@@ -1,0 +1,3 @@
+<svg v-if="!data.makeMenuMin" class="w-4 h-4 text-primary-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0 6.75 6.75M4.5 12l6.75-6.75"/>
+</svg><?php /**PATH /Users/lramirez/laravel/admindoc/storage/framework/views/520c96ed9e2b1826609604acd8b3effb.blade.php ENDPATH**/ ?>

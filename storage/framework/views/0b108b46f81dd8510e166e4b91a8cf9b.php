@@ -1,0 +1,1 @@
+<!--START-SPLADE-REHYDRATE-0--><?php echo e($slot); ?><!--END-SPLADE-REHYDRATE-0--><?php /**PATH /Users/lramirez/laravel/admindoc/storage/framework/views/e707cc4b604728fe0ab320c9f7156411.blade.php ENDPATH**/ ?>
