@@ -426,8 +426,8 @@ class DocumentController extends Controller
         foreach ($documents as $document) {
             Log::info('Descargando PDF : '.  $document->Number);
 
-            try
-            $response = Http::get($document->UrlPdf);
+     try {
+                 $response = Http::get($document->UrlPdf);
 
                 // Verificar si la solicitud fue exitosa
                 if ($response->successful()) {
@@ -449,10 +449,12 @@ class DocumentController extends Controller
                     // La solicitud no fue exitosa
                     Log::info( 'Hubo un error al descargar el archivo desde la URL: ' . $document->Number);
                 }
-            }   catch (\Exception $e) {
-                continue
+
+            } catch (\Exception $e) {
+                continue;
             }
 
+    
         }
 
     }
@@ -460,7 +462,7 @@ class DocumentController extends Controller
 
     public function copiarArchivoPorSFTP(string  $archivo)
     {
-        $host = ' ';
+        $host = '';
         $puerto = 10022;
         $usuario = '';
         $contrasena = '';
