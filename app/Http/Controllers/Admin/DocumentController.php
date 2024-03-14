@@ -12,7 +12,7 @@ use TomatoPHP\TomatoAdmin\Facade\Tomato;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use App\Models\Document;
-
+use phpseclib3\Net\SFTP;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 class DocumentController extends Controller
@@ -442,7 +442,9 @@ class DocumentController extends Controller
                     $document->path_pdf=$rutaArchivo;
                     $document->save();
 
-            //        $this-> copiarArchivoPorSFTP($rutaArchivo);
+                   $this-> copiarArchivoPorSFTP($rutaArchivo);
+                    
+                   
                     // El archivo se ha guardado correctamente
                     Log::info( 'El archivo se ha descargado y guardado correctamente en la ruta: ' . $rutaArchivo);
                 } else {
@@ -462,29 +464,46 @@ class DocumentController extends Controller
 
     public function copiarArchivoPorSFTP(string  $archivo)
     {
-        $host = '';
-        $puerto = 10022;
-        $usuario = '';
-        $contrasena = '';
+        Log::info('Vamos a pasar por SFTP el archivo'. $archivo);
+    
+        Log::info('Vamos a resolver el valor');
+
+        $host  = Mantenedor::where('tipo', 'SFTPHost')->value('valor');
+        $user  = Mantenedor::where('tipo', 'SFTPUser')->value('valor');
+        $port  = Mantenedor::where('tipo', 'SFTPPort')->value('valor');
+        $password  = Mantenedor::where('tipo', 'SFTPPassword')->value('valor');
+        
+        Log::info('Host: '. $host .'User: '. $user .'Port: '.$port.' Password: '.$password);
+       
+        
         $rutaArchivoLocal = $archivo;
         $rutaArchivoRemoto = $archivo;
+        Log::info('antes del try');
+        try {   
 
         // Crear una instancia de SFTP
-        $sftp = new SFTP($host, $puerto);
-        
+        $sftp = new SFTP($host, $port);
+  
         // Autenticarse con usuario y contraseña
-        if (!$sftp->login($usuario, $contrasena)) {
-            return response()->json(['mensaje' => 'Error de autenticación'], 500);
+        if (!$sftp->login($user, $password)) {
+            Log::error( 'USER O PASS FALLIDA PARA CONECTAR A SFTP');
         }
         
         // Copiar el archivo por SFTP
         if (!$sftp->put($rutaArchivoRemoto, $rutaArchivoLocal, SFTP::SOURCE_LOCAL_FILE)) {
-            return response()->json(['mensaje' => 'Error al copiar el archivo por SFTP'], 500);
+            Log::error( 'Error al pasar el archivo'. $rutaArchivoRemoto);
         }
 
         // Cerrar la conexión SFTP
         $sftp->disconnect();
 
-        return response()->json(['mensaje' => 'Archivo copiado exitosamente por SFTP'], 200);
+        Log::info( 'Copiado Exitosamente'. $rutaArchivoRemoto);
+
+    } catch (\Exception $e) {
+        Log::error( 'Ocurrio un error conectando'. $e->getMessage() );
     }
+    }
+
+
+
 }
