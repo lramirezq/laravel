@@ -426,6 +426,7 @@ class DocumentController extends Controller
         foreach ($documents as $document) {
             Log::info('Descargando PDF : '.  $document->Number);
 
+            try
             $response = Http::get($document->UrlPdf);
 
                 // Verificar si la solicitud fue exitosa
@@ -441,14 +442,17 @@ class DocumentController extends Controller
                     $document->path_pdf=$rutaArchivo;
                     $document->save();
 
-                //    $this-> copiarArchivoPorSFTP($rutaArchivo);
+            //        $this-> copiarArchivoPorSFTP($rutaArchivo);
                     // El archivo se ha guardado correctamente
                     Log::info( 'El archivo se ha descargado y guardado correctamente en la ruta: ' . $rutaArchivo);
                 } else {
                     // La solicitud no fue exitosa
                     Log::info( 'Hubo un error al descargar el archivo desde la URL: ' . $document->Number);
                 }
-           
+            }   catch (\Exception $e) {
+                continue
+            }
+
         }
 
     }
@@ -456,10 +460,10 @@ class DocumentController extends Controller
 
     public function copiarArchivoPorSFTP(string  $archivo)
     {
-        $host = 'sftp.porschecl.cl ';
+        $host = ' ';
         $puerto = 10022;
-        $usuario = 'tracking';
-        $contrasena = 'Ha31UWwqb5B{)Fc>+/L)';
+        $usuario = '';
+        $contrasena = '';
         $rutaArchivoLocal = $archivo;
         $rutaArchivoRemoto = $archivo;
 

@@ -5,7 +5,8 @@
     <form action="{{ route('admin.documents.buscar') }}" method="POST">
     @csrf
     <button type="submit">Actualizar!!</button>
-</form>
+    </form>
+    
     <x-slot:buttons>
         <x-tomato-admin-button :modal="true" :href="route('admin.documents.create')" type="link">
             {{trans('tomato-admin::global.crud.create-new')}} {{__('Document')}}

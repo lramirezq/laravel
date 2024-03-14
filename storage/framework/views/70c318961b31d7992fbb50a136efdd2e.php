@@ -15,7 +15,8 @@
     <form action="<?php echo e(route('admin.documents.buscar')); ?>" method="POST">
     <?php echo csrf_field(); ?>
     <button type="submit">Actualizar!!</button>
-</form>
+    </form>
+    
      <?php $__env->slot('buttons', null, []); ?> 
         <?php if (isset($component)) { $__componentOriginalac1c2c5915b4ce023a8186239e03c2de = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginalac1c2c5915b4ce023a8186239e03c2de = $attributes; } ?>
