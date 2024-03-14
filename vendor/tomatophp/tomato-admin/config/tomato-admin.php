@@ -71,6 +71,15 @@ return [
                 "gr" => "Deutsche",
             ],
             "flag" => "🇩🇪"
+        ],
+        [
+            "key" => "es",
+            "label" =>  [
+                "ar" => "الالمانية",
+                "en" => "Spanish",
+                "gr" => "Spanish",
+            ],
+            "flag" => "🇩🇪"
         ]
     ]
 ];

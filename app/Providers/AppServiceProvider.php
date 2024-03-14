@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider
             \TomatoPHP\TomatoAdmin\Services\Contracts\Menu::make()
                 ->group('App')
                 ->label('Document')
-                ->icon('bx bx-circle')
+                ->icon('bx bx-file-find')
                 ->route('admin.documents.index'),
         ]);
 
@@ -36,7 +36,7 @@ class AppServiceProvider extends ServiceProvider
             \TomatoPHP\TomatoAdmin\Services\Contracts\Menu::make()
                 ->group('App')
                 ->label('Mantenedor')
-                ->icon('bx bx-circle')
+                ->icon('bx bx-archive')
                 ->route('admin.mantenedor.index'),
         ]);
        

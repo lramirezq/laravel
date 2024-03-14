@@ -8,12 +8,9 @@
     @else
 
     <div>
+ 
         <span class="text-sm">
-            Made With <span>❤️</span> At
-            <a href="https://docs.tomatophp.com" target="_blank" class="text-primary-500 hover:text-primary-600">TomatoPHP</a> &copy; {{ date('Y') }},
-        </span>
-        <span class="text-sm">
-            Have a Bug? Please contact  <a href="https://discord.gg/VZc8nBJ3ZU" target="_blank" class="text-primary-500 hover:text-primary-600">Support</a>
+            Creado By <a href="https://discord.gg/VZc8nBJ3ZU" target="_blank" class="text-primary-500 hover:text-primary-600">Luis Ramirez Queupul</a>
         </span>
     </div>
     <div class="ml-4 text-center text-xs text-gray-500 sm:text-right sm:ml-0">
