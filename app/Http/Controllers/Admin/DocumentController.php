@@ -464,21 +464,33 @@ class DocumentController extends Controller
 
     public function copiarArchivoPorSFTP(string  $archivo)
     {
-        Log::info('Vamos a pasar por SFTP el archivo'. $archivo);
+        Log::info('Vamos a pasar por SFTP el archivo: '. $archivo);
     
-        Log::info('Vamos a resolver el valor');
+       
 
         $host  = Mantenedor::where('tipo', 'SFTPHost')->value('valor');
         $user  = Mantenedor::where('tipo', 'SFTPUser')->value('valor');
         $port  = Mantenedor::where('tipo', 'SFTPPort')->value('valor');
         $password  = Mantenedor::where('tipo', 'SFTPPassword')->value('valor');
         
-        Log::info('Host: '. $host .'User: '. $user .'Port: '.$port.' Password: '.$password);
+       // Log::info('Host: '. $host .'User: '. $user .'Port: '.$port.' Password: '.$password);
        
+        Log::info("esto llego: ".$archivo);
+        $rutaArchivoLocal = storage_path("app/{$archivo}");
+        Log::info("este es el path completo: ".$rutaArchivoLocal);
+        $rutaArchivoRemoto = '/files/' . basename($archivo);
+
+
+        Log::info('archivo remoto: '.$rutaArchivoRemoto);
         
-        $rutaArchivoLocal = $archivo;
-        $rutaArchivoRemoto = $archivo;
-        Log::info('antes del try');
+
+        if (!file_exists($rutaArchivoLocal)) {
+            Log::error('El archivo local no existe en la ruta especificada: ' . $rutaArchivoLocal);
+            // Manejo del error aquí
+        }
+
+        
+
         try {   
 
         // Crear una instancia de SFTP
@@ -488,12 +500,16 @@ class DocumentController extends Controller
         if (!$sftp->login($user, $password)) {
             Log::error( 'USER O PASS FALLIDA PARA CONECTAR A SFTP');
         }
-        
-        // Copiar el archivo por SFTP
-        if (!$sftp->put($rutaArchivoRemoto, $rutaArchivoLocal, SFTP::SOURCE_LOCAL_FILE)) {
-            Log::error( 'Error al pasar el archivo'. $rutaArchivoRemoto);
-        }
 
+  
+        try {
+            if (!$sftp->put($rutaArchivoRemoto, $rutaArchivoLocal, SFTP::SOURCE_LOCAL_FILE)) {
+                Log::error('Error al pasar el archivo: ' . $sftp->getLastSFTPError());
+            }
+        } catch (\Exception $e) {
+            Log::error('Excepción al pasar el archivo: ' . $e->getMessage());
+        }
+        
         // Cerrar la conexión SFTP
         $sftp->disconnect();
 
