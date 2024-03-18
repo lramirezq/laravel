@@ -233,6 +233,8 @@
 <?php $component = $__componentOriginalac1c2c5915b4ce023a8186239e03c2de; ?>
 <?php unset($__componentOriginalac1c2c5915b4ce023a8186239e03c2de); ?>
 <?php endif; ?>
+                        <!--
+                        
                         <?php if (isset($component)) { $__componentOriginalac1c2c5915b4ce023a8186239e03c2de = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginalac1c2c5915b4ce023a8186239e03c2de = $attributes; } ?>
 <?php $component = TomatoPHP\TomatoAdmin\Views\Button::resolve(['warning' => true,'type' => 'icon'] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
@@ -273,6 +275,8 @@
 <?php $component = $__componentOriginalac1c2c5915b4ce023a8186239e03c2de; ?>
 <?php unset($__componentOriginalac1c2c5915b4ce023a8186239e03c2de); ?>
 <?php endif; ?>
+
+
                         <?php if (isset($component)) { $__componentOriginalac1c2c5915b4ce023a8186239e03c2de = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginalac1c2c5915b4ce023a8186239e03c2de = $attributes; } ?>
 <?php $component = TomatoPHP\TomatoAdmin\Views\Button::resolve(['danger' => true,'type' => 'icon','method' => 'delete'] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
@@ -283,7 +287,8 @@
 <?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
 <?php endif; ?>
 <?php $component->withAttributes(['title' => ''.e(trans('tomato-admin::global.crud.delete')).'','href' => \Illuminate\View\Compilers\BladeCompiler::sanitizeComponentAttribute(route('admin.documents.destroy', $item->id)),'confirm' => ''.e(trans('tomato-admin::global.crud.delete-confirm')).'','confirm-text' => ''.e(trans('tomato-admin::global.crud.delete-confirm-text')).'','confirm-button' => ''.e(trans('tomato-admin::global.crud.delete-confirm-button')).'','cancel-button' => ''.e(trans('tomato-admin::global.crud.delete-confirm-cancel-button')).'']); ?>
-                            <?php if (isset($component)) { $__componentOriginal643fe1b47aec0b76658e1a0200b34b2c = $component; } ?>
+
+                        <?php if (isset($component)) { $__componentOriginal643fe1b47aec0b76658e1a0200b34b2c = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginal643fe1b47aec0b76658e1a0200b34b2c = $attributes; } ?>
 <?php $component = BladeUI\Icons\Components\Svg::resolve([] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
 <?php $component->withName('heroicon-s-trash'); ?>
@@ -313,6 +318,9 @@
 <?php $component = $__componentOriginalac1c2c5915b4ce023a8186239e03c2de; ?>
 <?php unset($__componentOriginalac1c2c5915b4ce023a8186239e03c2de); ?>
 <?php endif; ?>
+-->
+
+
                     </div>
                  <?php }); ?>
              <?php echo $__env->renderComponent(); ?>

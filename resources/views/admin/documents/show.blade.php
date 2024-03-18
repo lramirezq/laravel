@@ -41,7 +41,7 @@
    
 
 
-
+<!--
 
     
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -130,4 +130,5 @@
                                method="delete"  label="{{__('Delete')}}" />
         <x-tomato-admin-button secondary :href="route('admin.documents.index')" label="{{__('Cancel')}}"/>
     </div>
+-->
 </x-tomato-admin-container>

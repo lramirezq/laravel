@@ -44,9 +44,13 @@
                         <x-tomato-admin-button success type="icon" title="{{trans('tomato-admin::global.crud.view')}}" modal :href="route('admin.documents.show', $item->id)">
                             <x-heroicon-s-eye class="h-6 w-6"/>
                         </x-tomato-admin-button>
+                        <!--
+                        
                         <x-tomato-admin-button warning type="icon" title="{{trans('tomato-admin::global.crud.edit')}}" modal :href="route('admin.documents.edit', $item->id)">
                             <x-heroicon-s-pencil class="h-6 w-6"/>
                         </x-tomato-admin-button>
+
+
                         <x-tomato-admin-button danger type="icon" title="{{trans('tomato-admin::global.crud.delete')}}" :href="route('admin.documents.destroy', $item->id)"
                            confirm="{{trans('tomato-admin::global.crud.delete-confirm')}}"
                            confirm-text="{{trans('tomato-admin::global.crud.delete-confirm-text')}}"
@@ -54,8 +58,12 @@
                            cancel-button="{{trans('tomato-admin::global.crud.delete-confirm-cancel-button')}}"
                            method="delete"
                         >
-                            <x-heroicon-s-trash class="h-6 w-6"/>
+
+                        <x-heroicon-s-trash class="h-6 w-6"/>
                         </x-tomato-admin-button>
+-->
+
+
                     </div>
                 </x-splade-cell>
             </x-splade-table>

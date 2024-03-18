@@ -50,7 +50,7 @@
    
 
 
-
+<!--
 
     
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -799,6 +799,7 @@
 <?php unset($__componentOriginalac1c2c5915b4ce023a8186239e03c2de); ?>
 <?php endif; ?>
     </div>
+-->
  <?php echo $__env->renderComponent(); ?>
 <?php endif; ?>
 <?php if (isset($__attributesOriginal00ce306671dddf92a9de0a354be76ef1)): ?>
