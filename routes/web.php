@@ -56,3 +56,26 @@ Route::middleware(['auth', 'splade', 'verified'])->name('admin.')->group(functio
     Route::delete('admin/mantenedor/{model}', [App\Http\Controllers\Admin\MantenedorController::class, 'destroy'])->name('mantenedor.destroy');
     
 });
+
+Route::get('/mostrar-files/{nombreArchivo}', function ($nombreArchivo) {
+    $rutaCompletaArchivo = storage_path('app/archivos/' . $nombreArchivo);
+
+    if (Storage::exists('archivos/' . $nombreArchivo)) {
+        $contenidoArchivo = Storage::get('archivos/' . $nombreArchivo);
+
+        // Determinar el tipo de contenido basado en la extensión del archivo
+        $tipoContenido = 'application/octet-stream';
+        if (pathinfo($nombreArchivo, PATHINFO_EXTENSION) == 'pdf') {
+            $tipoContenido = 'application/pdf';
+        } elseif (pathinfo($nombreArchivo, PATHINFO_EXTENSION) == 'xml') {
+            $tipoContenido = 'application/xml';
+        }
+
+        return Response::make($contenidoArchivo, 200, [
+            'Content-Type' => $tipoContenido,
+            'Content-Disposition' => 'inline; filename="' . $nombreArchivo . '"'
+        ]);
+    } else {
+        abort(404);
+    }
+})->name('mostrar-files');

@@ -8,49 +8,62 @@
 <?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
 <?php endif; ?>
 <?php $component->withAttributes([]); ?>
+     <!-- Listado de eventos -->
+     <h2><?php echo e(__('Eventos')); ?></h2>
+
+            <div>
+               <table border='1'>
+                <tr>
+                    <td>FECHA</td>
+                    <td>EVENTO</td>
+                </tr>
+                
+                <?php $__currentLoopData = $model->eventos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $evento): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <tr>
+                    <td><?php echo e($evento->fecha_evento); ?> </td>
+                    <td> <?php echo e($evento->observacion); ?></td>
+                </tr>   
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                
+                </table>
+            </div>
+
+    <tr/>
+
+    <a href="<?php echo e(route('mostrar-files', ['nombreArchivo' => basename($model->path_pdf)])); ?>" target="_blank">Mostrar PDF</a>
+    <a href="<?php echo e(route('mostrar-files', ['nombreArchivo' => basename($model->path_xml)])); ?>" target="_blank">Mostrar XML</a>
+
+
+
+   
+
+
+
+
+    
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         
-          <?php if (isset($component)) { $__componentOriginal6517206acc13602280063763835fa4a9 = $component; } ?>
-<?php if (isset($attributes)) { $__attributesOriginal6517206acc13602280063763835fa4a9 = $attributes; } ?>
-<?php $component = TomatoPHP\TomatoAdmin\Views\Row::resolve(['label' => __('UrlPdf'),'value' => $model->UrlPdf,'type' => 'string'] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
-<?php $component->withName('tomato-admin-row'); ?>
-<?php if ($component->shouldRender()): ?>
-<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
-<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(TomatoPHP\TomatoAdmin\Views\Row::class))->getConstructor()): ?>
-<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
-<?php endif; ?>
-<?php $component->withAttributes([]); ?>
-<?php echo $__env->renderComponent(); ?>
-<?php endif; ?>
-<?php if (isset($__attributesOriginal6517206acc13602280063763835fa4a9)): ?>
-<?php $attributes = $__attributesOriginal6517206acc13602280063763835fa4a9; ?>
-<?php unset($__attributesOriginal6517206acc13602280063763835fa4a9); ?>
-<?php endif; ?>
-<?php if (isset($__componentOriginal6517206acc13602280063763835fa4a9)): ?>
-<?php $component = $__componentOriginal6517206acc13602280063763835fa4a9; ?>
-<?php unset($__componentOriginal6517206acc13602280063763835fa4a9); ?>
-<?php endif; ?>
 
-          <?php if (isset($component)) { $__componentOriginal6517206acc13602280063763835fa4a9 = $component; } ?>
-<?php if (isset($attributes)) { $__attributesOriginal6517206acc13602280063763835fa4a9 = $attributes; } ?>
-<?php $component = TomatoPHP\TomatoAdmin\Views\Row::resolve(['label' => __('UrlXml'),'value' => $model->UrlXml,'type' => 'string'] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
-<?php $component->withName('tomato-admin-row'); ?>
-<?php if ($component->shouldRender()): ?>
-<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
-<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(TomatoPHP\TomatoAdmin\Views\Row::class))->getConstructor()): ?>
-<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
-<?php endif; ?>
-<?php $component->withAttributes([]); ?>
-<?php echo $__env->renderComponent(); ?>
-<?php endif; ?>
-<?php if (isset($__attributesOriginal6517206acc13602280063763835fa4a9)): ?>
-<?php $attributes = $__attributesOriginal6517206acc13602280063763835fa4a9; ?>
-<?php unset($__attributesOriginal6517206acc13602280063763835fa4a9); ?>
-<?php endif; ?>
-<?php if (isset($__componentOriginal6517206acc13602280063763835fa4a9)): ?>
-<?php $component = $__componentOriginal6517206acc13602280063763835fa4a9; ?>
-<?php unset($__componentOriginal6517206acc13602280063763835fa4a9); ?>
-<?php endif; ?>
+     <!-- Listado de eventos -->
+     <h2><?php echo e(__('Eventos')); ?></h2>
+
+            <div>
+               <table>
+                <tr>
+                    <td>Evento</td>
+                    <td>Fecha</td>
+                </tr>
+                
+                <?php $__currentLoopData = $model->eventos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $evento): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <tr>
+                    <td><?php echo e($evento->fecha_evento); ?> </td>
+                    <td> <?php echo e($evento->observacion); ?></td>
+                </tr>   
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                
+                </table>
+            </div>
+
 
           <?php if (isset($component)) { $__componentOriginal6517206acc13602280063763835fa4a9 = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginal6517206acc13602280063763835fa4a9 = $attributes; } ?>
@@ -726,6 +739,8 @@
 <?php $component = $__componentOriginal6517206acc13602280063763835fa4a9; ?>
 <?php unset($__componentOriginal6517206acc13602280063763835fa4a9); ?>
 <?php endif; ?>
+
+         
 
     </div>
     <div class="flex justify-start gap-2 pt-3">

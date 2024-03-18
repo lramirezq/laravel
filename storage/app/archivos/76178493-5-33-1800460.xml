@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTEb12f0e5ec5e042d9af446abe12413158">
+    <Caratula version="1.0">
+      <RutEmisor>76245828-4</RutEmisor>
+      <RutEnvia>76245828-4</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2013-10-16</FchResol>
+      <NroResol>88</NroResol>
+      <TmstFirmaEnv>2024-03-14T15:18:57</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>33</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F1800460T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>1800460</Folio>
+            <FchEmis>2024-03-14</FchEmis>
+            <FmaPago>2</FmaPago>
+            <TermPagoGlosa>45 D�as</TermPagoGlosa>
+            <FchVenc>2024-04-28</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76245828-4</RUTEmisor>
+            <RznSoc>Porsche Chile SpA</RznSoc>
+            <GiroEmis>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTORES</GiroEmis>
+            <Acteco>501010</Acteco>
+            <DirOrigen>Avda. Apoquindo 5400, Piso 19 y 20</DirOrigen>
+            <CmnaOrigen>Las Condes - Santiag</CmnaOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76178493-5</RUTRecep>
+            <RznSocRecep>Porsche Inter Auto Chile SpA</RznSocRecep>
+            <GiroRecep>BS: Santiago Norte</GiroRecep>
+            <DirRecep>La Cabana PC 17B</DirRecep>
+            <CmnaRecep>Colina</CmnaRecep>
+          </Receptor>
+          <Transporte>
+            <DirDest>La Cabana PC 17B</DirDest>
+            <CmnaDest>Colina</CmnaDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>1744920</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>331535</IVA>
+            <MntTotal>2076455</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>2V5 311 285 E</NmbItem>
+          <DscItem>PINON DENT</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>1186461.000000</PrcItem>
+          <DescuentoMonto>332209</DescuentoMonto>
+          <MontoItem>854252</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <NmbItem>2U2 301 090</NmbItem>
+          <DscItem>PASADOR AL</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>9770.000000</PrcItem>
+          <DescuentoMonto>5472</DescuentoMonto>
+          <MontoItem>14068</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <NmbItem>81.33223-0010</NmbItem>
+          <DscItem>ROTOR BOMBA LUBRICACION CAJA C</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>43554.000000</PrcItem>
+          <DescuentoMonto>12195</DescuentoMonto>
+          <MontoItem>31359</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <NmbItem>81.32903-0252</NmbItem>
+          <DscItem>EMPAQ. TAPA CAJA MANDO CAJA CA</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>67038.000000</PrcItem>
+          <DescuentoMonto>20111</DescuentoMonto>
+          <MontoItem>46927</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>5</NroLinDet>
+          <NmbItem>2T0 311 312</NmbItem>
+          <DscItem>MUEL.HELIC</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>2115.000000</PrcItem>
+          <DescuentoMonto>592</DescuentoMonto>
+          <MontoItem>1523</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>6</NroLinDet>
+          <NmbItem>81.32313-0391</NmbItem>
+          <DscItem>GOLILLA PLANA DE COMPENS.</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>17004.000000</PrcItem>
+          <DescuentoMonto>5101</DescuentoMonto>
+          <MontoItem>11903</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>7</NroLinDet>
+          <NmbItem>81.32521-6125</NmbItem>
+          <DscItem>ANILLO 3 50</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>155412.000000</PrcItem>
+          <DescuentoMonto>43515</DescuentoMonto>
+          <MontoItem>111897</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>8</NroLinDet>
+          <NmbItem>2V2 311 285</NmbItem>
+          <DscItem>PINON DENT</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>850938.000000</PrcItem>
+          <DescuentoMonto>238263</DescuentoMonto>
+          <MontoItem>612675</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>9</NroLinDet>
+          <NmbItem>2V5 301 215 C</NmbItem>
+          <DscItem>ARTICULAC</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>16882.000000</PrcItem>
+          <DescuentoMonto>4727</DescuentoMonto>
+          <MontoItem>12155</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>10</NroLinDet>
+          <NmbItem>2T0 301 865</NmbItem>
+          <DscItem>ARTICULACION</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>1240.000000</PrcItem>
+          <DescuentoMonto>347</DescuentoMonto>
+          <MontoItem>893</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>11</NroLinDet>
+          <NmbItem>2V5 311 641 A</NmbItem>
+          <DscItem>PIVOTE</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>21932.000000</PrcItem>
+          <DescuentoMonto>6141</DescuentoMonto>
+          <MontoItem>15791</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>12</NroLinDet>
+          <NmbItem>2T0 301 865</NmbItem>
+          <DscItem>ARTICULACION</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>1240.000000</PrcItem>
+          <DescuentoMonto>347</DescuentoMonto>
+          <MontoItem>893</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>13</NroLinDet>
+          <NmbItem>2V5 311 585 A</NmbItem>
+          <DscItem>MANGUITO</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>21239.000000</PrcItem>
+          <DescuentoMonto>11894</DescuentoMonto>
+          <MontoItem>30584</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>801</TpoDocRef>
+          <FolioRef>25925</FolioRef>
+          <FchRef>2024-03-14</FchRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>76245828-4</RE>
+            <TD>33</TD>
+            <F>1800460</F>
+            <FE>2024-03-14</FE>
+            <RR>76178493-5</RR>
+            <RSR>Porsche Inter Auto Chile SpA</RSR>
+            <MNT>2076455</MNT>
+            <IT1>2V5 311 285 E</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76245828-4</RE>
+                <RS>PORSCHE CHILE SPA.</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>1795344</D>
+                  <H>1815343</H>
+                </RNG>
+                <FA>2024-02-13</FA>
+                <RSAPK>
+                  <M>6mqUHd54kWWZt7WQnOvb+JPIV5ieu/I0jcyYZMQ770m9HATbSrkAwJeelLu+DRGrgbWOK1doDj1tXsSZ7OqGJQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">bZftx198D2LdHGjkIO0m8bMasepbUcZqhzBep4CE2h7d2LWarLLQxKoh6XAPKlepYUlyECV8kNZ2I1KPKmx1Xw==</FRMA>
+            </CAF>
+            <TSTED>2024-03-14T15:18:57</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">tZ92NkNyz8WTB59UThN7i2Yb9D89RQ+CDr3xTEpnekjc5805RcX75fbGezCX1kEapngIioXGGIN56d9Yef0x5g==</FRMT>
+        </TED>
+        <TmstFirma>2024-03-14T15:19:01</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F1800460T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>bUymDt3DP8D9YzGdKUtre1RXiL4=</DigestValue></Reference></SignedInfo><SignatureValue>
+oB2ayecasr9CuykourLsOkZrjlsiEZa7WXIbCwFAHmf7ia4Q43SWlvJFTQ2+qkJh
+4voHuEKvYK32W6w/g+w7F7iX1bnp0Ua+V/UydXK6HDJsJ4AH+TH1fJJKFHnso2RB
+dPOW7PZCTVcKdcGCcxrAHRL4q3PMEg3eSqmOyHJ0kgzVMXM4TwCx1kTAnw2VWX8N
+zeKMaWBxPCt+3OYmk+DQ+JA8xpbNDlmU0EJGAA2xXngmavxIF6vUHwWGkS0RJMKf
+x6G3Ey/F+anOAO2mn4SSqD/wCMWccAr5NuM0/je/Ku3nkvYddQ2GJOdDCBoej2tt
+8omt81HvvB2p0rpxBryieA==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+0fHaQMrZO454kTjrFw2QcTF1IFMaIM1+588q/YXZiCUPj1/ZaP6uwHzP8LKAPifd
+MBUS+z4STyTK/zVrhwuTPGV9ZswAkRpD7t8VbIukg1h5CxhBP//AmvVp/vfW7gM9
+3oOBacxU4u30qs4RRAkd71hScMVY+KmbsZzRVXVfMZve3h0OTrdnWM1MYdEY9yfH
+rfwTl3Et34BXGbQj3aF10xeP2K49PvtBRqr07bgEqA8EWjCndQOyfwxCaWsBGVjG
+3PM6/NoOlGuq5WYaInuGeRkR6fvd+Q4gRMYwmQ9CcgnQ3r8hfPCWh1m/cXAdKjWs
+OmvfIYMs5x7qT+uqCvExRQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGejCCBWKgAwIBAgIDBbL0MA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yMTAzMjYxNTQwMDBaFw0yNDAzMjYxNTQwMDBaMIGPMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSowKAYDVQQDEyFI
+RUNUT1IgRU5SSVFVRSBNT05UT1lBIFNBTlRJQkFORVoxJTAjBgkqhkiG9w0BCQEW
+Fmhtb250b3lhMTk4N0BnbWFpbC5jb20xEzARBgNVBAUTCjE2NzQzMDI1LTIwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDR8dpAytk7jniROOsXDZBxMXUg
+UxogzX7nzyr9hdmIJQ+PX9lo/q7AfM/wsoA+J90wFRL7PhJPJMr/NWuHC5M8ZX1m
+zACRGkPu3xVsi6SDWHkLGEE//8Ca9Wn+99buAz3eg4FpzFTi7fSqzhFECR3vWFJw
+xVj4qZuxnNFVdV8xm97eHQ5Ot2dYzUxh0Rj3J8et/BOXcS3fgFcZtCPdoXXTF4/Y
+rj0++0FGqvTtuASoDwRaMKd1A7J/DEJpawEZWMbc8zr82g6Ua6rlZhoie4Z5GRHp
++935DiBExjCZD0JyCdDevyF88JaHWb9xcB0qNaw6a98hgyznHupP66oK8TFFAgMB
+AAGjggLEMIICwDAfBgNVHSMEGDAWgBRlpas+P8i2UW0Rfl/DCgfmQ6AItjAdBgNV
+HQ4EFgQUGsgudfF9lOswpD7JR70YvbHFdr4wCwYDVR0PBAQDAgTwMB0GA1UdJQQW
+MBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEEBAMCBaAwgfUGA1Ud
+IASB7TCB6jCB5wYIKwYBBAG1awIwgdowMQYIKwYBBQUHAgEWJWh0dHBzOi8vYWNn
+NC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgaQGCCsGAQUFBwICMIGXMBYWD0Fj
+ZXB0YS5jb20gUy5BLjADAgEJGn1FbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8g
+ZW4gZm9ybWEgb25saW5lLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmlj
+YWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBjb21lcmNpbyB5IG90cm9z
+LjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYIKwYBBQUH
+CAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMGEG
+A1UdEQRaMFigGAYIKwYBBAHBAQGgDBYKMTY3NDMwMjUtMqAkBggrBgEFBQcIA6AY
+MBYMCjE2NzQzMDI1LTIGCCsGAQQBwQECgRZobW9udG95YTE5ODdAZ21haWwuY29t
+MEcGCCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0
+YS5jb20vYWNnNC9vY3NwL0NsYXNlMi1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRw
+czovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTItRzQuY3JsMA0GCSqG
+SIb3DQEBCwUAA4IBAQAHwrN7j20UhImBa91U6x0tJVp8uMdhLyped8yNhsdPhqWX
+kkGfwE3W5NcZKf7VWwj2aZpJQZ4uBXn82GugO8V1U6wi5N1s5DifE9+bcrLQntUb
+zLfKRV0W5I5Jy7HJd6Bl+uTM+gwvP9oOTxBcgGwrSS+C4JO8H/BVpyilHq2q0JHu
+xa9Oojw38XMaqJj41zSG8gBrexArpRSi35o43HHdANJvjtXFeFFmdpTJe+CiN4m6
+wEqXZQUC+DrCC63y0x5urevWXFfgri5iOKgQUjzNTjaP46YIpGNLBiVLpgoZ225m
+KhuW2pNJILg0VNFA7VLP0CUm+Kzhc7jrwpGRzNq4
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

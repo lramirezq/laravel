@@ -126,9 +126,12 @@ class DocumentController extends Controller
      */
     public function show(\App\Models\Document $model): View|JsonResponse
     {
+        
+
         return Tomato::get(
             model: $model,
             view: 'admin.documents.show',
+           
         );
     }
 

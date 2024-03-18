@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTE4f3ded4590084073941b5caf3bbbf3f1">
+    <Caratula version="1.0">
+      <RutEmisor>76245828-4</RutEmisor>
+      <RutEnvia>76245828-4</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2013-10-16</FchResol>
+      <NroResol>88</NroResol>
+      <TmstFirmaEnv>2024-03-15T11:04:13</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>52</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F3160500T52">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>52</TipoDTE>
+            <Folio>3160500</Folio>
+            <FchEmis>2024-03-14</FchEmis>
+            <IndTraslado>5</IndTraslado>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76245828-4</RUTEmisor>
+            <RznSoc>Porsche Chile Spa</RznSoc>
+            <GiroEmis>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTORES</GiroEmis>
+            <Acteco>501010</Acteco>
+            <DirOrigen>Av.Pdte.Eduardo Frei 27000</DirOrigen>
+            <CmnaOrigen>Colina</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>77826220-7</RUTRecep>
+            <RznSocRecep>LOG�STICA Y BODEGAJES SCHIAPPACASSE</RznSocRecep>
+            <GiroRecep>VENTA O COMPRAVENTA AL POR MENOR DE VEHI</GiroRecep>
+            <DirRecep>CAMINO LONQUEN 13070</DirRecep>
+            <CmnaRecep>SAN BERNARDO</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+          </Receptor>
+          <Transporte>
+            <DirDest>CAMINO LONQUEN 13070</DirDest>
+            <CmnaDest>SAN BERNARDO</CmnaDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>28</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>5</IVA>
+            <MntTotal>33</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>01</NmbItem>
+          <DscItem>23B601027A XD6 LLANTA</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>1</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <NmbItem>02</NmbItem>
+          <DscItem>23B601253  CAPA</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>1</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <NmbItem>03</NmbItem>
+          <DscItem>2R2837548  CAJA DE FU</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>2</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <NmbItem>04</NmbItem>
+          <DscItem>81621015176  CORTINA</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>2</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>5</NroLinDet>
+          <NmbItem>05</NmbItem>
+          <DscItem>81621015177  CORTINA</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>2</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>6</NroLinDet>
+          <NmbItem>06</NmbItem>
+          <DscItem>81621406000  RETENTOR C</DscItem>
+          <QtyItem>6.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>6</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>7</NroLinDet>
+          <NmbItem>07</NmbItem>
+          <DscItem>816210400122  CARRIL COR</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>2</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>8</NroLinDet>
+          <NmbItem>08</NmbItem>
+          <DscItem>816210400123 CARRIL COR</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>2</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>9</NroLinDet>
+          <NmbItem>09</NmbItem>
+          <DscItem>WHT005025  TUERCA</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>2</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>10</NroLinDet>
+          <NmbItem>10</NmbItem>
+          <DscItem>2S0803299  TUERCA</DscItem>
+          <QtyItem>4.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>4</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>11</NroLinDet>
+          <NmbItem>11</NmbItem>
+          <DscItem>2VF915415  TUERCA</DscItem>
+          <QtyItem>4.000000</QtyItem>
+          <PrcItem>1.000000</PrcItem>
+          <MontoItem>4</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>12</NroLinDet>
+          <NmbItem>12</NmbItem>
+          <DscItem>AJUSTE CAMIONES LINEA 90003-90006</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>13</NroLinDet>
+          <NmbItem>13</NmbItem>
+          <DscItem>ATENCION GINO M.</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>76245828-4</RE>
+            <TD>52</TD>
+            <F>3160500</F>
+            <FE>2024-03-14</FE>
+            <RR>77826220-7</RR>
+            <RSR>LOG�STICA Y BODEGAJES SCHIAPPACASSE</RSR>
+            <MNT>33</MNT>
+            <IT1>01</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76245828-4</RE>
+                <RS>PORSCHE CHILE SPA.</RS>
+                <TD>52</TD>
+                <RNG>
+                  <D>3153099</D>
+                  <H>3203098</H>
+                </RNG>
+                <FA>2023-10-10</FA>
+                <RSAPK>
+                  <M>y1ULMgavO0Rto0bS3Lp0X0ZZwHfrnai+mpplk4xXn7kgU9zpSYuoGJwCswcB9O6WeXY5Q+0Ox4dfbBULv2RhFQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">LVMMnNg9m1rmwb1zzG/0w6jtkuI9Gn4hV1LQivQ+pkbE4GcvX23SzWAdYR513KUHHIMxC7QVw5afpcY+YWU7uw==</FRMA>
+            </CAF>
+            <TSTED>2024-03-15T11:04:13</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">O6YEAA5hzixR30Avm6wfsIgLxdGLGJAriKQ/h7scNqhBaD5L4XcWWtnyV9z6nHXgye2FUVP8wnYnByO2hyT+RQ==</FRMT>
+        </TED>
+        <TmstFirma>2024-03-15T11:04:18</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F3160500T52"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Q9iRAftjISdQC7Jw4zxlOgVSuxI=</DigestValue></Reference></SignedInfo><SignatureValue>
+fraH8EFi/4xo3mTocpq52kxTfpPqrv/moBglcu9x11GwKrnLaFsQaP+TPdQq4unK
+utMRvIcPq1Pugpc4Cy39pLz8ybBTFl6VyT7NOVLnuMtM9c0/cHgdV5cxCpo9KpoN
+ESgRvvhG//q4RGBIvyLQR50BLcHM0gZtpB6jj4xrsOGphbNmNAdhRcHRcBnifTNj
+uudtAVEgvt9m9Fv6hEAos1co9EHPs/jnlHRrZW6PjaDBTL3RLJMh1DHxPncqI+fB
+cy3ijfjVQnpnhmItsuy3b3PVw0TNpchP1crYBb37TCAsxe74VTWT8Wt/q0vn3J07
+6gTM0d1dsyE9Q6SbT5Dgig==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+hUcSONI8nDsMWOkUN3m/iNVqWhyUcrb+dN5RXn69p0Rtqr8vHoU7qf7iIRV1olB4
+Qtr+TVFdYSFq85XkFFkKJnYng81ttk8rIJlfJmgJG57YYVDU4uvvmUNf0lKtEVan
+968QuxpzvuRuNYx6FxHtICbhF7M4JnUwQFXlOJEC++aeykczGTEq2bA35BaoWFbM
+xinDECMwzMCxmj2gdeOBzjDwVTzigbLUSJTP6HLijr7i/zHxbbbxwReUN0nxuXGi
+kl+PPgUUa0GSosOEfQWZZfCg2qg6V27WvrPAa3NfTFV3Z3BNDGqZLKdw2IRTn26Q
+il+kdEIi7vp16LIsMHO3nQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGlDCCBXygAwIBAgIDA7OOMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yMzEwMDIxNjA3MTJaFw0yNjEwMDIxNjA3MTJaMIGbMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMS0wKwYDVQQDEyRD
+UklTVE9QSEVSIEFMRUpBTkRSTyBNQUdBTkEgR09SRElMTE8xLjAsBgkqhkiG9w0B
+CQEWH0NSSVNUT1BIRVJNLkdPUkRJTExPQEhPVE1BSUwuQ0wxEzARBgNVBAUTCjE4
+NTk5MDU3LTUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCFRxI40jyc
+OwxY6RQ3eb+I1WpaHJRytv503lFefr2nRG2qvy8ehTup/uIhFXWiUHhC2v5NUV1h
+IWrzleQUWQomdieDzW22TysgmV8maAkbnthhUNTi6++ZQ1/SUq0RVqf3rxC7GnO+
+5G41jHoXEe0gJuEXszgmdTBAVeU4kQL75p7KRzMZMSrZsDfkFqhYVszGKcMQIzDM
+wLGaPaB144HOMPBVPOKBstRIlM/ocuKOvuL/MfFttvHBF5Q3SfG5caKSX48+BRRr
+QZKiw4R9BZll8KDaqDpXbta+s8Brc19MVXdncE0Mapksp3DYhFOfbpCKX6R0QiLu
++nXosiwwc7edAgMBAAGjggLSMIICzjAfBgNVHSMEGDAWgBSq/b3F6TdN9plNV47B
+cRr568MG4zAdBgNVHQ4EFgQUIXHNaTdxhiIZtasalTaWawkvegIwCwYDVR0PBAQD
+AgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEE
+BAMCBaAwgfoGA1UdIASB8jCB7zCB7AYIKwYBBAG1awIwgd8wMQYIKwYBBQUHAgEW
+JWh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgakGCCsGAQUF
+BwICMIGcMBYWD0FjZXB0YS5jb20gUy5BLjADAgECGoGBRWwgdGl0dWxhciBoYSBz
+aWRvIHZhbGlkYWRvIGVuIGZvcm1hIHByZXNlbmNpYWwsIHF1ZWRhbmRvIGhhYmls
+aXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1c28gdHJpYnV0YXJpbywgcGFnb3Ms
+IGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYKOTY5
+MTkwNTAtOKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9p
+bmZvQGFjZXB0YS5jb20wagYDVR0RBGMwYaAYBggrBgEEAcEBAaAMFgoxODU5OTA1
+Ny01oCQGCCsGAQUFBwgDoBgwFgwKMTg1OTkwNTctNQYIKwYBBAHBAQKBH0NSSVNU
+T1BIRVJNLkdPUkRJTExPQEhPVE1BSUwuQ0wwRwYIKwYBBQUHAQEEOzA5MDcGCCsG
+AQUFBzABhitodHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L29jc3AvQ2xhc2Uz
+LUc0MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2Fj
+ZzQvY3JsL0NsYXNlMy1HNC5jcmwwDQYJKoZIhvcNAQELBQADggEBABpsy0ruRxAM
+ldgqTHJFnHnv28JuMlpBikvOpKYxa4YNf2i/IAukdIJ2TJw2/ESNAEiaW4qbDZt2
+P41qi/i1VNzDyPdJ6l5hIq+426NksrkbV1FZSo4jZbw9xhg5XUOMPsNHldCzzTpp
+6K7OZj+Z8XfNwa3Inqssi6UCwoP2HGGIS4BnF1bBbjAH5kECRM76cAiQhhYLQH5J
+bur22EIXHVwtiKiL1hu1w7DboZIFutqFfVNGSdIDdaNQ+0HNu2gM4wBo47Dlb98D
+crLN2eIcj/laiU41+caKPl3/VGlZxrrS/84jOvQUxGH8nYIQTXTTxra8LGoM3i0f
+m9mRKqUBcHw=
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

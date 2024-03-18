@@ -53,7 +53,7 @@ class Document extends Model
     /**
      * @var array
      */
-    protected $fillable = ['UrlPdf', 'UrlXml', 'UrlJson', 'BarCodeText', 'GlobalDocumentId', 'CountryDocumentId', 'ExternalId', 'CountryId', 'Date', 'DocumentTypeId', 'DocumentTypeName', 'NetAmount', 'FreeAmount', 'TaxAmount', 'TotalAmount', 'CurrencyType', 'SeriesNumber', 'Series', 'Number', 'NumberStr', 'DocumentSenderCode', 'DocumentSenderName', 'DocumentReceiverCode', 'DocumentReceiverName', 'DocumentFinancialOwnerCode', 'DocumentFinancialOwnerName', 'FinancialDate', 'EstimatedPaymentDate', 'DocumentTimeStamp', 'AuthorityTimeStamp', 'SyncPoint', 'DocumentTags', 'TwoCheck', 'Notes', 'Offers', 'Fields', 'Author','path_pdf','path_xml', 'created_at', 'updated_at'];
+    protected $fillable = ['UrlPdf', 'UrlXml', 'UrlJson', 'BarCodeText', 'GlobalDocumentId', 'CountryDocumentId', 'ExternalId', 'CountryId', 'Date', 'DocumentTypeId', 'DocumentTypeName', 'NetAmount', 'FreeAmount', 'TaxAmount', 'TotalAmount', 'CurrencyType', 'SeriesNumber', 'Series', 'Number', 'NumberStr', 'DocumentSenderCode', 'DocumentSenderName', 'DocumentReceiverCode', 'DocumentReceiverName', 'DocumentFinancialOwnerCode', 'DocumentFinancialOwnerName', 'FinancialDate', 'EstimatedPaymentDate', 'DocumentTimeStamp', 'AuthorityTimeStamp', 'SyncPoint', 'DocumentTags', 'TwoCheck', 'Notes', 'Offers', 'Fields', 'Author','path_pdf','path_xml', 'copy_to_sftp', 'created_at', 'updated_at'];
 
     protected $casts = [
             'DocumentTags' => 'json',
@@ -61,5 +61,9 @@ class Document extends Model
         'Fields' => 'json'
     ];
 
+    public function eventos()
+    {
+        return $this->hasMany(Evento::class);
+    }
 
 }

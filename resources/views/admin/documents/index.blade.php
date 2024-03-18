@@ -2,10 +2,7 @@
     <x-slot:header>
         {{ __('Document') }}
     </x-slot:header>
-    <form action="{{ route('admin.documents.buscar') }}" method="POST">
-    @csrf
-    <button type="submit">Actualizar!!</button>
-    </form>
+   
     
     <x-slot:buttons>
         <x-tomato-admin-button :modal="true" :href="route('admin.documents.create')" type="link">
@@ -19,8 +16,15 @@
                 <x-splade-cell DocumentTypeId>
     <x-tomato-admin-row table type="number" :value="$item->DocumentTypeId" />
 </x-splade-cell>
+
+
+
+
 <x-splade-cell NetAmount>
-    <x-tomato-admin-row table type="number" :value="$item->NetAmount" />
+    
+
+
+<x-tomato-admin-row table type="number" :value="$item->NetAmount" />
 </x-splade-cell>
 <x-splade-cell FreeAmount>
     <x-tomato-admin-row table type="number" :value="$item->FreeAmount" />

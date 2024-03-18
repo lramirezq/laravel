@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTEcd26a3cf322d43c0a54f41b5598f2014">
+    <Caratula version="1.0">
+      <RutEmisor>76245828-4</RutEmisor>
+      <RutEnvia>76245828-4</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2013-10-16</FchResol>
+      <NroResol>88</NroResol>
+      <TmstFirmaEnv>2024-03-14T23:20:42</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>61</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F3057913T61">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>61</TipoDTE>
+            <Folio>3057913</Folio>
+            <FchEmis>2024-03-14</FchEmis>
+            <FmaPago>2</FmaPago>
+            <TermPagoGlosa>0 DIAS</TermPagoGlosa>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76245828-4</RUTEmisor>
+            <RznSoc>Porsche Chile SpA</RznSoc>
+            <GiroEmis>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTORES (IMPORTACION, DISTRIBUCION</GiroEmis>
+            <Acteco>501010</Acteco>
+            <DirOrigen>Avda. Apoquindo 5400, Piso 19 y 20</DirOrigen>
+            <CmnaOrigen>Las Condes - Santiag</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+            <CdgVendedor>29055</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>96726670-1</RUTRecep>
+            <RznSocRecep>FORUM DISTRIBUIDORA S.A.</RznSocRecep>
+            <GiroRecep>DISTRIBUCION, REPRESENTACION, Y COMERCIA</GiroRecep>
+            <DirRecep>ISIDORA GOYENECHEA 3365, PISO 3</DirRecep>
+            <CmnaRecep>LAS CONDES</CmnaRecep>
+            <CiudadRecep>Santiago</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>164950</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>31341</IVA>
+            <MntTotal>196291</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>Modelo</NmbItem>
+          <DscItem>Modelo: Delivery 9.170 4600mm MT6</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>164950.000000</PrcItem>
+          <MontoItem>164950</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <NmbItem>Color</NmbItem>
+          <DscItem>Color:  Blanco</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <NmbItem>Space</NmbItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <NmbItem>Chassis</NmbItem>
+          <DscItem>Chassis: 9535H5TBXRR067735</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>5</NroLinDet>
+          <NmbItem>Numero Com</NmbItem>
+          <DscItem>Numero Com: 0942366</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>6</NroLinDet>
+          <NmbItem>Motor</NmbItem>
+          <DscItem>Motor:   36808508</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>7</NroLinDet>
+          <NmbItem>Tipo de combusti</NmbItem>
+          <DscItem>Tipo de combustible: Diesel</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>8</NroLinDet>
+          <NmbItem>Tipo de Vehiculo</NmbItem>
+          <DscItem>Tipo de Vehiculo: CHASIS CABINADO</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>9</NroLinDet>
+          <NmbItem>Marca</NmbItem>
+          <DscItem>Marca: Volkswagen</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>10</NroLinDet>
+          <NmbItem>Peso bruto Vehic</NmbItem>
+          <DscItem>Peso bruto Vehicular: 8800 kg</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>11</NroLinDet>
+          <NmbItem>Capacidad de car</NmbItem>
+          <DscItem>Capacidad de carga: 5750 kg</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>12</NroLinDet>
+          <NmbItem>A�o Comercial</NmbItem>
+          <DscItem>A�o Comercial: 2024</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>13</NroLinDet>
+          <NmbItem>C�digo Informe T</NmbItem>
+          <DscItem>C�digo Informe T�cnico: VW6765-CM18LTXXXX</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>14</NroLinDet>
+          <NmbItem>Asientos</NmbItem>
+          <DscItem>2 Asientos</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>15</NroLinDet>
+          <NmbItem>Cantidad de puer</NmbItem>
+          <DscItem>Cantidad de puertas: 2</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>16</NroLinDet>
+          <NmbItem>Norma de emision</NmbItem>
+          <DscItem>Norma de emision: Euro 5</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>17</NroLinDet>
+          <NmbItem>Tipo de traccion</NmbItem>
+          <DscItem>Tipo de traccion: 4X2</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>18</NroLinDet>
+          <NmbItem>Transmision</NmbItem>
+          <DscItem>Transmision: Man. 6 cambios</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>19</NroLinDet>
+          <NmbItem>Cilindrada Motor</NmbItem>
+          <DscItem>Cilindrada Motor: 3.8 Lts.</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>20</NroLinDet>
+          <NmbItem>Tipo de carrocer</NmbItem>
+          <DscItem>Tipo de carroceria: SIN CARROCER�A</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>21</NroLinDet>
+          <NmbItem>Tara</NmbItem>
+          <DscItem>Tara: 3050 kg</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>22</NroLinDet>
+          <NmbItem>Nro. y disposici</NmbItem>
+          <DscItem>Nro. y disposicion de ejes: S(2), S(4)</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>23</NroLinDet>
+          <NmbItem>Distancia entre</NmbItem>
+          <DscItem>Distancia entre ejes: 4600 mm</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>24</NroLinDet>
+          <NmbItem>Potencia de Moto</NmbItem>
+          <DscItem>Potencia de Motor (kW): 123</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>33</TpoDocRef>
+          <FolioRef>1752530</FolioRef>
+          <FchRef>2023-11-21</FchRef>
+          <CodRef>3</CodRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>76245828-4</RE>
+            <TD>61</TD>
+            <F>3057913</F>
+            <FE>2024-03-14</FE>
+            <RR>96726670-1</RR>
+            <RSR>FORUM DISTRIBUIDORA S.A.</RSR>
+            <MNT>196291</MNT>
+            <IT1>Modelo</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76245828-4</RE>
+                <RS>PORSCHE CHILE SPA.</RS>
+                <TD>61</TD>
+                <RNG>
+                  <D>3057688</D>
+                  <H>3058087</H>
+                </RNG>
+                <FA>2024-01-30</FA>
+                <RSAPK>
+                  <M>ucUBM9L9tygoPTY/w8OVvUMMPqabl+VdDc4+HRDM+rliN6HHHjuPdmDnUuF404tJhF88oMjs2ULVN6lIL01ILw==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">ItWA8YgmiBMgkG8+74MDYBHvm85Mhf0fkxd1gmNgCWuUcitzSgU1E+mluQRggplOLrAGJX5eiK2jyEcDouz2dw==</FRMA>
+            </CAF>
+            <TSTED>2024-03-14T23:20:42</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">Fk3c9+TWPoqMqW/VwHHTyHaKU8ropXVfwDVoDCITdTeyv6mIl5T/JPx2+9K6SJpYKmIDtICL66TI9ErNMrPwRA==</FRMT>
+        </TED>
+        <TmstFirma>2024-03-14T23:20:46</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F3057913T61"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>jYBivK3arwBP2wNCiLB0Bp03LZs=</DigestValue></Reference></SignedInfo><SignatureValue>
+Wz8fK8d1FwPoEhqlLbCbbHku99W1EYiSQoGXKtH4ypm0kbYx4GtZQ58ljCF3c+FB
+64GeQWFNiVTHsLvxOfo3nlhisV65JnhC2thYrI6P9tEJ1rYb73fyvebnzSN9YAB5
+Sj8FQ/8+D8PGiuVxbAD1HQWBq/44wCDJcTXvq3RgKC6vRiSSbqpWSZiDNBtUWHtG
+02eNjs2uO1RxkH/XYbuq3TtEsnf2BGFaXfBGJ4V5nnTMSIecd2YXJSazOy/jdW3+
+vSLjwVmBbMYBSheV5+CQ0ofd/iqIXF+917ovQyKlruxFbBq4vp4pVB3RQqGRbQCl
+LImOE2XHRJZvROqE2bzEfA==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+0fHaQMrZO454kTjrFw2QcTF1IFMaIM1+588q/YXZiCUPj1/ZaP6uwHzP8LKAPifd
+MBUS+z4STyTK/zVrhwuTPGV9ZswAkRpD7t8VbIukg1h5CxhBP//AmvVp/vfW7gM9
+3oOBacxU4u30qs4RRAkd71hScMVY+KmbsZzRVXVfMZve3h0OTrdnWM1MYdEY9yfH
+rfwTl3Et34BXGbQj3aF10xeP2K49PvtBRqr07bgEqA8EWjCndQOyfwxCaWsBGVjG
+3PM6/NoOlGuq5WYaInuGeRkR6fvd+Q4gRMYwmQ9CcgnQ3r8hfPCWh1m/cXAdKjWs
+OmvfIYMs5x7qT+uqCvExRQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGejCCBWKgAwIBAgIDBbL0MA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yMTAzMjYxNTQwMDBaFw0yNDAzMjYxNTQwMDBaMIGPMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSowKAYDVQQDEyFI
+RUNUT1IgRU5SSVFVRSBNT05UT1lBIFNBTlRJQkFORVoxJTAjBgkqhkiG9w0BCQEW
+Fmhtb250b3lhMTk4N0BnbWFpbC5jb20xEzARBgNVBAUTCjE2NzQzMDI1LTIwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDR8dpAytk7jniROOsXDZBxMXUg
+UxogzX7nzyr9hdmIJQ+PX9lo/q7AfM/wsoA+J90wFRL7PhJPJMr/NWuHC5M8ZX1m
+zACRGkPu3xVsi6SDWHkLGEE//8Ca9Wn+99buAz3eg4FpzFTi7fSqzhFECR3vWFJw
+xVj4qZuxnNFVdV8xm97eHQ5Ot2dYzUxh0Rj3J8et/BOXcS3fgFcZtCPdoXXTF4/Y
+rj0++0FGqvTtuASoDwRaMKd1A7J/DEJpawEZWMbc8zr82g6Ua6rlZhoie4Z5GRHp
++935DiBExjCZD0JyCdDevyF88JaHWb9xcB0qNaw6a98hgyznHupP66oK8TFFAgMB
+AAGjggLEMIICwDAfBgNVHSMEGDAWgBRlpas+P8i2UW0Rfl/DCgfmQ6AItjAdBgNV
+HQ4EFgQUGsgudfF9lOswpD7JR70YvbHFdr4wCwYDVR0PBAQDAgTwMB0GA1UdJQQW
+MBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEEBAMCBaAwgfUGA1Ud
+IASB7TCB6jCB5wYIKwYBBAG1awIwgdowMQYIKwYBBQUHAgEWJWh0dHBzOi8vYWNn
+NC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgaQGCCsGAQUFBwICMIGXMBYWD0Fj
+ZXB0YS5jb20gUy5BLjADAgEJGn1FbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8g
+ZW4gZm9ybWEgb25saW5lLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmlj
+YWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBjb21lcmNpbyB5IG90cm9z
+LjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYIKwYBBQUH
+CAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMGEG
+A1UdEQRaMFigGAYIKwYBBAHBAQGgDBYKMTY3NDMwMjUtMqAkBggrBgEFBQcIA6AY
+MBYMCjE2NzQzMDI1LTIGCCsGAQQBwQECgRZobW9udG95YTE5ODdAZ21haWwuY29t
+MEcGCCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0
+YS5jb20vYWNnNC9vY3NwL0NsYXNlMi1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRw
+czovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTItRzQuY3JsMA0GCSqG
+SIb3DQEBCwUAA4IBAQAHwrN7j20UhImBa91U6x0tJVp8uMdhLyped8yNhsdPhqWX
+kkGfwE3W5NcZKf7VWwj2aZpJQZ4uBXn82GugO8V1U6wi5N1s5DifE9+bcrLQntUb
+zLfKRV0W5I5Jy7HJd6Bl+uTM+gwvP9oOTxBcgGwrSS+C4JO8H/BVpyilHq2q0JHu
+xa9Oojw38XMaqJj41zSG8gBrexArpRSi35o43HHdANJvjtXFeFFmdpTJe+CiN4m6
+wEqXZQUC+DrCC63y0x5urevWXFfgri5iOKgQUjzNTjaP46YIpGNLBiVLpgoZ225m
+KhuW2pNJILg0VNFA7VLP0CUm+Kzhc7jrwpGRzNq4
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

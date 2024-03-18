@@ -1,9 +1,60 @@
 <x-tomato-admin-container label="{{trans('tomato-admin::global.crud.view')}} {{__('Document')}} #{{$model->id}}">
+     <!-- Listado de eventos -->
+     <h2>{{ __('Eventos') }}</h2>
+
+            <div>
+               <table border='1'>
+                <tr>
+                    <td>FECHA</td>
+                    <td>EVENTO</td>
+                </tr>
+                
+                @foreach ($model->eventos as $evento)
+                <tr>
+                    <td>{{ $evento->fecha_evento }} </td>
+                    <td> {{ $evento->observacion }}</td>
+                </tr>   
+                @endforeach
+                
+                </table>
+            </div>
+
+    <tr/>
+
+    <a href="{{ route('mostrar-files', ['nombreArchivo' => basename($model->path_pdf)]) }}" target="_blank">Mostrar PDF</a>
+    <a href="{{ route('mostrar-files', ['nombreArchivo' => basename($model->path_xml)]) }}" target="_blank">Mostrar XML</a>
+
+
+
+   
+
+
+
+
+    
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         
-          <x-tomato-admin-row :label="__('UrlPdf')" :value="$model->UrlPdf" type="string" />
 
-          <x-tomato-admin-row :label="__('UrlXml')" :value="$model->UrlXml" type="string" />
+     <!-- Listado de eventos -->
+     <h2>{{ __('Eventos') }}</h2>
+
+            <div>
+               <table>
+                <tr>
+                    <td>Evento</td>
+                    <td>Fecha</td>
+                </tr>
+                
+                @foreach ($model->eventos as $evento)
+                <tr>
+                    <td>{{ $evento->fecha_evento }} </td>
+                    <td> {{ $evento->observacion }}</td>
+                </tr>   
+                @endforeach
+                
+                </table>
+            </div>
+
 
           <x-tomato-admin-row :label="__('UrlJson')" :value="$model->UrlJson" type="string" />
 
@@ -71,6 +122,8 @@
 
           
           <x-tomato-admin-row :label="__('Author')" :value="$model->Author" type="string" />
+
+         
 
     </div>
     <div class="flex justify-start gap-2 pt-3">

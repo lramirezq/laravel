@@ -12,10 +12,7 @@
         <?php echo e(__('Document')); ?>
 
      <?php $__env->endSlot(); ?>
-    <form action="<?php echo e(route('admin.documents.buscar')); ?>" method="POST">
-    <?php echo csrf_field(); ?>
-    <button type="submit">Actualizar!!</button>
-    </form>
+   
     
      <?php $__env->slot('buttons', null, []); ?> 
         <?php if (isset($component)) { $__componentOriginalac1c2c5915b4ce023a8186239e03c2de = $component; } ?>
@@ -76,8 +73,15 @@
 <?php unset($__componentOriginal6517206acc13602280063763835fa4a9); ?>
 <?php endif; ?>
  <?php }); ?>
+
+
+
+
 <?php $__env->slot('spladeTableCelle122c7cc644b178c0ab9f8096afdf219', function ($item, $key) use ($__env) { ?> 
-    <?php if (isset($component)) { $__componentOriginal6517206acc13602280063763835fa4a9 = $component; } ?>
+    
+
+
+<?php if (isset($component)) { $__componentOriginal6517206acc13602280063763835fa4a9 = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginal6517206acc13602280063763835fa4a9 = $attributes; } ?>
 <?php $component = TomatoPHP\TomatoAdmin\Views\Row::resolve(['type' => 'number','value' => $item->NetAmount] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
 <?php $component->withName('tomato-admin-row'); ?>

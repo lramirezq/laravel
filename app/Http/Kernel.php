@@ -2,10 +2,22 @@
 
 namespace App\Http;
 
+use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
 {
+
+    protected $commands = [
+        'App\Console\Commands\FindDocuments',
+
+    ];
+
+    protected function schedule(Schedule $schedule)
+    {
+        $schedule->command('app:find-documents')->dailyAt('00:00');
+    }
+
     /**
      * The application's global HTTP middleware stack.
      *
@@ -65,4 +77,12 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
     ];
+
+
+
+
+
+
+
+
 }

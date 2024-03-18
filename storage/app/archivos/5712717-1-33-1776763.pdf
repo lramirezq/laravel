@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTE3456e8779f944b65931597d88c36a43d">
+    <Caratula version="1.0">
+      <RutEmisor>76245828-4</RutEmisor>
+      <RutEnvia>76245828-4</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2013-10-16</FchResol>
+      <NroResol>88</NroResol>
+      <TmstFirmaEnv>2024-03-14T15:45:30</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>33</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F1776763T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>1776763</Folio>
+            <FchEmis>2024-03-14</FchEmis>
+            <FmaPago>2</FmaPago>
+            <TermPagoGlosa>30 dias</TermPagoGlosa>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76245828-4</RUTEmisor>
+            <RznSoc>Porsche Chile SpA</RznSoc>
+            <GiroEmis>Soc.Inv,Importaci�n y Dist. Vehic y Rep.</GiroEmis>
+            <Acteco>501010</Acteco>
+            <DirOrigen>Avda. Apoquindo 5400, Piso 19 y 20</DirOrigen>
+            <CmnaOrigen>Las Condes - Santiag</CmnaOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>5712717-1</RUTRecep>
+            <RznSocRecep>Maria Cristina Marin Chavez</RznSocRecep>
+            <GiroRecep>Transporte de carga por carretera</GiroRecep>
+            <DirRecep>Parcela 1 Lote 2 Lo Castro</DirRecep>
+            <CmnaRecep>Lampa</CmnaRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>11650000</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>2213500</IVA>
+            <MntTotal>13863500</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>Inscripci�n : CT</NmbItem>
+          <DscItem>Inscripci�n : CTHG.60-4; Tipo Veh�culo : TRACTOCAMION A�o : 2011; Marca :</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>11650000.000000</PrcItem>
+          <MontoItem>11650000</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <NmbItem>INTERNATIONAL; M</NmbItem>
+          <DscItem>INTERNATIONAL; Modelo : 7600; Nro. Motor : 35271556; Nro. Chasis :</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <NmbItem>3HSWYAHT4BN36846</NmbItem>
+          <DscItem>3HSWYAHT4BN368464; Nro. Serie : 3HSWYAHT4BN368464; Color : BLANCO; Combustible</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <NmbItem>: DIESEL; PBV :</NmbItem>
+          <DscItem>: DIESEL; PBV : 27.200,00 KILOS; Veh�culo que se vende en las condiciones que</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>5</NroLinDet>
+          <NmbItem>se encuentra, si</NmbItem>
+          <DscItem>se encuentra, sin garant�a.</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>76245828-4</RE>
+            <TD>33</TD>
+            <F>1776763</F>
+            <FE>2024-03-14</FE>
+            <RR>5712717-1</RR>
+            <RSR>Maria Cristina Marin Chavez</RSR>
+            <MNT>13863500</MNT>
+            <IT1>Inscripci�n : CT</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76245828-4</RE>
+                <RS>PORSCHE CHILE SPA.</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>1775844</D>
+                  <H>1777343</H>
+                </RNG>
+                <FA>2023-10-31</FA>
+                <RSAPK>
+                  <M>uOaNvVF9iXxj7jia/OjcUdrRppx3gCpF+HsOVC+gDYjcBmhATrRul7V2YwI3A+fh0POdGCdW05R2xMcf18LkVw==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">X0pTWBpVnbOlBFYAZTSDvzcDw1R4f0fnwNZAAT+AkEP0EPf+ybEbUDq2p15ebGPdv7ly1kZYTx2zkBLBE7OJAw==</FRMA>
+            </CAF>
+            <TSTED>2024-03-14T15:45:30</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">o+3zXShQOZmOozgC2cSUnpoJ0mkeE0naLNoEJjC7rp47tt194fZvZWBEls0ayyvufDr5KM31fh/UTthVsLgYaQ==</FRMT>
+        </TED>
+        <TmstFirma>2024-03-14T15:45:31</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F1776763T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>WsWrK2jFWismgc7RAIPMZi/jklI=</DigestValue></Reference></SignedInfo><SignatureValue>
+Gcp+HpTWn0DXOicfP7YABkFf+ZzgLxJrlPFcKR+IiOd1dIuvoSwBtdQIWoWyR9t0
+6DN85dnZUcDpkrWUqP/+w8rwx+1u3wusoUjl8J0LU5uYIieLW+HtJn5J7YtR7rEK
+7QUy3cxEjhplOZ4GrZbbU4pZjits2KuSqA//tiZNMn8D71kzF2hu/cmkCeNwwXWO
+anCRinP5xBV/OSSm14MNdOHqV/WADycUp28uP/WrKkerF4+AayfS/O0GqPz/M8qi
+9/8bZcNz3BCW4cbN4xjjd4R6I30yLQIwGyDgcNQNrreyeeDqF+ecbeOWlGryhQXt
+w26XPDHT/MUCwKUsBtT05w==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+0fHaQMrZO454kTjrFw2QcTF1IFMaIM1+588q/YXZiCUPj1/ZaP6uwHzP8LKAPifd
+MBUS+z4STyTK/zVrhwuTPGV9ZswAkRpD7t8VbIukg1h5CxhBP//AmvVp/vfW7gM9
+3oOBacxU4u30qs4RRAkd71hScMVY+KmbsZzRVXVfMZve3h0OTrdnWM1MYdEY9yfH
+rfwTl3Et34BXGbQj3aF10xeP2K49PvtBRqr07bgEqA8EWjCndQOyfwxCaWsBGVjG
+3PM6/NoOlGuq5WYaInuGeRkR6fvd+Q4gRMYwmQ9CcgnQ3r8hfPCWh1m/cXAdKjWs
+OmvfIYMs5x7qT+uqCvExRQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGejCCBWKgAwIBAgIDBbL0MA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yMTAzMjYxNTQwMDBaFw0yNDAzMjYxNTQwMDBaMIGPMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSowKAYDVQQDEyFI
+RUNUT1IgRU5SSVFVRSBNT05UT1lBIFNBTlRJQkFORVoxJTAjBgkqhkiG9w0BCQEW
+Fmhtb250b3lhMTk4N0BnbWFpbC5jb20xEzARBgNVBAUTCjE2NzQzMDI1LTIwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDR8dpAytk7jniROOsXDZBxMXUg
+UxogzX7nzyr9hdmIJQ+PX9lo/q7AfM/wsoA+J90wFRL7PhJPJMr/NWuHC5M8ZX1m
+zACRGkPu3xVsi6SDWHkLGEE//8Ca9Wn+99buAz3eg4FpzFTi7fSqzhFECR3vWFJw
+xVj4qZuxnNFVdV8xm97eHQ5Ot2dYzUxh0Rj3J8et/BOXcS3fgFcZtCPdoXXTF4/Y
+rj0++0FGqvTtuASoDwRaMKd1A7J/DEJpawEZWMbc8zr82g6Ua6rlZhoie4Z5GRHp
++935DiBExjCZD0JyCdDevyF88JaHWb9xcB0qNaw6a98hgyznHupP66oK8TFFAgMB
+AAGjggLEMIICwDAfBgNVHSMEGDAWgBRlpas+P8i2UW0Rfl/DCgfmQ6AItjAdBgNV
+HQ4EFgQUGsgudfF9lOswpD7JR70YvbHFdr4wCwYDVR0PBAQDAgTwMB0GA1UdJQQW
+MBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEEBAMCBaAwgfUGA1Ud
+IASB7TCB6jCB5wYIKwYBBAG1awIwgdowMQYIKwYBBQUHAgEWJWh0dHBzOi8vYWNn
+NC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgaQGCCsGAQUFBwICMIGXMBYWD0Fj
+ZXB0YS5jb20gUy5BLjADAgEJGn1FbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8g
+ZW4gZm9ybWEgb25saW5lLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmlj
+YWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBjb21lcmNpbyB5IG90cm9z
+LjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYIKwYBBQUH
+CAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMGEG
+A1UdEQRaMFigGAYIKwYBBAHBAQGgDBYKMTY3NDMwMjUtMqAkBggrBgEFBQcIA6AY
+MBYMCjE2NzQzMDI1LTIGCCsGAQQBwQECgRZobW9udG95YTE5ODdAZ21haWwuY29t
+MEcGCCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0
+YS5jb20vYWNnNC9vY3NwL0NsYXNlMi1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRw
+czovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTItRzQuY3JsMA0GCSqG
+SIb3DQEBCwUAA4IBAQAHwrN7j20UhImBa91U6x0tJVp8uMdhLyped8yNhsdPhqWX
+kkGfwE3W5NcZKf7VWwj2aZpJQZ4uBXn82GugO8V1U6wi5N1s5DifE9+bcrLQntUb
+zLfKRV0W5I5Jy7HJd6Bl+uTM+gwvP9oOTxBcgGwrSS+C4JO8H/BVpyilHq2q0JHu
+xa9Oojw38XMaqJj41zSG8gBrexArpRSi35o43HHdANJvjtXFeFFmdpTJe+CiN4m6
+wEqXZQUC+DrCC63y0x5urevWXFfgri5iOKgQUjzNTjaP46YIpGNLBiVLpgoZ225m
+KhuW2pNJILg0VNFA7VLP0CUm+Kzhc7jrwpGRzNq4
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

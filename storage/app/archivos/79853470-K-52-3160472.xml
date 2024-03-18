@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTEbfa1858a1b3c469e9248ab6ee3b06a15">
+    <Caratula version="1.0">
+      <RutEmisor>76245828-4</RutEmisor>
+      <RutEnvia>76245828-4</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2013-10-16</FchResol>
+      <NroResol>88</NroResol>
+      <TmstFirmaEnv>2024-03-14T08:37:59</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>52</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F3160472T52">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>52</TipoDTE>
+            <Folio>3160472</Folio>
+            <FchEmis>2024-03-14</FchEmis>
+            <IndTraslado>5</IndTraslado>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76245828-4</RUTEmisor>
+            <RznSoc>Porsche Chile Spa</RznSoc>
+            <GiroEmis>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTORES</GiroEmis>
+            <Acteco>501010</Acteco>
+            <DirOrigen>Av.Pdte.Eduardo Frei 27000</DirOrigen>
+            <CmnaOrigen>Colina</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>79853470-K</RUTRecep>
+            <RznSocRecep>AUTOMOTRIZ CORDILLERA S.A.</RznSocRecep>
+            <GiroRecep>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTO</GiroRecep>
+            <Contacto>(41) 2217070 ...</Contacto>
+            <DirRecep>CHACABUCO 330-A</DirRecep>
+            <CmnaRecep>CONCEPCION</CmnaRecep>
+            <CiudadRecep>CONCEPCION</CiudadRecep>
+          </Receptor>
+          <Transporte>
+            <DirDest>CAMINO LONQUEN 13070</DirDest>
+            <CmnaDest>SAN BERNARDO</CmnaDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>0</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <MntTotal>0</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>CHASIS</NmbItem>
+          <DscItem>Marca : Volkswagen; Modelo : Polo 1.0 TSI Highline AT; Nro Motor : DHS 648588; Nro. Chasis : 9BWAH5BZ6RT631925; Color : Gris Platino; Combustible : Gasolina; PBV : 1570 Kls; GUIA CLS</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>76245828-4</RE>
+            <TD>52</TD>
+            <F>3160472</F>
+            <FE>2024-03-14</FE>
+            <RR>79853470-K</RR>
+            <RSR>AUTOMOTRIZ CORDILLERA S.A.</RSR>
+            <MNT>0</MNT>
+            <IT1>CHASIS</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76245828-4</RE>
+                <RS>PORSCHE CHILE SPA.</RS>
+                <TD>52</TD>
+                <RNG>
+                  <D>3153099</D>
+                  <H>3203098</H>
+                </RNG>
+                <FA>2023-10-10</FA>
+                <RSAPK>
+                  <M>y1ULMgavO0Rto0bS3Lp0X0ZZwHfrnai+mpplk4xXn7kgU9zpSYuoGJwCswcB9O6WeXY5Q+0Ox4dfbBULv2RhFQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">LVMMnNg9m1rmwb1zzG/0w6jtkuI9Gn4hV1LQivQ+pkbE4GcvX23SzWAdYR513KUHHIMxC7QVw5afpcY+YWU7uw==</FRMA>
+            </CAF>
+            <TSTED>2024-03-14T08:37:59</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">ZxwV0E1hGwxfydqDL7JoIy3JSWBOJl1Qkan5BuvjZqXfYLM+iUpOtcdNBFErT31eJSA5stz9SQU0vkeldXlvjQ==</FRMT>
+        </TED>
+        <TmstFirma>2024-03-14T08:38:02</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F3160472T52"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0Vu38DlwIWx73yc5eVXgQsPu7+g=</DigestValue></Reference></SignedInfo><SignatureValue>
+Gr6es1RtRiKkOgnxCNVNNSOCXheN2pC8L1OxJ818u9AwoQWWMFEHBIKW54Gc9ZPb
+Cqdnw3LLlrTtnvgISBea3yxvlucHJHxJd0/87Pkr0iF6eExQOPaRKWkED6EEtExn
+XUtAnR7ef60c5jDZ9AZe3fWmw6Bo0QL66/jUxf13ohE+xMg7OpUhttOJRoEr9nni
+dDxq7fA7vJofuQnC5iBB34yIVKU5UBoCDahQkbukB+c6p95e/vQon05OdQb/AC+M
+5r6Px+bUrgtCeFFoWJCS2dFs55VEWtTE2xVsvXdN2tQUUcABioUfQtJgsLxlUX2K
+qrgXUZkgzIFx2TSCkIFKpg==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+hUcSONI8nDsMWOkUN3m/iNVqWhyUcrb+dN5RXn69p0Rtqr8vHoU7qf7iIRV1olB4
+Qtr+TVFdYSFq85XkFFkKJnYng81ttk8rIJlfJmgJG57YYVDU4uvvmUNf0lKtEVan
+968QuxpzvuRuNYx6FxHtICbhF7M4JnUwQFXlOJEC++aeykczGTEq2bA35BaoWFbM
+xinDECMwzMCxmj2gdeOBzjDwVTzigbLUSJTP6HLijr7i/zHxbbbxwReUN0nxuXGi
+kl+PPgUUa0GSosOEfQWZZfCg2qg6V27WvrPAa3NfTFV3Z3BNDGqZLKdw2IRTn26Q
+il+kdEIi7vp16LIsMHO3nQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGlDCCBXygAwIBAgIDA7OOMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yMzEwMDIxNjA3MTJaFw0yNjEwMDIxNjA3MTJaMIGbMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMS0wKwYDVQQDEyRD
+UklTVE9QSEVSIEFMRUpBTkRSTyBNQUdBTkEgR09SRElMTE8xLjAsBgkqhkiG9w0B
+CQEWH0NSSVNUT1BIRVJNLkdPUkRJTExPQEhPVE1BSUwuQ0wxEzARBgNVBAUTCjE4
+NTk5MDU3LTUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCFRxI40jyc
+OwxY6RQ3eb+I1WpaHJRytv503lFefr2nRG2qvy8ehTup/uIhFXWiUHhC2v5NUV1h
+IWrzleQUWQomdieDzW22TysgmV8maAkbnthhUNTi6++ZQ1/SUq0RVqf3rxC7GnO+
+5G41jHoXEe0gJuEXszgmdTBAVeU4kQL75p7KRzMZMSrZsDfkFqhYVszGKcMQIzDM
+wLGaPaB144HOMPBVPOKBstRIlM/ocuKOvuL/MfFttvHBF5Q3SfG5caKSX48+BRRr
+QZKiw4R9BZll8KDaqDpXbta+s8Brc19MVXdncE0Mapksp3DYhFOfbpCKX6R0QiLu
++nXosiwwc7edAgMBAAGjggLSMIICzjAfBgNVHSMEGDAWgBSq/b3F6TdN9plNV47B
+cRr568MG4zAdBgNVHQ4EFgQUIXHNaTdxhiIZtasalTaWawkvegIwCwYDVR0PBAQD
+AgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEE
+BAMCBaAwgfoGA1UdIASB8jCB7zCB7AYIKwYBBAG1awIwgd8wMQYIKwYBBQUHAgEW
+JWh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgakGCCsGAQUF
+BwICMIGcMBYWD0FjZXB0YS5jb20gUy5BLjADAgECGoGBRWwgdGl0dWxhciBoYSBz
+aWRvIHZhbGlkYWRvIGVuIGZvcm1hIHByZXNlbmNpYWwsIHF1ZWRhbmRvIGhhYmls
+aXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1c28gdHJpYnV0YXJpbywgcGFnb3Ms
+IGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYKOTY5
+MTkwNTAtOKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9p
+bmZvQGFjZXB0YS5jb20wagYDVR0RBGMwYaAYBggrBgEEAcEBAaAMFgoxODU5OTA1
+Ny01oCQGCCsGAQUFBwgDoBgwFgwKMTg1OTkwNTctNQYIKwYBBAHBAQKBH0NSSVNU
+T1BIRVJNLkdPUkRJTExPQEhPVE1BSUwuQ0wwRwYIKwYBBQUHAQEEOzA5MDcGCCsG
+AQUFBzABhitodHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L29jc3AvQ2xhc2Uz
+LUc0MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2Fj
+ZzQvY3JsL0NsYXNlMy1HNC5jcmwwDQYJKoZIhvcNAQELBQADggEBABpsy0ruRxAM
+ldgqTHJFnHnv28JuMlpBikvOpKYxa4YNf2i/IAukdIJ2TJw2/ESNAEiaW4qbDZt2
+P41qi/i1VNzDyPdJ6l5hIq+426NksrkbV1FZSo4jZbw9xhg5XUOMPsNHldCzzTpp
+6K7OZj+Z8XfNwa3Inqssi6UCwoP2HGGIS4BnF1bBbjAH5kECRM76cAiQhhYLQH5J
+bur22EIXHVwtiKiL1hu1w7DboZIFutqFfVNGSdIDdaNQ+0HNu2gM4wBo47Dlb98D
+crLN2eIcj/laiU41+caKPl3/VGlZxrrS/84jOvQUxGH8nYIQTXTTxra8LGoM3i0f
+m9mRKqUBcHw=
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

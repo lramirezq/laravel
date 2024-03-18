@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTE45b3d42e2e8a4f1796826eb3c72c0cb1">
+    <Caratula version="1.0">
+      <RutEmisor>76245828-4</RutEmisor>
+      <RutEnvia>76245828-4</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2013-10-16</FchResol>
+      <NroResol>88</NroResol>
+      <TmstFirmaEnv>2024-03-14T22:18:38</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>61</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F3058282T61">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>61</TipoDTE>
+            <Folio>3058282</Folio>
+            <FchEmis>2024-03-14</FchEmis>
+            <FmaPago>2</FmaPago>
+            <TermPagoGlosa>45 D�as</TermPagoGlosa>
+            <FchVenc>2024-04-28</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76245828-4</RUTEmisor>
+            <RznSoc>Porsche Chile SpA</RznSoc>
+            <GiroEmis>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTORES</GiroEmis>
+            <Acteco>501010</Acteco>
+            <DirOrigen>Avda. Apoquindo 5400, Piso 19 y 20</DirOrigen>
+            <CmnaOrigen>Las Condes - Santiag</CmnaOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76178493-5</RUTRecep>
+            <RznSocRecep>Porsche Inter Auto Chile SpA</RznSocRecep>
+            <GiroRecep>BS: Talca</GiroRecep>
+            <DirRecep>Ruta 5 Sur Km. 250 - Lado Oriente</DirRecep>
+            <CmnaRecep>Talca</CmnaRecep>
+          </Receptor>
+          <Transporte>
+            <DirDest>Ruta 5 Sur Km. 250 - Lado Oriente</DirDest>
+            <CmnaDest>Talca</CmnaDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>6744</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>1281</IVA>
+            <MntTotal>8025</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>81.61140-0032</NmbItem>
+          <DscItem>CUBIERTA GRIS PARA BISAGRA CAP</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>4684.000000</PrcItem>
+          <DescuentoMonto>2624</DescuentoMonto>
+          <MontoItem>6744</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>33</TpoDocRef>
+          <FolioRef>1798234</FolioRef>
+          <FchRef>2024-03-04</FchRef>
+          <CodRef>3</CodRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>76245828-4</RE>
+            <TD>61</TD>
+            <F>3058282</F>
+            <FE>2024-03-14</FE>
+            <RR>76178493-5</RR>
+            <RSR>Porsche Inter Auto Chile SpA</RSR>
+            <MNT>8025</MNT>
+            <IT1>81.61140-0032</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76245828-4</RE>
+                <RS>PORSCHE CHILE SPA.</RS>
+                <TD>61</TD>
+                <RNG>
+                  <D>3058088</D>
+                  <H>3058487</H>
+                </RNG>
+                <FA>2024-02-02</FA>
+                <RSAPK>
+                  <M>1AQOFXlUlMk6ivlPW7FjNUPZtR8NpCtan6TE78Qu3Q43/7sG4k38RHIvZ8bSmjYdrleBjReFcYV3I732WImhcQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">kXaqTxsBR2WJ2zjnzY1N4pVOLKQvY/OXm9qDFyjNfVWAQHAoUNWUKg+23n8AjxxOuaWstQF7Hp+4aebLqcu/XA==</FRMA>
+            </CAF>
+            <TSTED>2024-03-14T22:18:38</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">RqNIqAaIU5Xc0gA5msAs7mQk4/OqfUM8aWLM+I8hffV/IO2GH7va30FG1zMvHPnhqPlx7V4V2rWnmPM0R4Wq0A==</FRMT>
+        </TED>
+        <TmstFirma>2024-03-14T22:18:42</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F3058282T61"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>xCbVYusqFLohwYYVt8g7J10WohQ=</DigestValue></Reference></SignedInfo><SignatureValue>
+eSV26U6Gj50TRkFzKnbnlMxl4f+PWt7kHMcqRjEDx+IeEgkOMf6GoL526rrO7j1j
+YISV85aCBAKK6UAksjVKST0Cpp9IhNm3DFWqG+/TfluX3Aan0gMYVoDf35gBSOuE
+wZhrtmIo5LTlokjgSl3Y6rIadFfa1Hhu28rSnO7sOlxH7LoCZetvidByBEnq1vov
++Ulq3PXgNRIAgDLSkp/cxYdF7jJewQlNIhjFyIIW/kd65CFJ0hgHnVwHDAihPqYo
+vnjhU894PbTwZcJ42AaCu2gpJRcBUlQcZCDoinWg4PqCunYX3Oyl2EEFOIpYHXer
+1g1jU8POBwgj8TFaysIh4w==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+0fHaQMrZO454kTjrFw2QcTF1IFMaIM1+588q/YXZiCUPj1/ZaP6uwHzP8LKAPifd
+MBUS+z4STyTK/zVrhwuTPGV9ZswAkRpD7t8VbIukg1h5CxhBP//AmvVp/vfW7gM9
+3oOBacxU4u30qs4RRAkd71hScMVY+KmbsZzRVXVfMZve3h0OTrdnWM1MYdEY9yfH
+rfwTl3Et34BXGbQj3aF10xeP2K49PvtBRqr07bgEqA8EWjCndQOyfwxCaWsBGVjG
+3PM6/NoOlGuq5WYaInuGeRkR6fvd+Q4gRMYwmQ9CcgnQ3r8hfPCWh1m/cXAdKjWs
+OmvfIYMs5x7qT+uqCvExRQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGejCCBWKgAwIBAgIDBbL0MA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yMTAzMjYxNTQwMDBaFw0yNDAzMjYxNTQwMDBaMIGPMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSowKAYDVQQDEyFI
+RUNUT1IgRU5SSVFVRSBNT05UT1lBIFNBTlRJQkFORVoxJTAjBgkqhkiG9w0BCQEW
+Fmhtb250b3lhMTk4N0BnbWFpbC5jb20xEzARBgNVBAUTCjE2NzQzMDI1LTIwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDR8dpAytk7jniROOsXDZBxMXUg
+UxogzX7nzyr9hdmIJQ+PX9lo/q7AfM/wsoA+J90wFRL7PhJPJMr/NWuHC5M8ZX1m
+zACRGkPu3xVsi6SDWHkLGEE//8Ca9Wn+99buAz3eg4FpzFTi7fSqzhFECR3vWFJw
+xVj4qZuxnNFVdV8xm97eHQ5Ot2dYzUxh0Rj3J8et/BOXcS3fgFcZtCPdoXXTF4/Y
+rj0++0FGqvTtuASoDwRaMKd1A7J/DEJpawEZWMbc8zr82g6Ua6rlZhoie4Z5GRHp
++935DiBExjCZD0JyCdDevyF88JaHWb9xcB0qNaw6a98hgyznHupP66oK8TFFAgMB
+AAGjggLEMIICwDAfBgNVHSMEGDAWgBRlpas+P8i2UW0Rfl/DCgfmQ6AItjAdBgNV
+HQ4EFgQUGsgudfF9lOswpD7JR70YvbHFdr4wCwYDVR0PBAQDAgTwMB0GA1UdJQQW
+MBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEEBAMCBaAwgfUGA1Ud
+IASB7TCB6jCB5wYIKwYBBAG1awIwgdowMQYIKwYBBQUHAgEWJWh0dHBzOi8vYWNn
+NC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgaQGCCsGAQUFBwICMIGXMBYWD0Fj
+ZXB0YS5jb20gUy5BLjADAgEJGn1FbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8g
+ZW4gZm9ybWEgb25saW5lLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmlj
+YWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBjb21lcmNpbyB5IG90cm9z
+LjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYIKwYBBQUH
+CAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMGEG
+A1UdEQRaMFigGAYIKwYBBAHBAQGgDBYKMTY3NDMwMjUtMqAkBggrBgEFBQcIA6AY
+MBYMCjE2NzQzMDI1LTIGCCsGAQQBwQECgRZobW9udG95YTE5ODdAZ21haWwuY29t
+MEcGCCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0
+YS5jb20vYWNnNC9vY3NwL0NsYXNlMi1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRw
+czovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTItRzQuY3JsMA0GCSqG
+SIb3DQEBCwUAA4IBAQAHwrN7j20UhImBa91U6x0tJVp8uMdhLyped8yNhsdPhqWX
+kkGfwE3W5NcZKf7VWwj2aZpJQZ4uBXn82GugO8V1U6wi5N1s5DifE9+bcrLQntUb
+zLfKRV0W5I5Jy7HJd6Bl+uTM+gwvP9oOTxBcgGwrSS+C4JO8H/BVpyilHq2q0JHu
+xa9Oojw38XMaqJj41zSG8gBrexArpRSi35o43HHdANJvjtXFeFFmdpTJe+CiN4m6
+wEqXZQUC+DrCC63y0x5urevWXFfgri5iOKgQUjzNTjaP46YIpGNLBiVLpgoZ225m
+KhuW2pNJILg0VNFA7VLP0CUm+Kzhc7jrwpGRzNq4
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

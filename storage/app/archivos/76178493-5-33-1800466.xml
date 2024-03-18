@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTE62005d73fe904181b15bc1bd0d8478c3">
+    <Caratula version="1.0">
+      <RutEmisor>76245828-4</RutEmisor>
+      <RutEnvia>76245828-4</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2013-10-16</FchResol>
+      <NroResol>88</NroResol>
+      <TmstFirmaEnv>2024-03-14T15:19:17</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>33</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F1800466T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>1800466</Folio>
+            <FchEmis>2024-03-14</FchEmis>
+            <FmaPago>2</FmaPago>
+            <TermPagoGlosa>45 D�as</TermPagoGlosa>
+            <FchVenc>2024-04-28</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76245828-4</RUTEmisor>
+            <RznSoc>Porsche Chile SpA</RznSoc>
+            <GiroEmis>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTORES</GiroEmis>
+            <Acteco>501010</Acteco>
+            <DirOrigen>Avda. Apoquindo 5400, Piso 19 y 20</DirOrigen>
+            <CmnaOrigen>Las Condes - Santiag</CmnaOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76178493-5</RUTRecep>
+            <RznSocRecep>Porsche Inter Auto Chile SpA</RznSocRecep>
+            <GiroRecep>BS: Santiago Norte</GiroRecep>
+            <DirRecep>La Cabana PC 17B</DirRecep>
+            <CmnaRecep>Colina</CmnaRecep>
+          </Receptor>
+          <Transporte>
+            <DirDest>La Cabana PC 17B</DirDest>
+            <CmnaDest>Colina</CmnaDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>1163860</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>221133</IVA>
+            <MntTotal>1384993</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>TJG 941 521</NmbItem>
+          <DscItem>SWITCH MARCHA ATRAS</DscItem>
+          <QtyItem>5.000000</QtyItem>
+          <PrcItem>12496.000000</PrcItem>
+          <DescuentoMonto>17495</DescuentoMonto>
+          <MontoItem>44985</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <NmbItem>TJG 511 413</NmbItem>
+          <DscItem>GOMA BARRA ESTABILIZADORA TRAS</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>25724.000000</PrcItem>
+          <DescuentoMonto>14406</DescuentoMonto>
+          <MontoItem>37042</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <NmbItem>TAP 807 801    9B9</NmbItem>
+          <DscItem>SOPORTE DE MATRICULA</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>5252.000000</PrcItem>
+          <DescuentoMonto>1471</DescuentoMonto>
+          <MontoItem>3781</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <NmbItem>T75 121 484</NmbItem>
+          <DscItem>TAPA DEPOSITO EXPANSION</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>4162.000000</PrcItem>
+          <DescuentoMonto>1165</DescuentoMonto>
+          <MontoItem>2997</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>5</NroLinDet>
+          <NmbItem>T16 945 525</NmbItem>
+          <DscItem>CONMUTADOR PEDAL EMBRAGUE</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>9387.000000</PrcItem>
+          <DescuentoMonto>5256</DescuentoMonto>
+          <MontoItem>13518</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>6</NroLinDet>
+          <NmbItem>T16 601 139</NmbItem>
+          <DscItem>PERNO RUEDA</DscItem>
+          <QtyItem>10.000000</QtyItem>
+          <PrcItem>8207.000000</PrcItem>
+          <DescuentoMonto>24620</DescuentoMonto>
+          <MontoItem>57450</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>7</NroLinDet>
+          <NmbItem>82.52102-0013</NmbItem>
+          <DscItem>FILTRO SECADOR DE AIRE NO CALE</DscItem>
+          <QtyItem>10.000000</QtyItem>
+          <PrcItem>28904.000000</PrcItem>
+          <DescuentoMonto>86710</DescuentoMonto>
+          <MontoItem>202330</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>8</NroLinDet>
+          <NmbItem>51.08901-0209</NmbItem>
+          <DscItem>EMPAQ. LUBRICACION TURBOCOMPRE</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>51366.000000</PrcItem>
+          <DescuentoMonto>15410</DescuentoMonto>
+          <MontoItem>35956</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>9</NroLinDet>
+          <NmbItem>2T0 607 359 G</NmbItem>
+          <DscItem>VALVULA</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>66808.000000</PrcItem>
+          <DescuentoMonto>20042</DescuentoMonto>
+          <MontoItem>46766</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>10</NroLinDet>
+          <NmbItem>2S0 121 483 A</NmbItem>
+          <DscItem>TAPA ROSCA DEPOSITO EXPANSION</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>4749.000000</PrcItem>
+          <DescuentoMonto>1330</DescuentoMonto>
+          <MontoItem>3419</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>11</NroLinDet>
+          <NmbItem>2R2 945 511</NmbItem>
+          <DscItem>SENSOR PRESION</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>66077.000000</PrcItem>
+          <DescuentoMonto>37004</DescuentoMonto>
+          <MontoItem>95150</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>12</NroLinDet>
+          <NmbItem>2R2 837 398</NmbItem>
+          <DscItem>ALZAVIDRIO</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>31498.000000</PrcItem>
+          <DescuentoMonto>8819</DescuentoMonto>
+          <MontoItem>22679</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>13</NroLinDet>
+          <NmbItem>2R2 837 206 A</NmbItem>
+          <DscItem>MANILLA EXTERIOR</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>46853.000000</PrcItem>
+          <DescuentoMonto>26238</DescuentoMonto>
+          <MontoItem>67468</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>14</NroLinDet>
+          <NmbItem>2R2 837 205 A</NmbItem>
+          <DscItem>MANILLA EXTERIOR PUERTA</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>47984.000000</PrcItem>
+          <DescuentoMonto>26872</DescuentoMonto>
+          <MontoItem>69096</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>15</NroLinDet>
+          <NmbItem>2R0 971 162</NmbItem>
+          <DscItem>JUEGO CABL</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>62136.000000</PrcItem>
+          <DescuentoMonto>17398</DescuentoMonto>
+          <MontoItem>44738</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>16</NroLinDet>
+          <NmbItem>2P0 721 405</NmbItem>
+          <DscItem>CILINDRO MAESTRO</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>37544.000000</PrcItem>
+          <DescuentoMonto>11263</DescuentoMonto>
+          <MontoItem>26281</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>17</NroLinDet>
+          <NmbItem>2P0 501 317 C</NmbItem>
+          <DscItem>RETEN</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>12027.000000</PrcItem>
+          <DescuentoMonto>7216</DescuentoMonto>
+          <MontoItem>16838</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>18</NroLinDet>
+          <NmbItem>23B 141 025</NmbItem>
+          <DscItem>PLATO APRI</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>217280.000000</PrcItem>
+          <DescuentoMonto>65184</DescuentoMonto>
+          <MontoItem>152096</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>19</NroLinDet>
+          <NmbItem>23A 141 031 A</NmbItem>
+          <DscItem>DISC. EMBR</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>180716.000000</PrcItem>
+          <DescuentoMonto>54215</DescuentoMonto>
+          <MontoItem>126501</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>20</NroLinDet>
+          <NmbItem>07W 103 517</NmbItem>
+          <DscItem>JUNTA CULATA</DscItem>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>57245.000000</PrcItem>
+          <DescuentoMonto>32058</DescuentoMonto>
+          <MontoItem>82432</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>21</NroLinDet>
+          <NmbItem>06.56936-2479</NmbItem>
+          <DscItem>ANILLO EMPAQ. 63X2.5</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>17624.000000</PrcItem>
+          <DescuentoMonto>5287</DescuentoMonto>
+          <MontoItem>12337</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>801</TpoDocRef>
+          <FolioRef>25929</FolioRef>
+          <FchRef>2024-03-14</FchRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>76245828-4</RE>
+            <TD>33</TD>
+            <F>1800466</F>
+            <FE>2024-03-14</FE>
+            <RR>76178493-5</RR>
+            <RSR>Porsche Inter Auto Chile SpA</RSR>
+            <MNT>1384993</MNT>
+            <IT1>TJG 941 521</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76245828-4</RE>
+                <RS>PORSCHE CHILE SPA.</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>1795344</D>
+                  <H>1815343</H>
+                </RNG>
+                <FA>2024-02-13</FA>
+                <RSAPK>
+                  <M>6mqUHd54kWWZt7WQnOvb+JPIV5ieu/I0jcyYZMQ770m9HATbSrkAwJeelLu+DRGrgbWOK1doDj1tXsSZ7OqGJQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">bZftx198D2LdHGjkIO0m8bMasepbUcZqhzBep4CE2h7d2LWarLLQxKoh6XAPKlepYUlyECV8kNZ2I1KPKmx1Xw==</FRMA>
+            </CAF>
+            <TSTED>2024-03-14T15:19:16</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">6Iotm11Oy8/FxTpm3F7rcKCjJnVky4xg7iV6INH56a/jWpw4sbJiRQgII+CpboF9PjnOj3uHX7PXJ9OOwiCejg==</FRMT>
+        </TED>
+        <TmstFirma>2024-03-14T15:19:21</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F1800466T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gS+M0QalYfOIzPB2b+RByI/7f+Y=</DigestValue></Reference></SignedInfo><SignatureValue>
+tpbrKzWWqBiJGJbGgTZmvxiyPT3CXmdSUTtZTvFwIpfrKleKdGAVHMmVctVUU95/
+aoGlhnECRG5Mngxop0hEsYXkrRzRXMRkmGd300n0sn1jEP7qiz0IQe4vqobccoEG
+ssAjtYMiuag6zz44vaMX9YLunSDaTcCX/TIhzL8KL+wNYeh9rsi6mmBVYabtMvrl
+WaTDZWmD/cp3xTQIzZQ21MJ4aRd/dN+MYvk/TppvG4oB6U/u752TDjNJ/n1WepEt
+fA5OhZiG4a/trOTD2qk4bdVajPtvNC8+BV/xAbaSmnOp6D+aih8ggX1Wc4AbtkQE
+Coefm50Ue3gyrcp5Z2hlqA==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+0fHaQMrZO454kTjrFw2QcTF1IFMaIM1+588q/YXZiCUPj1/ZaP6uwHzP8LKAPifd
+MBUS+z4STyTK/zVrhwuTPGV9ZswAkRpD7t8VbIukg1h5CxhBP//AmvVp/vfW7gM9
+3oOBacxU4u30qs4RRAkd71hScMVY+KmbsZzRVXVfMZve3h0OTrdnWM1MYdEY9yfH
+rfwTl3Et34BXGbQj3aF10xeP2K49PvtBRqr07bgEqA8EWjCndQOyfwxCaWsBGVjG
+3PM6/NoOlGuq5WYaInuGeRkR6fvd+Q4gRMYwmQ9CcgnQ3r8hfPCWh1m/cXAdKjWs
+OmvfIYMs5x7qT+uqCvExRQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGejCCBWKgAwIBAgIDBbL0MA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yMTAzMjYxNTQwMDBaFw0yNDAzMjYxNTQwMDBaMIGPMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSowKAYDVQQDEyFI
+RUNUT1IgRU5SSVFVRSBNT05UT1lBIFNBTlRJQkFORVoxJTAjBgkqhkiG9w0BCQEW
+Fmhtb250b3lhMTk4N0BnbWFpbC5jb20xEzARBgNVBAUTCjE2NzQzMDI1LTIwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDR8dpAytk7jniROOsXDZBxMXUg
+UxogzX7nzyr9hdmIJQ+PX9lo/q7AfM/wsoA+J90wFRL7PhJPJMr/NWuHC5M8ZX1m
+zACRGkPu3xVsi6SDWHkLGEE//8Ca9Wn+99buAz3eg4FpzFTi7fSqzhFECR3vWFJw
+xVj4qZuxnNFVdV8xm97eHQ5Ot2dYzUxh0Rj3J8et/BOXcS3fgFcZtCPdoXXTF4/Y
+rj0++0FGqvTtuASoDwRaMKd1A7J/DEJpawEZWMbc8zr82g6Ua6rlZhoie4Z5GRHp
++935DiBExjCZD0JyCdDevyF88JaHWb9xcB0qNaw6a98hgyznHupP66oK8TFFAgMB
+AAGjggLEMIICwDAfBgNVHSMEGDAWgBRlpas+P8i2UW0Rfl/DCgfmQ6AItjAdBgNV
+HQ4EFgQUGsgudfF9lOswpD7JR70YvbHFdr4wCwYDVR0PBAQDAgTwMB0GA1UdJQQW
+MBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEEBAMCBaAwgfUGA1Ud
+IASB7TCB6jCB5wYIKwYBBAG1awIwgdowMQYIKwYBBQUHAgEWJWh0dHBzOi8vYWNn
+NC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgaQGCCsGAQUFBwICMIGXMBYWD0Fj
+ZXB0YS5jb20gUy5BLjADAgEJGn1FbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8g
+ZW4gZm9ybWEgb25saW5lLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmlj
+YWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBjb21lcmNpbyB5IG90cm9z
+LjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYIKwYBBQUH
+CAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMGEG
+A1UdEQRaMFigGAYIKwYBBAHBAQGgDBYKMTY3NDMwMjUtMqAkBggrBgEFBQcIA6AY
+MBYMCjE2NzQzMDI1LTIGCCsGAQQBwQECgRZobW9udG95YTE5ODdAZ21haWwuY29t
+MEcGCCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0
+YS5jb20vYWNnNC9vY3NwL0NsYXNlMi1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRw
+czovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTItRzQuY3JsMA0GCSqG
+SIb3DQEBCwUAA4IBAQAHwrN7j20UhImBa91U6x0tJVp8uMdhLyped8yNhsdPhqWX
+kkGfwE3W5NcZKf7VWwj2aZpJQZ4uBXn82GugO8V1U6wi5N1s5DifE9+bcrLQntUb
+zLfKRV0W5I5Jy7HJd6Bl+uTM+gwvP9oOTxBcgGwrSS+C4JO8H/BVpyilHq2q0JHu
+xa9Oojw38XMaqJj41zSG8gBrexArpRSi35o43HHdANJvjtXFeFFmdpTJe+CiN4m6
+wEqXZQUC+DrCC63y0x5urevWXFfgri5iOKgQUjzNTjaP46YIpGNLBiVLpgoZ225m
+KhuW2pNJILg0VNFA7VLP0CUm+Kzhc7jrwpGRzNq4
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>
