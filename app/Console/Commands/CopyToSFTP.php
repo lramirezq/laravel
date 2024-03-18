@@ -72,7 +72,7 @@ class CopyToSFTP extends Command
                     $document->save();
                     $evento = new Evento();
                     $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
-                    $evento->observacion = "PDF Copiado a Servidor SFTP";
+                    $evento->observacion = "XML Copiado a Servidor SFTP";
                     $document->eventos()->save($evento);
                     Log::debug("PDF Copiado SFTP: ".$document->Number);
 
