@@ -32,10 +32,10 @@ class FindDocuments extends Command
     {
 
 
-        $datefrom = "2024-03-14";
-        $dateto = "2024-03-14";
-        // $datefrom = date("Y-m-d");
-        // $dateto = date("Y-m-d");
+      //  $datefrom = "2024-03-14";
+      //  $dateto = "2024-03-14";
+         $datefrom = date("Y-m-d");
+         $dateto = date("Y-m-d");
 
 
 
