@@ -45,4 +45,8 @@
   /*  content: attr(data-label);*/
   /*  @apply font-semibold pr-3 text-left lg:hidden;*/
   /*}*/
+
+  .table-events {
+    border: 10px;
+  }
 }

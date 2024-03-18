@@ -12,7 +12,7 @@
      <h2><?php echo e(__('Eventos')); ?></h2>
 
             <div>
-               <table border='1'>
+               <table class="table-events">
                 <tr>
                     <td>FECHA</td>
                     <td>EVENTO</td>
@@ -28,8 +28,8 @@
                 </table>
             </div>
 
-    <tr/>
-
+    <hr/>
+    <hr/>
 
     <?php if(!is_null($model->path_xml) && Storage::exists($model->path_xml)): ?>
     <a href="<?php echo e(route('mostrar-files', ['nombreArchivo' => basename($model->path_xml)])); ?>" target="_blank">Mostrar XML</a>
@@ -56,25 +56,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         
 
-     <!-- Listado de eventos -->
-     <h2><?php echo e(__('Eventos')); ?></h2>
-
-            <div>
-               <table>
-                <tr>
-                    <td>Evento</td>
-                    <td>Fecha</td>
-                </tr>
-                
-                <?php $__currentLoopData = $model->eventos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $evento): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                <tr>
-                    <td><?php echo e($evento->fecha_evento); ?> </td>
-                    <td> <?php echo e($evento->observacion); ?></td>
-                </tr>   
-                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                
-                </table>
-            </div>
+    
 
 
           <?php if (isset($component)) { $__componentOriginal6517206acc13602280063763835fa4a9 = $component; } ?>
