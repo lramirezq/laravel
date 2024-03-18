@@ -21,8 +21,20 @@
 
     <tr/>
 
-    <a href="{{ route('mostrar-files', ['nombreArchivo' => basename($model->path_pdf)]) }}" target="_blank">Mostrar PDF</a>
+
+    @if (!is_null($model->path_xml) && Storage::exists($model->path_xml))
     <a href="{{ route('mostrar-files', ['nombreArchivo' => basename($model->path_xml)]) }}" target="_blank">Mostrar XML</a>
+@else
+    <span>Archivo XML no disponible</span>
+@endif
+
+
+@if (!is_null($model->path_pdf) && Storage::exists($model->path_pdf))
+    <a href="{{ route('mostrar-files', ['nombreArchivo' => basename($model->path_pdf)]) }}" target="_blank">Mostrar PDF</a>
+@else
+    <span>Archivo PDF no disponible</span>
+@endif
+
 
 
 

@@ -30,8 +30,20 @@
 
     <tr/>
 
-    <a href="<?php echo e(route('mostrar-files', ['nombreArchivo' => basename($model->path_pdf)])); ?>" target="_blank">Mostrar PDF</a>
+
+    <?php if(!is_null($model->path_xml) && Storage::exists($model->path_xml)): ?>
     <a href="<?php echo e(route('mostrar-files', ['nombreArchivo' => basename($model->path_xml)])); ?>" target="_blank">Mostrar XML</a>
+<?php else: ?>
+    <span>Archivo XML no disponible</span>
+<?php endif; ?>
+
+
+<?php if(!is_null($model->path_pdf) && Storage::exists($model->path_pdf)): ?>
+    <a href="<?php echo e(route('mostrar-files', ['nombreArchivo' => basename($model->path_pdf)])); ?>" target="_blank">Mostrar PDF</a>
+<?php else: ?>
+    <span>Archivo PDF no disponible</span>
+<?php endif; ?>
+
 
 
 
