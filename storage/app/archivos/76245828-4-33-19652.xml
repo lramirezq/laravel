@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTET337758686001965220240402">
+    <Caratula version="1.0">
+      <RutEmisor>77586860-0</RutEmisor>
+      <RutEnvia>77586860-0</RutEnvia>
+      <RutReceptor>76245828-4</RutReceptor>
+      <FchResol>2003-06-17</FchResol>
+      <NroResol>0</NroResol>
+      <TmstFirmaEnv>2024-04-02</TmstFirmaEnv>
+      <SubTotDTE>
+        <TpoDTE>33</TpoDTE>
+        <NroDTE>1</NroDTE>
+      </SubTotDTE>
+    </Caratula>
+    <DTE version="1.0">
+      <Documento ID="F19652T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>19652</Folio>
+            <FchEmis>2024-04-02</FchEmis>
+            <FmaPago>2</FmaPago>
+            <FchVenc>2024-05-17</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>77586860-0</RUTEmisor>
+            <RznSoc>SOUTH CONSULTING S.A. - con 3 guias</RznSoc>
+            <GiroEmis>GIRO EMISOR</GiroEmis>
+            <Acteco>620200</Acteco>
+            <DirOrigen>CAUPOLICAN 9410</DirOrigen>
+            <CmnaOrigen>SANTIAGO</CmnaOrigen>
+            <CiudadOrigen>SANTIAGO</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76245828-4</RUTRecep>
+            <RznSocRecep>PORSCHE CL</RznSocRecep>
+            <GiroRecep>Giro del Receptor</GiroRecep>
+            <DirRecep>Direccion del Receptor</DirRecep>
+            <CmnaRecep>Vitacura</CmnaRecep>
+            <CiudadRecep>Santiago</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>300000</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19</TasaIVA>
+            <IVA>57000</IVA>
+            <MntTotal>357000</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>1</TpoCodigo>
+            <VlrCodigo>010000078</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Producto generico para pruebas</NmbItem>
+          <QtyItem>3</QtyItem>
+          <Subcantidad>
+            <SubQty>1</SubQty>
+            <SubCod>BO577528-4</SubCod>
+          </Subcantidad>
+          <PrcItem>100000</PrcItem>
+          <MontoItem>300000</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>52</TpoDocRef>
+          <FolioRef>6257</FolioRef>
+          <FchRef>2024-03-21</FchRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>77586860-0</RE>
+            <TD>33</TD>
+            <F>19652</F>
+            <FE>2024-04-02</FE>
+            <RR>76245828-4</RR>
+            <RSR>PORSCHE CL</RSR>
+            <MNT>357000</MNT>
+            <IT1>Producto generico para pruebas</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>77586860-0</RE>
+                <RS>SOUTH CONSULTING SIGNATURE S A</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>19652</D>
+                  <H>19656</H>
+                </RNG>
+                <FA>2024-04-02</FA>
+                <RSAPK>
+                  <M>0GOzUfc8RkGqrI8fgxKhLGphekHO6+wck905Jo3hASTKzxHrVw+YgOJ+6PXZr2NCIPo9VL/oQSfltHtcfKHl3w==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>100</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">ihrYEtwnX7lpz4h5p+8HhXJDmtJFQu4H+S41ryeus0Fs9rsUl/Kf06BneYE92xER/yNV9srMBzT3zlCg78kx8w==</FRMA>
+            </CAF>
+            <TSTED>2024-04-02T16:49:44</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">hq6AZt83cnigmmWlLSFjUNu18IOS5UJa5OLr+/FtLruN3p4hqz33N+9cWiCfAFov38m6mplwajHrsXzHY/NUAg==</FRMT>
+        </TED>
+        <TmstFirma>2024-04-02T16:49:44</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F19652T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>jd3HQr0CI7wAvScHWClho+ye77s=</DigestValue></Reference></SignedInfo><SignatureValue>
+IyKLxLixxxDFUnwOJeFtTUiSq64wc0M+YNCud5agThSzyUGnK9+Ftxmfe7UkjNzI
+B2WeOqRfggkkEgzGCofSgTykkxp5qT62QGkX8QbSjnL00aRTTacK0nvpzgDoit5/
+604MYVCaiEjs6SvkA/kake14JNPZlLGhoajgINRC5PM3wMSmUKntTR43omUgyhx1
+21oHJVg9/gUhnr91wxF9YzO8g+HZDozqr7escY+75X0bsAJD8f066/Wey8e4kbKm
+fhLpWO6q0S/T4yIwlnPHfJyKqVH59Vf+mf3LJVfaTGWYcScfOQdAKhO93J/ftjOc
+bne2fEADUrSzuzDN+UjBoA==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+usPCvnroHTih0Zq+XIr5+uSSNjKm/fbFr4+bOod6plHZjUiXv371RkbeplcPnHAW
+sziJh5dSZV9t7sVJcXWrtCtocpE64LyEhj4e0NOyJN+agZTiRsw48TPX6zVmoMY9
+FkbApndOAYtMfRoZ+bXjDPjwcP4Hz1SZePAbQQ4G1B4ZGCG6cqQERv06gu3rMA6q
+xzR9ymPREL6CZlbZor8nBmCOHfwgwoCr2A7RQPI6PY7BJczYgumKeZvRLcTEUJYP
+JkvypmAJGN2ccf1GSZbEj5gwaPumuUO2Z4dMPjTOOixk812sz6VSGg6G9sCZzXgm
+WP6x5RG8Uu6WKaSuO0DU7Q==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGRjCCBS6gAwIBAgIINwdHByfx1pswDQYJKoZIhvcNAQELBQAwga8xCzAJBgNV
+BAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2Yg
+dXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJkb3RlcmNlcm9zMSswKQYDVQQD
+DCJFLVNpZ24gQ2xhc3MgMiBGaXJtYSBUcmlidXRhcmlhIENBMSIwIAYJKoZIhvcN
+AQkBFhNlLXNpZ25AZXNpZ24tbGEuY29tMB4XDTIzMDIyMzIwMDUwMFoXDTI1MDIy
+MjIwMDUwMFowgaUxCzAJBgNVBAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5
+MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJk
+b3RlcmNlcm9zMRwwGgYDVQQDDBNKYW5ldHQgTGFyYSAgQ2VpamFzMScwJQYJKoZI
+hvcNAQkBFhhqYW5ldHQubGFyYUBnb3NvY2tldC5uZXQwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQC6w8K+eugdOKHRmr5civn65JI2Mqb99sWvj5s6h3qm
+UdmNSJe/fvVGRt6mVw+ccBazOImHl1JlX23uxUlxdau0K2hykTrgvISGPh7Q07Ik
+35qBlOJGzDjxM9frNWagxj0WRsCmd04Bi0x9Ghn5teMM+PBw/gfPVJl48BtBDgbU
+HhkYIbpypARG/TqC7eswDqrHNH3KY9EQvoJmVtmivycGYI4d/CDCgKvYDtFA8jo9
+jsElzNiC6Yp5m9EtxMRQlg8mS/KmYAkY3Zxx/UZJlsSPmDBo+6a5Q7Znh0w+NM46
+LGTzXazPpVIaDob2wJnNeCZY/rHlEbxS7pYppK47QNTtAgMBAAGjggJsMIICaDCB
+gAYIKwYBBQUHAQEEdDByMEoGCCsGAQUFBzAChj5odHRwOi8vcGtpLmVzaWduLWxh
+LmNvbS9jYWNlcnRzL3BraUNsYXNzMkZpcm1hVHJpYnV0YXJpYUNBLmNydDAkBggr
+BgEFBQcwAYYYaHR0cDovL29jc3AuZXNpZ24tbGEuY29tMB0GA1UdDgQWBBQyF41N
+BjkDRZboLRp8md1pdyMoozAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFPlK+sLH
+bsLnEpxXRTWEGm0o6UqkMIHIBgNVHSAEgcAwgb0wgboGDCsGAQQBgspqAQQBAjCB
+qTB+BggrBgEFBQcCAjByHnAAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIA
+YQAgAHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbwAsACAAQwBvAG0AZQByAGMA
+aQBvACwAIABQAGEAZwBvAHMAIAB5ACAATwB0AHIAbwBzMCcGCCsGAQUFBwIBFhto
+dHRwOi8vd3d3LmVzaWduLWxhLmNvbS9jcHMwUQYDVR0fBEowSDBGoESgQoZAaHR0
+cDovL3BraS5lc2lnbi1sYS5jb20vY3JsL3BraUNsYXNzMkZpcm1hVHJpYnV0YXJp
+YS9lbmR1c2VyLmNybDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUH
+AwIGCCsGAQUFBwMEMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMjMzOTQ0MjEt
+MTAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk5NTUxNzQwLUswDQYJKoZIhvcN
+AQELBQADggEBAETqWiWEXSgBshb1GadrRnXhuviOb8izEwYvRLcJYAYFO1ZJ3vDD
+E8MlGNh/QExLRNFHUbr4tJqG4lSjSiWmBJ426mXoJKub70MySod+YFgqrXaiVSmF
+xkCSzM69BwPyFnN0W87KdbuIcfi7A3KJD2MLaxjPE+1LWiq6Gm1kKXJtSam+A2NO
+7cpqRqmwq8y2Wnx2Pjd23Vz8GzPdO9Hx5iu74S+PU/6d9rDd/N5zb/MP2Z1gF6ok
+1pJwpUHEePKrjFETljeVQ18XEJ61oeSoaiOhOdETcjHDyQjPOPZhWikap+EPw3Lu
+DQcPtOO96jy8cMM/q8ZWwLll4nVdEA77fd4=
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

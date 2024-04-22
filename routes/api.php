@@ -22,8 +22,8 @@ Route::middleware(['auth:sanctum'])->name('api.')->group(function () {
     Route::get('/documents', [App\Http\Controllers\Admin\DocumentController::class, 'index'])->name('documents.index');
     Route::post('/documents', [App\Http\Controllers\Admin\DocumentController::class, 'store'])->name('documents.store');
     Route::get('/documents/{model}', [App\Http\Controllers\Admin\DocumentController::class, 'show'])->name('documents.show');
-    Route::post('/documents/{model}', [App\Http\Controllers\Admin\DocumentController::class, 'update'])->name('documents.update');
-    Route::delete('/documents/{model}', [App\Http\Controllers\Admin\DocumentController::class, 'destroy'])->name('documents.destroy');
+   // Route::post('/documents/{model}', [App\Http\Controllers\Admin\DocumentController::class, 'update'])->name('documents.update');
+  //  Route::delete('/documents/{model}', [App\Http\Controllers\Admin\DocumentController::class, 'destroy'])->name('documents.destroy');
 });
 
 Route::middleware(['auth:sanctum'])->name('api.')->group(function () {

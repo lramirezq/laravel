@@ -51,5 +51,7 @@
         @foreach(\TomatoPHP\TomatoAdmin\Facade\TomatoSlot::getDashboardBottom() as $item)
             @include($item)
         @endforeach
+
+        <img src="{{ asset('img/logo.svg') }}" alt="Porsche" height="5%">
     </div>
 </x-tomato-admin-layout>

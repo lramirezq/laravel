@@ -15,6 +15,8 @@ use App\Models\Document;
 use phpseclib3\Net\SFTP;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
+use App\Models\Evento;
+
 class DocumentController extends Controller
 {
     public string $model;
@@ -127,6 +129,9 @@ class DocumentController extends Controller
     public function show(\App\Models\Document $model): View|JsonResponse
     {
         
+
+    
+
 
         return Tomato::get(
             model: $model,

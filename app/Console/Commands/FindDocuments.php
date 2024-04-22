@@ -53,14 +53,13 @@ class FindDocuments extends Command
                     'headers' => [
                         'Content-Type' => 'application/x-www-form-urlencoded',
                         'Authorization' => 'Basic ZDcyN2UwOWItYmQyNS00MzA2LTkzNzUtODg3YTI0MzBlMWY3OjU1ZjA3YjU5YjI0YTRlYw==',
-                        // Agrega cualquier otro encabezado necesario aquí
+                        
                     ],
                     'form_params' => [
                         'SenderCode' => '76245828-4',
                         'DateFrom' => $datefrom,
                         'DateTo' => $dateto,
                         'DocumentTypeID' => $type_document,
-                        //'Number' => $numeroEntero,
                         'Number' => "*",
                         'ResultMaxItemCount' => '10000',
                     ]

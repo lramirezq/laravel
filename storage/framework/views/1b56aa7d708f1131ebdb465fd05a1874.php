@@ -7,26 +7,7 @@
                         <?php echo $__env->make($item, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 <?php else: ?>
-                    <?php if (isset($component)) { $__componentOriginal2b5fd8fda04af3f1a982046b029966ec = $component; } ?>
-<?php if (isset($attributes)) { $__attributesOriginal2b5fd8fda04af3f1a982046b029966ec = $attributes; } ?>
-<?php $component = TomatoPHP\TomatoAdmin\Views\ApplicationLogo::resolve([] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
-<?php $component->withName('tomato-application-logo'); ?>
-<?php if ($component->shouldRender()): ?>
-<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
-<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(TomatoPHP\TomatoAdmin\Views\ApplicationLogo::class))->getConstructor()): ?>
-<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
-<?php endif; ?>
-<?php $component->withAttributes(['class' => 'block h-9 w-auto fill-current text-primary-500']); ?>
-<?php echo $__env->renderComponent(); ?>
-<?php endif; ?>
-<?php if (isset($__attributesOriginal2b5fd8fda04af3f1a982046b029966ec)): ?>
-<?php $attributes = $__attributesOriginal2b5fd8fda04af3f1a982046b029966ec; ?>
-<?php unset($__attributesOriginal2b5fd8fda04af3f1a982046b029966ec); ?>
-<?php endif; ?>
-<?php if (isset($__componentOriginal2b5fd8fda04af3f1a982046b029966ec)): ?>
-<?php $component = $__componentOriginal2b5fd8fda04af3f1a982046b029966ec; ?>
-<?php unset($__componentOriginal2b5fd8fda04af3f1a982046b029966ec); ?>
-<?php endif; ?>
+                <img src="<?php echo e(asset('img/logo.svg')); ?>" alt="Porsche">
                 <?php endif; ?>
             </div>
 

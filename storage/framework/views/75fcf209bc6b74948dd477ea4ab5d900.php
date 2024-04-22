@@ -75,6 +75,8 @@
         <?php $__currentLoopData = \TomatoPHP\TomatoAdmin\Facade\TomatoSlot::getDashboardBottom(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
             <?php echo $__env->make($item, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+
+        <img src="<?php echo e(asset('img/logo.svg')); ?>" alt="Porsche" height="5%">
     </div>
  <?php echo $__env->renderComponent(); ?>
 <?php endif; ?>

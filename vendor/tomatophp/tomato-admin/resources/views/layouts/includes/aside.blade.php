@@ -60,7 +60,7 @@
                 data-turbo="false"
                 style=""
         >
-            <x-tomato-application-logo class="block h-9 w-auto fill-current text-primary-500" />
+        <img src="{{ asset('img/logo.svg') }}" alt="Porsche">
         </Link>
         @endif
     </header>
