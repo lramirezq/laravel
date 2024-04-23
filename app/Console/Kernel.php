@@ -15,7 +15,13 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('app:find-documents')->dailyAt('00:44');
+      
+        $schedule->command('app:get-received-document')->everyThreeMinutes();
+        $schedule->command('app:download-xml')->everyThreeMinutes();
+        $schedule->command('app:download-pdf ')->everyThreeMinutes();
+        $schedule->command('app:copy-to-sftp')->everyThreeMinutes();
+        $schedule->command('app:confirm-go-socket')->everyThreeMinutes();
+ 
     }
 
     /**
