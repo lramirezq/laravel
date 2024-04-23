@@ -61,7 +61,7 @@ class DocumentTable extends AbstractTable
             ->defaultSort('id', 'desc')
  
             ->column(
-                key: 'formatted_date',
+                key: 'Date',
                 label: __('FECHA'),
                 sortable: true
             )
