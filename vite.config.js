@@ -31,6 +31,7 @@ export default ({ mode }) => {
                 key: fs.readFileSync(keyPath),
                 cert: fs.readFileSync(certificatePath),
             },
+            cors: true,
         };
     }
 
@@ -57,11 +58,6 @@ export default ({ mode }) => {
         ssr: {
             noExternal: ["vue", "@protonemedia/laravel-splade"]
         },
-
-        server: {
-            cors: true, // Habilitar CORS
-          },
-          
         css: {
             postCss: {
                 plugins: {
