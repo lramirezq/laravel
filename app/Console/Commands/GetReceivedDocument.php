@@ -32,6 +32,7 @@ class GetReceivedDocument extends Command
     public function handle()
     {
         Log::info("Ejecutando Call API Get-Received-Document");
+        
         $endpoint = env('GETRECEIVEDDOCUMENT_ENDPOINT');
         $username = env('GETRECEIVEDDOCUMENT_USERNAME');
         $password = env('GETRECEIVEDDOCUMENT_PASSWORD');
