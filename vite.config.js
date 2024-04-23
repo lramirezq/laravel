@@ -12,6 +12,7 @@ export default ({ mode }) => {
         /*
         Use only if using laravel-valet to manage server
          */
+        
         let keyPath = resolve(homedir(), `.config/valet/Certificates/${host}.key`);
         let certificatePath = resolve(homedir(), `.config/valet/Certificates/${host}.crt`);
 
@@ -56,6 +57,11 @@ export default ({ mode }) => {
         ssr: {
             noExternal: ["vue", "@protonemedia/laravel-splade"]
         },
+
+        server: {
+            cors: true, // Habilitar CORS
+          },
+          
         css: {
             postCss: {
                 plugins: {
