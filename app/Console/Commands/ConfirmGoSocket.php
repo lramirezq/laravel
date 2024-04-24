@@ -71,23 +71,24 @@ class ConfirmGoSocket extends Command
                 $document->confirm_gosocket = true;
                 $mensaje = "GOSOCKET CONFIRMACION - OK  con GlobalDocumentId : " . $globalid;
                 $document->save();
+                try {
+                    $document->save();
+                    $evento = new Evento();
+                    $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
+                    $evento->observacion = $mensaje;
+                    $document->eventos()->save($evento);
+    
+                } catch (\Exception $e) {
+                    Log::error("Error al guardar el evento " . $e);
+                    continue;
+                }
             }
 
-            Log::info("GOSOCKET CONFIRMACION - Esto respondio: " . $valida);
+            #Log::info("GOSOCKET CONFIRMACION - Esto respondio: " . $valida);
 
 
 
-            try {
-                $document->save();
-                $evento = new Evento();
-                $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
-                $evento->observacion = $mensaje;
-                $document->eventos()->save($evento);
-
-            } catch (\Exception $e) {
-                Log::error("Error al guardar el evento " . $e);
-                continue;
-            }
+            
 
 
         }
