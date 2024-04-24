@@ -79,11 +79,10 @@ class CopyToSFTP extends Command
                     $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
                     $evento->observacion = "XML Copiado a Servidor SFTP";
                     $document->eventos()->save($evento);
-                    Log::debug("XML Copiado SFTP: " . $document->Number);
+                    Log::info("XML Copiado SFTP: " . $document->Number);
                     $valida = +1;
                 } catch (\Exception $e) {
                     Log::error("Error al Copiar a SFTP XML" . $e->getMessage());
-                    $document->copy_to_sftp = null;
                     $document->save();
                     continue;
                 }
@@ -94,8 +93,7 @@ class CopyToSFTP extends Command
                         $document->save();
                     }
                 } catch (\Exception $e) {
-                    Log::debug("" . $e->getMessage());
-                    $document->copy_to_sftp = null;
+                    Log::error("" . $e->getMessage());
                     $document->save();
                     continue;
                 }
