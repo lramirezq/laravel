@@ -48,7 +48,7 @@ class CopyToSFTP extends Command
 
             //debemos pasar el pdf y el xml
             $pdf = '/app/' . $document->path_pdf;
-            $xml = '/app/' . $document->path_pdf;
+            $xml = '/app/' . $document->path_xml;
 
             Log::debug("Buscando files [" . $pdf . "] xml [" . $xml . "]");
             if ($this->verificarArchivo($pdf) && $this->verificarArchivo($xml)) {
