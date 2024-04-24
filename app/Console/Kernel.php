@@ -18,7 +18,7 @@ class Kernel extends ConsoleKernel
       
         $schedule->command('app:get-received-document')->everyFiveMinutes();
         $schedule->command('app:download-xml')->everyTenMinutes();
-        $schedule->command('app:download-pdf ')->everyEigthMinutes();
+        $schedule->command('app:download-pdf ')->everyEightMinutes();
         $schedule->command('app:copy-to-sftp')->everyFifteenMinutes();
         $schedule->command('app:confirm-go-socket')->everyFifteenMinutes();
  
