@@ -64,7 +64,7 @@ class CopyToSFTP extends Command
                     $evento->observacion = "PDF Copiado a Servidor SFTP";
                     $document->eventos()->save($evento);
                     Log::debug("PDF Copiado SFTP: " . $document->Number);
-                    $valida = +1;
+                    $valida = $valida + 1;
                 } catch (\Exception $e) {
                     Log::error("Error al Copiar a SFTP PDF" . $e->getMessage());
                     continue;
@@ -80,7 +80,7 @@ class CopyToSFTP extends Command
                     $evento->observacion = "XML Copiado a Servidor SFTP";
                     $document->eventos()->save($evento);
                     Log::info("XML Copiado SFTP: " . $document->Number);
-                    $valida = +1;
+                    $valida = $valida + 1;
                 } catch (\Exception $e) {
                     Log::error("Error al Copiar a SFTP XML" . $e->getMessage());
                     $document->save();
@@ -88,6 +88,7 @@ class CopyToSFTP extends Command
                 }
 
                 try {
+                    Log::info("valida : ".$valida);
                     if ($valida == 2) {
                         $document->copy_to_sftp = true;
                         $document->save();
