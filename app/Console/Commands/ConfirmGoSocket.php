@@ -41,6 +41,7 @@ class ConfirmGoSocket extends Command
         //buscar todos los pendientes de pasar por SFTP
         $documents = Document::where('confirm_gosocket', false)
             ->whereNotNull('path_pdf')
+            ->whereNotNull('copy_to_sftp')
             ->whereNotNull('path_xml')->get();
         Log::info("Vamos a confirmar  [" . $documents->count() . "] Documentos");
 
