@@ -31,7 +31,7 @@ class ConfirmGoSocket extends Command
     public function handle()
     {
         //Vamos a confirmar que lo tenemos
-        Log::info("Ejecutando Call API Get-Received-Document");
+        Log::info("------Ejecutando Call API Confirm----");
         $endpoint = env('CONFIRM_RECEIVEDDOCUMENT_ENDPOINT');
         $username = env('CONFIRM_RECEIVEDDOCUMENT_USERNAME');
         $password = env('CONFIRM_RECEIVEDDOCUMENT_PASSWORD');
@@ -70,10 +70,6 @@ class ConfirmGoSocket extends Command
             if ($valida == "OK") {
                 $document->confirm_gosocket = true;
                 $mensaje = "GOSOCKET CONFIRMACION - OK  con GlobalDocumentId : " . $globalid;
-                $document->save();
-            } else {
-                $mensaje = "GOSOCKET CONFIRMACION - ERROR: " . $valida;
-                $document->confirm_gosocket = false;
                 $document->save();
             }
 
