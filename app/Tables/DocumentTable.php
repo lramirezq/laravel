@@ -72,12 +72,12 @@ class DocumentTable extends AbstractTable
             )
  
             ->column(
-                key: 'DocumentReceiverCode',
+                key: 'DocumentSenderCode',
                 label: __('RUT'),
                 sortable: true
             )
             ->column(
-                key: 'DocumentReceiverName',
+                key: 'DocumentSenderName',
                 label: __('Razón Social'),
                 sortable: true
             )
