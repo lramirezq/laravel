@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTE60bb9dee7dd148cda27a01a142eaf973">
+    <Caratula version="1.0">
+      <RutEmisor>96551880-0</RutEmisor>
+      <RutEnvia>96551880-0</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2005-11-10</FchResol>
+      <NroResol>122</NroResol>
+      <TmstFirmaEnv>2023-06-12T16:14:36</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>34</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F613742T34">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>34</TipoDTE>
+            <Folio>613742</Folio>
+            <FchEmis>2023-06-12</FchEmis>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>96551880-0</RUTEmisor>
+            <RznSoc>DHL GLOBAL FORWARDING (CHILE) S.A.</RznSoc>
+            <GiroEmis>EMBARCADORES INTERNACIONALES</GiroEmis>
+            <Acteco>602290</Acteco>
+            <Sucursal>Blvd. Poniente 1313</Sucursal>
+            <DirOrigen>AV. DEL PARQUE 4161 OF. 203 CIUDAD EMPRESARIAL</DirOrigen>
+            <CmnaOrigen>HUECHURABA</CmnaOrigen>
+            <CiudadOrigen>SANTIAGO</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76245828-4</RUTRecep>
+            <CdgIntRecep>76245828-4</CdgIntRecep>
+            <RznSocRecep>PORSCHE CHILE SPA</RznSocRecep>
+            <GiroRecep>SOCIEDADES DE INVERSION Y RENTISTAS</GiroRecep>
+            <DirRecep>AV APOQUINDO 5400 PISO 20</DirRecep>
+            <CmnaRecep>LAS CONDES</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>0</MntNeto>
+            <MntExe>210981</MntExe>
+            <MntTotal>210981</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>TERMINAL HANDLING EN ORIGEN - FF</NmbItem>
+          <DscItem>TERMINAL HANDLING EN ORIGEN - FF</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>12691.000000</PrcItem>
+          <OtrMnda>
+            <PrcOtrMon>15.000000</PrcOtrMon>
+            <Moneda>EUR</Moneda>
+            <MontoItemOtrMnda>15.0000</MontoItemOtrMnda>
+          </OtrMnda>
+          <MontoItem>12691</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <NmbItem>Flete Internacional</NmbItem>
+          <DscItem>Flete Internacional</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>198290.000000</PrcItem>
+          <OtrMnda>
+            <PrcOtrMon>234.300000</PrcOtrMon>
+            <Moneda>EUR</Moneda>
+            <MontoItemOtrMnda>234.3600</MontoItemOtrMnda>
+          </OtrMnda>
+          <MontoItem>198290</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>96551880-0</RE>
+            <TD>34</TD>
+            <F>613742</F>
+            <FE>2023-06-12</FE>
+            <RR>76245828-4</RR>
+            <RSR>PORSCHE CHILE SPA</RSR>
+            <MNT>210981</MNT>
+            <IT1>TERMINAL HANDLING EN ORIGEN - FF</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>96551880-0</RE>
+                <RS>DHL GLOBAL FORWARDING (CHILE) S.A.</RS>
+                <TD>34</TD>
+                <RNG>
+                  <D>565000</D>
+                  <H>664999</H>
+                </RNG>
+                <FA>2019-06-17</FA>
+                <RSAPK>
+                  <M>zZKh+u/1jf3v4SCe2TQpXinmSRo27hFM1VbQwxglH3bKg3FEMZOGdoR2Cfm4yc4ESmajIU5fcA1+rcW57eY61w==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">k81Vm1w/XZXEx1h+cfkN2dy8ElhTB7bQCEpviRYbLkjx4SgKFGiB+MXpVUrDjB6XSxAhOa4wE415QUjW1vlp/Q==</FRMA>
+            </CAF>
+            <TSTED>2023-06-12T16:14:36</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">PhESUHYdZYGNqrLwS06+iMmCBfKFlgD+nWJc8eHNg1acgqtuPY91fwYYRz4qlom++vnKqrgCt+3zJ0ue2q23iA==</FRMT>
+        </TED>
+        <TmstFirma>2023-06-12T16:14:40</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F613742T34"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eNzgLoyZo3Ckd9ohUuL8f2qydOE=</DigestValue></Reference></SignedInfo><SignatureValue>
+MYXPj/Z6MVkCDAoMGxNg7IdXOD/UdWUTHQfvNT46qNp1HBmj3coFsJfukxtAgrIl
+Di80e3Pkv7sJxhyP+xsNm+zQmmiVzHbT2CVqeDIE19hulIXJhc2lw/NNPZNnLcNc
+QBGOeErtKKQrc0vUv06VTWgyUsiP/5ajguLmLUmXF69L/GkDCrxGo2FiWEGdE5MU
+RWNWqn2ycBltG0epio2ZQ8i2et/7zW2uWxLMhnV0ohkst2b/2ZpOuDqeaXm5Monq
+jhEfN2XLXiZYQPpl/fiLQgjRX3leQ38d96D5/2s2M0qAzduaoT9rEua7a3hpUy1N
+vJrZ35RMX+Z8qGf6l0WXLQ==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+ijqWYl4d173C5n70f3MTJQlU3bkbU/neh7rgbXP43B9AfNCQQy8SMdpCJHadGhHK
+Lhy21fqhi8asPebTVzjubVQ8tpw3I8vyTS7jGTUBrL4AQ+ArkLfL48L1R0TNRnAy
+mXAmYORcfwBKnMNI+T+sb0ZlVB2Py440brhlNp8DoP5uPR7YNdlkPd0tbNq+Ddq7
+Joqvb1urLfPiEz1QJnXy3GzIZvjvgzLfb6RmeBkypRALU5iWhJ8Mmy+DfBWW46H2
+XyicVKg96IgKe+2p01y2vIcfcWJLXXWSEyroYvUZyptHDKMuydaCpxMz+sYNMjJP
+1R3pt65e788HVtEPwtzASQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGRzCCBS+gAwIBAgIIFC+Dfi2SZzIwDQYJKoZIhvcNAQELBQAwga8xCzAJBgNV
+BAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2Yg
+dXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJkb3RlcmNlcm9zMSswKQYDVQQD
+DCJFLVNpZ24gQ2xhc3MgMiBGaXJtYSBUcmlidXRhcmlhIENBMSIwIAYJKoZIhvcN
+AQkBFhNlLXNpZ25AZXNpZ24tbGEuY29tMB4XDTIzMDMwNzEzNTcwMFoXDTI2MDMw
+NjEzNTcwMFowgaYxCzAJBgNVBAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5
+MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJk
+b3RlcmNlcm9zMSAwHgYDVQQDDBdBTEJFUlRPIE9MVFJBIFRST0lHQUFSRDEkMCIG
+CSqGSIb3DQEJARYVYWxiZXJ0by5vbHRyYUBkaGwuY29tMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAijqWYl4d173C5n70f3MTJQlU3bkbU/neh7rgbXP4
+3B9AfNCQQy8SMdpCJHadGhHKLhy21fqhi8asPebTVzjubVQ8tpw3I8vyTS7jGTUB
+rL4AQ+ArkLfL48L1R0TNRnAymXAmYORcfwBKnMNI+T+sb0ZlVB2Py440brhlNp8D
+oP5uPR7YNdlkPd0tbNq+Ddq7Joqvb1urLfPiEz1QJnXy3GzIZvjvgzLfb6RmeBky
+pRALU5iWhJ8Mmy+DfBWW46H2XyicVKg96IgKe+2p01y2vIcfcWJLXXWSEyroYvUZ
+yptHDKMuydaCpxMz+sYNMjJP1R3pt65e788HVtEPwtzASQIDAQABo4ICbDCCAmgw
+gYAGCCsGAQUFBwEBBHQwcjBKBggrBgEFBQcwAoY+aHR0cDovL3BraS5lc2lnbi1s
+YS5jb20vY2FjZXJ0cy9wa2lDbGFzczJGaXJtYVRyaWJ1dGFyaWFDQS5jcnQwJAYI
+KwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmVzaWduLWxhLmNvbTAdBgNVHQ4EFgQU8WHs
+FwvvAFlSCeCuE29vmXvwdFMwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT5SvrC
+x27C5xKcV0U1hBptKOlKpDCByAYDVR0gBIHAMIG9MIG6BgwrBgEEAYLKagEEAQIw
+gakwfgYIKwYBBQUHAgIwch5wAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAHAAYQBy
+AGEAIAB1AHMAbwAgAFQAcgBpAGIAdQB0AGEAcgBpAG8ALAAgAEMAbwBtAGUAcgBj
+AGkAbwAsACAAUABhAGcAbwBzACAAeQAgAE8AdAByAG8AczAnBggrBgEFBQcCARYb
+aHR0cDovL3d3dy5lc2lnbi1sYS5jb20vY3BzMFEGA1UdHwRKMEgwRqBEoEKGQGh0
+dHA6Ly9wa2kuZXNpZ24tbGEuY29tL2NybC9wa2lDbGFzczJGaXJtYVRyaWJ1dGFy
+aWEvZW5kdXNlci5jcmwwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUF
+BwMCBggrBgEFBQcDBDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjE0NzQzOTQ1
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5OTU1MTc0MC1LMA0GCSqGSIb3
+DQEBCwUAA4IBAQADeBlyuDN+OywfLfSwuoNz7QkYiKcycYLW/AVakSW3f0mPI4ng
+RKuRu9ZM84ab1RdClpRAWkJjftrjjSpiG4CI8iSRzyXLPv4nhdCcbdU4TNeSPHX2
+WjAI6Tu/IVCXcpN+jR6x1eb98V+hpgBk9ga4EbyQGyIKbgpa+3OEDHQnsMj0xyzn
+qyKPELRLChJtEUo/MgvRXpwhhE8I49J+SSU+wtUMbtxBGbWjH+hPDt61gPv6Gews
+0DKhQy/J2ofAjD+/RLMKZ8AqBufktLX64DxkrXkwSdXUp+iQN7NAdlCskof0orjY
+HCXcDyjTRHSAhIUUpAMzrxlUjTr0QS2SKV3g
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

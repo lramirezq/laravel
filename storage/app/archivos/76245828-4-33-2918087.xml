@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTE54cd3249f38e4ef29630a8ff310f27b3">
+    <Caratula version="1.0">
+      <RutEmisor>92011000-2</RutEmisor>
+      <RutEnvia>92011000-2</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2009-08-12</FchResol>
+      <NroResol>118</NroResol>
+      <TmstFirmaEnv>2023-04-18T20:59:01</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>33</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F2918087T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>2918087</Folio>
+            <FchEmis>2023-04-17</FchEmis>
+            <FmaPago>2</FmaPago>
+            <FchVenc>2023-05-17</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>92011000-2</RUTEmisor>
+            <RznSoc>EMPRESA NACIONAL DE ENERGIA ENEX S.A.</RznSoc>
+            <GiroEmis>PRODUCTOS DEL PETROLEO</GiroEmis>
+            <Acteco>519000</Acteco>
+            <DirOrigen>AV. DEL CONDOR SUR 520 CIUDAD EMPRESARIAL</DirOrigen>
+            <CmnaOrigen>HUECHURABA</CmnaOrigen>
+            <CiudadOrigen>SANTIAGO</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76245828-4</RUTRecep>
+            <RznSocRecep>PORSCHE CHILE SPA</RznSocRecep>
+            <GiroRecep>REPARAC. Y MANTENC. DE VEHICULOS</GiroRecep>
+            <DirRecep>AVE  APOQUINDO No. 5400</DirRecep>
+            <CmnaRecep>LAS CONDES</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>655295</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>124506</IVA>
+            <ImptoReten>
+              <TipoImp>28</TipoImp>
+              <MontoImp>200945</MontoImp>
+            </ImptoReten>
+            <MntTotal>980746</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>DIXTRA</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>001</VlrCodigo>
+          </CdgItem>
+          <NmbItem>SD Extra Petr�leo Diesel G-A1</NmbItem>
+          <QtyItem>882.000000</QtyItem>
+          <UnmdItem>LT</UnmdItem>
+          <PrcItem>733.757400</PrcItem>
+          <CodImpAdic>28</CodImpAdic>
+          <MontoItem>647174</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>Z-AJUSTE</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>QBLI</TpoCodigo>
+            <VlrCodigo>002</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Cargo o Descuento Shellcard</NmbItem>
+          <QtyItem>1.000000</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>8121.000000</PrcItem>
+          <MontoItem>8121</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <NmbItem>IE $/L DSF al 13/04/23 Base 93,5820 Variable 134,2465 882 UN</NmbItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <NmbItem>32380309</NmbItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>52</TpoDocRef>
+          <FolioRef>32380309</FolioRef>
+          <FchRef>2023-04-14</FchRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>92011000-2</RE>
+            <TD>33</TD>
+            <F>2918087</F>
+            <FE>2023-04-17</FE>
+            <RR>76245828-4</RR>
+            <RSR>PORSCHE CHILE SPA</RSR>
+            <MNT>980746</MNT>
+            <IT1>SD Extra Petr�leo Diesel G-A1</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>92011000-2</RE>
+                <RS>EMPRESA NACIONAL DE ENERGIA ENEX S.A.</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>2913768</D>
+                  <H>2973767</H>
+                </RNG>
+                <FA>2023-03-29</FA>
+                <RSAPK>
+                  <M>1L26ssm61yCnfP3m8QWsTih6sL7EkAo6C+pLF3sHhBcBAVI3s+VQOuKME40gXXPJq/7SHj0Q0ayl1TLlxyibmQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">R83A2F8YF/gi5zolKVnLo0AjoH4DJqAHACYFxjg2v4kGVNsIVm9O5BQiLj9qtSAnWFQZW405mPk+flbGHuH18A==</FRMA>
+            </CAF>
+            <TSTED>2023-04-18T20:59:01</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">MPqzrttpqa8hZg6w/n2/ryEW/QtmaAi+n9RaL4cZXM26zQeeHK8BdTyPGGM/NN8TvDZooVphIYf24QBCBHdHiA==</FRMT>
+        </TED>
+        <TmstFirma>2023-04-18T20:59:12</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F2918087T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UPxRAaFhMUQ5uMjMdD6IUNw3ll0=</DigestValue></Reference></SignedInfo><SignatureValue>
+uoJyzSjF4no6Ye8ToopbkFsSvvGsG2U5RZhQouCtpbegfOTzT52PV/+ixFz5aA02
+7iFvLRKHkUUjpiZMPMIuKmgAd4K5U8kGPBBoSdN3jsDbo3XcaN0Bses8ugX0xup3
++bL4eseBu3HXz5lk4Ss1JZ9o1idOnFEQ/l86lS/pzQM38WAt0OkxTmWFFKehXlxU
+KSI8qrHL/xp3YAOT+Rifioaadg0OirYe1juVF+ety9pdIn+OTqZAR+ophQu/vzDl
+f7yDoUss0lTTx1dpKuO0SGGnaAAi6DEcjj/gu3b08a2T89ieQQg6L/4xWtSaKstM
+FJAnTPqj8EYB5ykL0Kc9XA==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+usPCvnroHTih0Zq+XIr5+uSSNjKm/fbFr4+bOod6plHZjUiXv371RkbeplcPnHAW
+sziJh5dSZV9t7sVJcXWrtCtocpE64LyEhj4e0NOyJN+agZTiRsw48TPX6zVmoMY9
+FkbApndOAYtMfRoZ+bXjDPjwcP4Hz1SZePAbQQ4G1B4ZGCG6cqQERv06gu3rMA6q
+xzR9ymPREL6CZlbZor8nBmCOHfwgwoCr2A7RQPI6PY7BJczYgumKeZvRLcTEUJYP
+JkvypmAJGN2ccf1GSZbEj5gwaPumuUO2Z4dMPjTOOixk812sz6VSGg6G9sCZzXgm
+WP6x5RG8Uu6WKaSuO0DU7Q==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGRjCCBS6gAwIBAgIINwdHByfx1pswDQYJKoZIhvcNAQELBQAwga8xCzAJBgNV
+BAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2Yg
+dXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJkb3RlcmNlcm9zMSswKQYDVQQD
+DCJFLVNpZ24gQ2xhc3MgMiBGaXJtYSBUcmlidXRhcmlhIENBMSIwIAYJKoZIhvcN
+AQkBFhNlLXNpZ25AZXNpZ24tbGEuY29tMB4XDTIzMDIyMzIwMDUwMFoXDTI1MDIy
+MjIwMDUwMFowgaUxCzAJBgNVBAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5
+MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJk
+b3RlcmNlcm9zMRwwGgYDVQQDDBNKYW5ldHQgTGFyYSAgQ2VpamFzMScwJQYJKoZI
+hvcNAQkBFhhqYW5ldHQubGFyYUBnb3NvY2tldC5uZXQwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQC6w8K+eugdOKHRmr5civn65JI2Mqb99sWvj5s6h3qm
+UdmNSJe/fvVGRt6mVw+ccBazOImHl1JlX23uxUlxdau0K2hykTrgvISGPh7Q07Ik
+35qBlOJGzDjxM9frNWagxj0WRsCmd04Bi0x9Ghn5teMM+PBw/gfPVJl48BtBDgbU
+HhkYIbpypARG/TqC7eswDqrHNH3KY9EQvoJmVtmivycGYI4d/CDCgKvYDtFA8jo9
+jsElzNiC6Yp5m9EtxMRQlg8mS/KmYAkY3Zxx/UZJlsSPmDBo+6a5Q7Znh0w+NM46
+LGTzXazPpVIaDob2wJnNeCZY/rHlEbxS7pYppK47QNTtAgMBAAGjggJsMIICaDCB
+gAYIKwYBBQUHAQEEdDByMEoGCCsGAQUFBzAChj5odHRwOi8vcGtpLmVzaWduLWxh
+LmNvbS9jYWNlcnRzL3BraUNsYXNzMkZpcm1hVHJpYnV0YXJpYUNBLmNydDAkBggr
+BgEFBQcwAYYYaHR0cDovL29jc3AuZXNpZ24tbGEuY29tMB0GA1UdDgQWBBQyF41N
+BjkDRZboLRp8md1pdyMoozAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFPlK+sLH
+bsLnEpxXRTWEGm0o6UqkMIHIBgNVHSAEgcAwgb0wgboGDCsGAQQBgspqAQQBAjCB
+qTB+BggrBgEFBQcCAjByHnAAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIA
+YQAgAHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbwAsACAAQwBvAG0AZQByAGMA
+aQBvACwAIABQAGEAZwBvAHMAIAB5ACAATwB0AHIAbwBzMCcGCCsGAQUFBwIBFhto
+dHRwOi8vd3d3LmVzaWduLWxhLmNvbS9jcHMwUQYDVR0fBEowSDBGoESgQoZAaHR0
+cDovL3BraS5lc2lnbi1sYS5jb20vY3JsL3BraUNsYXNzMkZpcm1hVHJpYnV0YXJp
+YS9lbmR1c2VyLmNybDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUH
+AwIGCCsGAQUFBwMEMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMjMzOTQ0MjEt
+MTAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk5NTUxNzQwLUswDQYJKoZIhvcN
+AQELBQADggEBAETqWiWEXSgBshb1GadrRnXhuviOb8izEwYvRLcJYAYFO1ZJ3vDD
+E8MlGNh/QExLRNFHUbr4tJqG4lSjSiWmBJ426mXoJKub70MySod+YFgqrXaiVSmF
+xkCSzM69BwPyFnN0W87KdbuIcfi7A3KJD2MLaxjPE+1LWiq6Gm1kKXJtSam+A2NO
+7cpqRqmwq8y2Wnx2Pjd23Vz8GzPdO9Hx5iu74S+PU/6d9rDd/N5zb/MP2Z1gF6ok
+1pJwpUHEePKrjFETljeVQ18XEJ61oeSoaiOhOdETcjHDyQjPOPZhWikap+EPw3Lu
+DQcPtOO96jy8cMM/q8ZWwLll4nVdEA77fd4=
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

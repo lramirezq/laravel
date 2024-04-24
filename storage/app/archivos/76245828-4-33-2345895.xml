@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTE3bfdc502c3e941249abea6b4902cd40e">
+    <Caratula version="1.0">
+      <RutEmisor>76178493-5</RutEmisor>
+      <RutEnvia>76178493-5</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2013-05-16</FchResol>
+      <NroResol>48</NroResol>
+      <TmstFirmaEnv>2023-02-27T20:56:09</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>33</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F2345895T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>2345895</Folio>
+            <FchEmis>2023-02-27</FchEmis>
+            <FmaPago>2</FmaPago>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76178493-5</RUTEmisor>
+            <RznSoc>Porsche Inter Auto Chile SpA</RznSoc>
+            <GiroEmis>COMPRA, VENTA Y DISTRIBUCION DE VEHICULOS</GiroEmis>
+            <Acteco>501010</Acteco>
+            <DirOrigen>Raul Labbe 12509</DirOrigen>
+            <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76245828-4</RUTRecep>
+            <RznSocRecep>Porsche Chile SpA</RznSocRecep>
+            <GiroRecep>VENTA AL POR MAYOR VEHICULO AUTOMOTORES</GiroRecep>
+            <Contacto>+56981069093-0223224435-</Contacto>
+            <DirRecep>Apoquindo 5400, piso 20</DirRecep>
+            <CmnaRecep>Las Condes (13)</CmnaRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>65676</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>12478</IVA>
+            <MntTotal>78154</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>TP-10</NmbItem>
+          <DscItem>TIPO DE VEHICULO : CHASIS CABINADO--VIN : 953658242PR029513</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <NmbItem>LABOUR</NmbItem>
+          <DscItem>Mano de Obra</DscItem>
+          <QtyItem>1.800000</QtyItem>
+          <PrcItem>32320.000000</PrcItem>
+          <MontoItem>58176</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <NmbItem>MATERIAL</NmbItem>
+          <DscItem>Repuestos</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>7500.000000</PrcItem>
+          <MontoItem>7500</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <NmbItem>Panol</NmbItem>
+          <DscItem>Panol( $ 8925.00 )</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>801</TpoDocRef>
+          <FolioRef>76587</FolioRef>
+          <FchRef>2023-02-14</FchRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>76178493-5</RE>
+            <TD>33</TD>
+            <F>2345895</F>
+            <FE>2023-02-27</FE>
+            <RR>76245828-4</RR>
+            <RSR>Porsche Chile SpA</RSR>
+            <MNT>78154</MNT>
+            <IT1>TP-10</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76178493-5</RE>
+                <RS>PORSCHE INTER AUTO CHILE SPA</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>2339800</D>
+                  <H>2349799</H>
+                </RNG>
+                <FA>2022-12-26</FA>
+                <RSAPK>
+                  <M>0tX3EGlwKRFpGrp2uXAmqcIFKDO+fTH+TiY51uIQ9qrbr22VdPpr+EMXBzq9082L8moSm0bcindIQQaLScKDvQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">E8RHUwXyfKoBbWTntm7gRZOETdIfnLJoL0JQo42NmOatVJcOFmo7OZCkEQXZXARO6IeUSzzFpBFfosa0l6UKJA==</FRMA>
+            </CAF>
+            <TSTED>2023-02-27T20:56:09</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">IJc+LzKvQIrW5qchqnq6dYs/BWJuev06KMrKW6FRZjFG/gjYqVQVWK6B0tCm/gAIrpqszYHn8hCqhfh0dDlvNQ==</FRMT>
+        </TED>
+        <TmstFirma>2023-02-27T20:56:09</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F2345895T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>P+cKvrNbcymgwmeNWNNWiK0xrqk=</DigestValue></Reference></SignedInfo><SignatureValue>
+VKAKqYEh2wvrbevvoOuGKBKiemlwXGkUt76Hy+UjGwcxtagySdDTabKQWm8IDAh4
++ZkV6udiCGiCBaBviNeu1scgVwhL5x2gYPf9iVewevDkvOc2Diwn5BZbNj78NbII
+NFCqfYlo8bvqJE2beR8akl/XDRu0mooVzMeWlvy2SZsuTCEooqgJI0E9uzOG50MV
++bWEkYISt3F3nucS2Y4IFFNu51/1giwC5qNlTFLZcA0ciEogKH+ZWWEc5u/TsH5M
+5ilP3FZXt76PGhSc3jxebe3hko6upeNblZnlcPvIpjuSO1xK9Yg958YC/TpRgRrX
+L6ldjy+TznJZd357MU8AAw==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+wwtU4RaeYEt2QvuoY0+np93B01Cg/LQ76wFqhGsEjJO8utwre6V4/rnjKfWNq3i8
+Bj0xlIXizA0CZQzY8EFUeQJ25FpkpoYfb18FmY9HlEfkZ6WlW95Z727fOfL85+7c
+UoBHm+rM1MAesGwxesXC0e5mrDnaAQmG0AGAlorICe4kozgcoEL80H0rUAsPuEx3
+NfXhwXZUhL5pc8I5x6sH/R+CHe6pXi2nZ/kvbH/nii5bcujtkfx+lyxjC/xXa4/H
+pnkqCUhwULiEodlnCXXstke/ygq1sXD9GeGWPBYbwgNkmA3g8Vdq20rZjJcVjb4e
+1yhdjwzik30sKTZ/L1wWPw==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGjDCCBXSgAwIBAgIDAOQ1MA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yMTA1MDUxNTI3MDBaFw0yNDA1MDUxNTI3MDBaMIGTMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSUwIwYDVQQDExxQ
+QUJMTyBBTlRPTklPIEVTUElOT1pBIEJSQVZPMS4wLAYJKoZIhvcNAQkBFh9QQUJM
+Ty5FU1BJTk9aQUBQT1JTQ0hFLUNISUxFLkNMMRMwEQYDVQQFEwoxNjA2OTQyNC02
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwwtU4RaeYEt2QvuoY0+n
+p93B01Cg/LQ76wFqhGsEjJO8utwre6V4/rnjKfWNq3i8Bj0xlIXizA0CZQzY8EFU
+eQJ25FpkpoYfb18FmY9HlEfkZ6WlW95Z727fOfL85+7cUoBHm+rM1MAesGwxesXC
+0e5mrDnaAQmG0AGAlorICe4kozgcoEL80H0rUAsPuEx3NfXhwXZUhL5pc8I5x6sH
+/R+CHe6pXi2nZ/kvbH/nii5bcujtkfx+lyxjC/xXa4/HpnkqCUhwULiEodlnCXXs
+tke/ygq1sXD9GeGWPBYbwgNkmA3g8Vdq20rZjJcVjb4e1yhdjwzik30sKTZ/L1wW
+PwIDAQABo4IC0jCCAs4wHwYDVR0jBBgwFoAUqv29xek3TfaZTVeOwXEa+evDBuMw
+HQYDVR0OBBYEFNUK5N9RRapskgcqmS1BUfiAYoGRMAsGA1UdDwQEAwIE8DAdBgNV
+HSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4QgEBBAQDAgWgMIH6
+BgNVHSAEgfIwge8wgewGCCsGAQQBtWsCMIHfMDEGCCsGAQUFBwIBFiVodHRwczov
+L2FjZzQuYWNlcHRhLmNvbS9DUFMtQWNlcHRhY29tMIGpBggrBgEFBQcCAjCBnDAW
+Fg9BY2VwdGEuY29tIFMuQS4wAwIBAhqBgUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxp
+ZGFkbyBlbiBmb3JtYSBwcmVzZW5jaWFsLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVs
+IENlcnRpZmljYWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBjb21lcmNp
+byB5IG90cm9zLjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTig
+JAYIKwYBBQUHCAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2Vw
+dGEuY29tMGoGA1UdEQRjMGGgGAYIKwYBBAHBAQGgDBYKMTYwNjk0MjQtNqAkBggr
+BgEFBQcIA6AYMBYMCjE2MDY5NDI0LTYGCCsGAQQBwQECgR9QQUJMTy5FU1BJTk9a
+QUBQT1JTQ0hFLUNISUxFLkNMMEcGCCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYr
+aHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9vY3NwL0NsYXNlMy1HNDA/BgNV
+HR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9D
+bGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQAsY6/hKXGvFxPoyOllptnM
+Yt+PZ5lJluheDiQiJnk/PjBpvRfXyVX4EsX3trdtiVJrSECqzkHAlCWyYXtm2u5t
+KtN8Y5E0p05xRpEH52fwIia7aigJmMOW5WPaQ7yrNmGtFLy13WZzOA0jGMz3wUGD
+GankE4B39T0LZJ5eNFcIz183QLMYf9rmBS7wyzBkOz+plWJGzkTOMgD1sIsRPkSG
+pLHhYc2k7s841NM8RnDZSKck5KgGKgH+FqieDZvKpvM9ktcMuDL44F0a/M3H6M/x
++Z0ZUz4RGpd6sVoXcxeXyguOcDM0zx0xj+biWNbe1GFAmyDSjMCsq1uPMWX7hqiI
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

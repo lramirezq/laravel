@@ -16,11 +16,11 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
       
-        $schedule->command('app:get-received-document')->everyThreeMinutes();
-        $schedule->command('app:download-xml')->everyThreeMinutes();
-        $schedule->command('app:download-pdf ')->everyThreeMinutes();
-        $schedule->command('app:copy-to-sftp')->everyThreeMinutes();
-        $schedule->command('app:confirm-go-socket')->everyThreeMinutes();
+        $schedule->command('app:get-received-document')->everyFiveMinutes();
+        $schedule->command('app:download-xml')->everyTenMinutes();
+        $schedule->command('app:download-pdf ')->everyEigthMinutes();
+        $schedule->command('app:copy-to-sftp')->everyFifteenMinutes();
+        $schedule->command('app:confirm-go-socket')->everyFifteenMinutes();
  
     }
 

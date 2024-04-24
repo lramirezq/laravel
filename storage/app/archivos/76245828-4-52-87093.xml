@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+    <SetDTE ID="EC20230930184014">
+        <Caratula version="1.0">
+            <RutEmisor>76470970-5</RutEmisor>
+            <RutEnvia>13171884-5</RutEnvia>
+            <RutReceptor>76245828-4</RutReceptor>
+            <FchResol>2006-08-03</FchResol>
+            <NroResol>94</NroResol>
+            <TmstFirmaEnv>2023-09-30T18:40:14</TmstFirmaEnv>
+            <SubTotDTE>
+                <TpoDTE>52</TpoDTE>
+                <NroDTE>1</NroDTE>
+            </SubTotDTE>
+        </Caratula>
+    <DTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Documento ID="F87093T52">
+        <Encabezado>
+            <IdDoc>
+                <TipoDTE>52</TipoDTE>
+                <Folio>87093</Folio>
+                <FchEmis>2023-09-12</FchEmis>
+                <TipoDespacho>1</TipoDespacho>
+                <IndTraslado>6</IndTraslado>
+            </IdDoc>
+            <Emisor>
+                <RUTEmisor>76470970-5</RUTEmisor>
+                <RznSoc>AG.DE ADUANA JORGE CORREA B. Y CIA. LTDA.</RznSoc>
+                <GiroEmis>AGENCIA DE ADUANAS</GiroEmis>
+                <Acteco>71912</Acteco>
+                <DirOrigen>PUDAHUEL</DirOrigen>
+                <CmnaOrigen>PUDAHUEL</CmnaOrigen>
+                <CiudadOrigen>AEROP.A.M.BENIT</CiudadOrigen>
+            </Emisor>
+            <Receptor>
+                <RUTRecep>76245828-4</RUTRecep>
+                <RznSocRecep>PORSCHE CHILE SPA.</RznSocRecep>
+                <GiroRecep>SOC.INVERSIONES, IMPORTACION DISTRIBUCIO</GiroRecep>
+                <DirRecep>AVDA. APOQUINDO NO.5400, OF.2001,PISOS 19 Y 20</DirRecep>
+                <CmnaRecep>LAS CONDES</CmnaRecep>
+                <CiudadRecep>SANTIAGO</CiudadRecep>
+            </Receptor>
+            <Transporte>
+                <RUTTrans>5783125-1</RUTTrans>
+            </Transporte>
+            <Totales>
+                <MntTotal>0</MntTotal>
+            </Totales>
+        </Encabezado>
+        <Detalle>
+            <NroLinDet>1</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTSG</TpoCodigo>
+                <VlrCodigo>CONT</VlrCodigo>
+            </CdgItem>
+            <IndExe>4</IndExe>
+            <NmbItem>ROTULADO
+PARCIAL 1/2 - 82.00 KGS.</NmbItem>
+            <DscItem>ROTULADO
+PARCIAL 1/2 - 82.00 KGS.
+2P0198149       ; JUEGO PIEZAS EMBRAGUE; VOLKSWAGE</DscItem>
+            <QtyItem>1</QtyItem>
+            <OtrMnda>
+                <PrcOtrMon>548.28</PrcOtrMon>
+                <Moneda>013</Moneda>
+                <FctConv>857.59</FctConv>
+            </OtrMnda>
+            <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+            <NroLinDet>2</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTSG</TpoCodigo>
+                <VlrCodigo>BULTO</VlrCodigo>
+            </CdgItem>
+            <IndExe>4</IndExe>
+            <NmbItem>CAJA DE CARTON</NmbItem>
+            <DscItem>ROTULADO
+PARCIAL 1/2 - 82.00 KGS.</DscItem>
+            <QtyItem>4</QtyItem>
+            <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+            <NroLinDet>3</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTSG</TpoCodigo>
+                <VlrCodigo>BULTO</VlrCodigo>
+            </CdgItem>
+            <IndExe>4</IndExe>
+            <NmbItem>PALLET</NmbItem>
+            <DscItem>ROTULADO
+PARCIAL 1/2 - 82.00 KGS.</DscItem>
+            <QtyItem>1</QtyItem>
+            <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+            <NroLinDet>4</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTSG</TpoCodigo>
+                <VlrCodigo>DA52</VlrCodigo>
+            </CdgItem>
+            <NmbItem>DATOS ADJUNTOS</NmbItem>
+            <DscItem>PATENTE=
+DESPACHO=119073
+NUMACEPTA_DI=6450119073-8
+REF_CLIE=VWRCA-6577/2023
+PESO_BRUTO=36.15
+NOMBRE_ADUANA=METROPOLITANA
+NOMBRE_CHOFER=
+FECHA_ACEPTADI=2023-09-07
+NOMBRE_NAVE=
+TIPO_VEHICULO=
+ID_CEMB=1423-0924626
+AFORO=
+MAN1=1016120
+RUT_CHOFER=
+LUGAR_ENTREGA=NOVICIADO N 3707 KM. 3,5 PUDAHUEL NOVICIADO N 3707 KM. 3,5 PUDAHUEL
+PARCIAL_SN=N
+OBSERVACIONES=DESPACHO PARCIAL 119073-119074
+NOMBRE_CIAT=VICTOR HUGO ALBORNOZ</DscItem>
+            <QtyItem>1</QtyItem>
+            <MontoItem>0</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+            <DD>
+                <RE>76470970-5</RE>
+                <TD>52</TD>
+                <F>87093</F>
+                <FE>2023-09-12</FE>
+                <RR>76245828-4</RR>
+                <RSR>PORSCHE CHILE SPA.</RSR>
+                <MNT>0</MNT>
+                <IT1>ROTULADO
+PARCIAL 1/2 - 82.00 KGS.</IT1>
+                <CAF version="1.0">
+                    <DA>
+                        <RE>76470970-5</RE>
+                        <RS>AGENCIA DE ADUANAS JORGE MANUEL CORREA B</RS>
+                        <TD>52</TD>
+                        <RNG>
+                            <D>83701</D>
+                            <H>1233700</H>
+                        </RNG>
+                        <FA>2023-02-17</FA>
+                        <RSAPK>
+                            <M>yrWjZKU1/P3pOJBvOANpNJtu2RGXL1ASwwOPjT3+qPFpRoR8tZhylPbgAR1EzJSjw4FEc+IToSj2VJsSLOR4dw==</M>
+                            <E>Aw==</E>
+                        </RSAPK>
+                        <IDK>300</IDK>
+                    </DA>
+                    <FRMA algoritmo="SHA1withRSA">JlbMhsMJ0u2Rja8iFPcHW5JU74KDg7AX3rYeoszrEf53J7tvlKjlVgZpV688RJ8dIlhQKvTOHpD+ADIkKA8hnw==</FRMA>
+                </CAF>
+                <TSTED>2023-09-12T11:14:10</TSTED>
+            </DD>
+            <FRMT algoritmo="SHA1withRSA">eDggEXPT58RqERhT6VsClnJBRsc/MZgE8K1UqEuxu1unxGsHpyYYWVmbUXHe4OdBSqI80UM+fx0rzhbRFgOn7g==</FRMT>
+        </TED>
+        <TmstFirma>2023-09-12T11:14:10.283</TmstFirma>
+    </Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#F87093T52">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>qK0quwuRzl0L8MGkebfg09ridtg=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+Fo2hu3DR0Bt1L4DYQscl0fz2U4H2Bou7E+TvpN+Nf1pQ6wFEbeV0mfoZbmasZk3L4umz5bQwaGT0
+tZTGpeHgRPseZlsNeFNtLySljd+cRI7ZpZhe/GS6OGtBpVfPX3Fcs4ZUpI7RqVDYtPHEr0oZ8Mm8
+1eBn1yM1IKjXFK6FuD8=
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>lY7o4IqDi7A8vNCedSNF8Zn9u6VjPQd6l5JtbPF0nLEsPOi8CrTDiAC480iK2RnTLGjs2TbMxYD3
+3sadRPUF35NrsQyFJ6wi+W7oGeqgOoYlDPDAj5UNp6+YIeOktbNIBuTuc4PYsLFC5vngSZq826X1
+XvEGmDAXCRwuhl4f88k=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGWDCCBUCgAwIBAgIKHcrB5AAAABUNvzANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0yMTA1MTAxODE3NTRaFw0yNDA1MDkxODE3NTRa
+MIHZMQswCQYDVQQGEwJDTDETMBEGA1UECBMKVkFMUEFSQUlTTzEUMBIGA1UEBwwLVkFMUEFSQcON
+U08xPjA8BgNVBAoMNUFHRU5DSUEgREUgQURVQU5BUyBKT1JHRSBDT1JSRUEgQkVDRVJSQSBZIEPD
+jUEuIExUREEuMQowCAYDVQQLDAEqMSQwIgYDVQQDExtKT1JHRSBNQU5VRUwgQ09SUkVBIEJFQ0VS
+UkExLTArBgkqhkiG9w0BCQEWHkpPUkdFLkNPUlJFQUBBR0VOQ0lBQ09SUkVBLkNPTTCBnzANBgkq
+hkiG9w0BAQEFAAOBjQAwgYkCgYEAlY7o4IqDi7A8vNCedSNF8Zn9u6VjPQd6l5JtbPF0nLEsPOi8
+CrTDiAC480iK2RnTLGjs2TbMxYD33sadRPUF35NrsQyFJ6wi+W7oGeqgOoYlDPDAj5UNp6+YIeOk
+tbNIBuTuc4PYsLFC5vngSZq826X1XvEGmDAXCRwuhl4f88kCAwEAAaOCAqkwggKlMIIBTwYDVR0g
+BIIBRjCCAUIwggE+BggrBgEEAcNSBTCCATAwLQYIKwYBBQUHAgEWIWh0dHA6Ly93d3cuZS1jZXJ0
+Y2hpbGUuY2wvQ1BTLmh0bTCB/gYIKwYBBQUHAgIwgfEege4ARQBsACAAcgBlAHMAcABvAG4AZABl
+AHIAIABlAHMAdABlACAAZgBvAHIAbQB1AGwAYQByAGkAbwAgAGUAcwAgAHUAbgAgAHIAZQBxAHUA
+aQBzAGkAdABvACAAaQBuAGQAaQBzAHAAZQBuAHMAYQBiAGwAZQAgAHAAYQByAGEAIABkAGEAcgAg
+AGkAbgBpAGMAaQBvACAAYQBsACAAcAByAG8AYwBlAHMAbwAgAGQAZQAgAGMAZQByAHQAaQBmAGkA
+YwBhAGMAaQDzAG4ALgAgAFAAbwBzAHQAZQByAGkAbwByAG0AZQBuAHQAZQAsMB0GA1UdDgQWBBSy
+n+Udb6imi5duXMljdFqjfTNqmDALBgNVHQ8EBAMCBPAwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAM
+FgowNTQxNDY4OS0yMB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUw
+M6AxoC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNybDA6Bggr
+BgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0Y2hpbGUuY2wvb2NzcDA9
+BgkrBgEEAYI3FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBy54UhqiCWAIB
+ZAIBBDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgwLTUwDQYJKoZIhvcNAQEFBQAD
+ggEBAJjv7e8gO82FJkjC8Jm4yv3BC/eQumy1iJBH7IYexe8UhbSJZi18yzjtdnARSLKoSyLgX7Y6
+qU/VcZW6rSJ1OSpojKObDZcrI0TC7GAJjcU1+PtxMl6/kw0iNb2oSDN3Y0uEfT/HGUGXk+UT8SdU
+Lw9iBZmeLWJ5Wxr2Pi8oNUfsZ4/nAMetGQlMTjJFtHapR6vudgZCbukxAZHisGApLr8gJpdgmnfU
+dVA6btClKoew09nuzSwtp81Lp6YX1RkoiiVtCeI/xE/Y3WCsZ3GHO0QZljLNVyvsJAzgMD006Qo8
+oMGB69RWL0+/rmElnrX77I5hSHMqOcjeOjYnOqs/d1M=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></DTE>
+
+    </SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#EC20230930184014">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>LTvbZcrJbl1PliydbEwcG2RTjDw=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+JkSFUQ5199XpidR5SeEv9AhOdoZBypOh6ERlrHxv8L1x/XXZ37d/ZSgEZo1zDcUpKYvQjFKII0Dz
+6c7747OHYJvkI3Kd9cYGvhEsGsJJEVDYpyYM8PgkE1cdloNST+RTjrBKKEXayvLEUXjYmRX4/WDM
+vEs/wqeCf3OqSGu6mBRFwoACnGp0s6dhbps/XEUoD7dsg3lQzggqibJCayyYNW6hTOCjuXNhuaUu
+Lt0mXyx1iIKmtA67oZhnHJ0eAeNmrvHJkgtTknZkN2mwjQdgysG71OXr00ut6Xbn75iGxmh0LWR+
+YgKnobLaJE21BH/ZXg1+znay9H1ZQ5U03fRcvw==
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+mIsq0inZ+lRMN4N4kBxf4/0G7E8kQM6ySmXZ1XrCFw71yjdq3/fz12CJDKmEEC9kahip4IuR/hIi
+/+kfKaRVwjA6C0JOs03j/la7+4ChEp6a12jMWfvyLN/hkU4qxHhurS+rCkitJQVAXN65nbOpELRG
+qRfUfJ+4pBsEbvZexZr22PDG/RhDYJJC2USBjV56iKcV4X9C26TAVhGDKwpaVNluxZV5Vz0QNuox
+sJ/CjCpX4NyaVlNLsHduMWTvWSCGPjTE3qjBOykqn2JEks2Gy1RKkCwTsbjyaxDpNo6KeNKU8Q4S
+txqllr7G+jEjDMlGx+Rqp5nLy4i3UIcWrWlpSw==
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIHvjCCBaagAwIBAgIKLEj5zgABAAarkDANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQD
+ExVFLUNFUlRDSElMRSBDQSBGRVMgMDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNo
+aWxlLmNsMB4XDTIzMDcxNzE4MTIxOVoXDTI2MDcxNjE4MTIxOVowgboxCzAJBgNVBAYTAkNMMSIw
+IAYDVQQIExlNRVRST1BPTElUQU5BIERFIFNBTlRJQUdPMREwDwYDVQQHEwhTQU5USUFHTzEcMBoG
+A1UEChMTRURJVFJBREUgQ0hJTEUgUy5BLjEKMAgGA1UECwwBKjEjMCEGA1UEAxMaSlVBTiBFTlJJ
+UVVFIE9SVFVaQVIgRUxUT04xJTAjBgkqhkiG9w0BCQEWFkpFT1JUVVpBUkVARURJVFJBREUuQ0ww
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCYiyrSKdn6VEw3g3iQHF/j/QbsTyRAzrJK
+ZdnVesIXDvXKN2rf9/PXYIkMqYQQL2RqGKngi5H+EiL/6R8ppFXCMDoLQk6zTeP+Vrv7gKESnprX
+aMxZ+/Is3+GRTirEeG6tL6sKSK0lBUBc3rmds6kQtEapF9R8n7ikGwRu9l7FmvbY8Mb9GENgkkLZ
+RIGNXnqIpxXhf0LbpMBWEYMrClpU2W7FlXlXPRA26jGwn8KMKlfg3JpWU0uwd24xZO9ZIIY+NMTe
+qME7KSqfYkSSzYbLVEqQLBOxuPJrEOk2jop40pTxDhK3GqWWvsb6MSMMyUbH5GqnmcvLiLdQhxat
+aWlLAgMBAAGjggK9MIICuTCCAV8GA1UdIASCAVYwggFSMIIBTgYIKwYBBAHDUgUwggFAMD0GCCsG
+AQUFBwIBFjFodHRwczovL3d3dy5lLWNlcnRjaGlsZS5jbC9wb2xpdGljYXMteS1wcmFjdGljYXMv
+MIH+BggrBgEFBQcCAjCB8R6B7gBFAGwAIAByAGUAcwBwAG8AbgBkAGUAcgAgAGUAcwB0AGUAIABm
+AG8AcgBtAHUAbABhAHIAaQBvACAAZQBzACAAdQBuACAAcgBlAHEAdQBpAHMAaQB0AG8AIABpAG4A
+ZABpAHMAcABlAG4AcwBhAGIAbABlACAAcABhAHIAYQAgAGQAYQByACAAaQBuAGkAYwBpAG8AIABh
+AGwAIABwAHIAbwBjAGUAcwBvACAAZABlACAAYwBlAHIAdABpAGYAaQBjAGEAYwBpAPMAbgAuACAA
+UABvAHMAdABlAHIAaQBvAHIAbQBlAG4AdABlACwwHQYDVR0OBBYEFC4P+MAQqId8VnE2SYh+4Q1i
+aS9KMAsGA1UdDwQEAwIE8DAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzMTcxODg0LTUwHwYD
+VR0jBBgwFoAUdNYhs/Ra6C18u1kGY0PvabQ6kwQwQAYDVR0fBDkwNzA1oDOgMYYvaHR0cDovL2Ny
+bC5lY2VydGNoaWxlLmNsL0UtQ0VSVENISUxFQ0FGRVMwMi5jcmwwPQYIKwYBBQUHAQEEMTAvMC0G
+CCsGAQUFBzABhiFodHRwOi8vb2NzcGZlcy5lY2VydGNoaWxlLmNsL29jc3AwPAYJKwYBBAGCNxUH
+BC8wLQYlKwYBBAGCNxUIgd3STZfUOoaJnQaHiM5vg6/MYEWG0uwIhsfKfQIBZAIBBzAjBgNVHRIE
+HDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgwLTUwDQYJKoZIhvcNAQELBQADggIBAEOIUuUMisAo
++Mf35csZTNM3Ga0H6gnbunJJufDoaM7p02pYMg0dQBKPcuPPwCUNxLXOfKv+lpLbE+8ez43b65Yt
+sfTRUQ4QnNI6XtKPpndopFzy0oME7B64wougVEPAyeGvQFEMM9lvwa5ZRlVtX1GwAqIYus42f22a
+gk/XOgGwYKio6PClULNsYL+wTwboIqu66MO/aauS2QBebmov0NvN8+FiIN26GDDbWm681Ic3tRrb
+j6x05PTJq49m595FcpEN+NeMsqnKmh5oeBhuqdF4s2VWHOelCRu9joQ4dSJKRVd16OSeB58DXl/H
+Fs4lQuq2JGJTk/vWFWQW+2gF82SHDQnBGDF6X8Qo9nMKjxa9ofLbkppZ/ftLOqXgf68xel+lx2Zj
+X7if31RrRB4l4iJJCIiGIqI4QyPFgblpH2EbTEW+QJ7mnxWCZwIbWV9xIskGcuZcKaytqUOY3Vgb
+bRIQMM3iDq4c1cRhdxu1VPQd+2mJUJO7UIdvJ32xyLSYW4jH1LQipMHgbZh+fDC15yhNDR+NBZL3
+WFyX4GVdPIZ9u+09Sa0Hju57k1eZaqvGia8fnUjhxq9j3t/q429MoYEj1dyfAK9Vf9diQVC3qU51
+2HR0imP4ZQ+ihnad4A8Pj+4x+dn/tkC1LxeUIdvwuF9FVNyJGl3V3cPW/AP+6j4D
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></EnvioDTE>

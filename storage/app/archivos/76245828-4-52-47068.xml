@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd" version="1.0" xmlns="http://www.sii.cl/SiiDte">
+ <SetDTE ID="RE77937650-8_RR76245828-4_T20230215T094241">
+  <Caratula version="1.0">
+   <RutEmisor>77937650-8</RutEmisor>
+   <RutEnvia>13234007-2</RutEnvia>
+   <RutReceptor>76245828-4</RutReceptor>
+   <FchResol>2011-09-29</FchResol>
+   <NroResol>113</NroResol>
+   <TmstFirmaEnv>2023-02-15T09:42:41</TmstFirmaEnv>
+   <SubTotDTE>
+    <TpoDTE>52</TpoDTE>
+    <NroDTE>1</NroDTE>
+   </SubTotDTE>
+  </Caratula><DTE version="1.0" xmlns="http://www.sii.cl/SiiDte">
+ <Documento ID="R77937650-8T52F47068">
+  <Encabezado>
+   <IdDoc>
+    <TipoDTE>52</TipoDTE>
+    <Folio>47068</Folio>
+    <FchEmis>2023-02-15</FchEmis>
+    <IndTraslado>6</IndTraslado>
+    <FmaPago>2</FmaPago>
+   </IdDoc>
+   <Emisor>
+    <RUTEmisor>77937650-8</RUTEmisor>
+    <RznSoc>Comercial Multiexpress SPA</RznSoc>
+    <GiroEmis>Comercialización De Productos Alimenticios Y Arriendo De Máquinas </GiroEmis>
+    <Telefono>26294000</Telefono>
+    <CorreoEmisor>isatoro@cafexpress.cl</CorreoEmisor>
+    <Acteco>773009</Acteco>
+    <DirOrigen>Parque Riesco 3461</DirOrigen>
+    <CmnaOrigen>Recoleta</CmnaOrigen>
+    <CiudadOrigen>Santiago</CiudadOrigen>
+   </Emisor>
+   <Receptor>
+    <RUTRecep>76245828-4</RUTRecep>
+    <RznSocRecep>Porsche Chile Spa</RznSocRecep>
+    <GiroRecep>Automotriz</GiroRecep>
+    <DirRecep>Av. Apoquindo 5400</DirRecep>
+    <CmnaRecep>Las Condes</CmnaRecep>
+    <CiudadRecep>Las Condes</CiudadRecep>
+   </Receptor>
+   <Transporte />
+   <Totales>
+    <MntNeto>383500</MntNeto>
+    <MntExe>0</MntExe>
+    <TasaIVA>19</TasaIVA>
+    <IVA>72865</IVA>
+    <MntTotal>456365</MntTotal>
+   </Totales>
+  </Encabezado>
+  <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT1</TpoCodigo>
+    <VlrCodigo>9869</VlrCodigo>
+   </CdgItem>
+   <NmbItem>CAPUCCHINO VAINILLA GRUBON 1 K</NmbItem>
+   <QtyItem>10.0000</QtyItem>
+   <UnmdItem>UN</UnmdItem>
+   <PrcItem>6000</PrcItem>
+   <MontoItem>60000</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>2</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT1</TpoCodigo>
+    <VlrCodigo>9867</VlrCodigo>
+   </CdgItem>
+   <NmbItem>LECHE CUP TOPING GRUBON 1 KG</NmbItem>
+   <QtyItem>5.0000</QtyItem>
+   <UnmdItem>UN</UnmdItem>
+   <PrcItem>10000</PrcItem>
+   <MontoItem>50000</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>3</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT1</TpoCodigo>
+    <VlrCodigo>9866</VlrCodigo>
+   </CdgItem>
+   <NmbItem>CHOCOLATE CHOCO CLOU GRUBON 1 KG</NmbItem>
+   <QtyItem>5.0000</QtyItem>
+   <UnmdItem>UN</UnmdItem>
+   <PrcItem>5200</PrcItem>
+   <MontoItem>26000</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>4</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT1</TpoCodigo>
+    <VlrCodigo>5759</VlrCodigo>
+   </CdgItem>
+   <NmbItem>CAFE J. V. VOLCAN 500 GRS</NmbItem>
+   <QtyItem>12.0000</QtyItem>
+   <UnmdItem>UN</UnmdItem>
+   <PrcItem>20625</PrcItem>
+   <MontoItem>247500</MontoItem>
+  </Detalle>
+  <TED version="1.0">
+   <DD>
+    <RE>77937650-8</RE>
+    <TD>52</TD>
+    <F>47068</F>
+    <FE>2023-02-15</FE>
+    <RR>76245828-4</RR>
+    <RSR>Porsche Chile Spa</RSR>
+    <MNT>456365</MNT>
+    <IT1>CAPUCCHINO VAINILLA GRUBON 1 K</IT1>
+    <CAF version="1.0">
+     <DA>
+      <RE>77937650-8</RE>
+      <RS>COMERCIAL MULTIEXPRESS SPA</RS>
+      <TD>52</TD>
+      <RNG>
+       <D>44021</D>
+       <H>49020</H>
+      </RNG>
+      <FA>2022-10-26</FA>
+      <RSAPK>
+       <M>r+DATt17rP2RUkULfBESaeiucv/PqC6rgch8D4XxKx3fYZkR1aONMtD1sFpcFuqO4AXuDegyH0YBAfPt4E8FpQ==</M>
+       <E>Aw==</E>
+      </RSAPK>
+      <IDK>300</IDK>
+     </DA>
+     <FRMA algoritmo="SHA1withRSA">hkI1QRkwVEDAijCH7WeuTyQa5vLtt8YLsL0N2yLB9ErZZtv4SIFH2xxq0W6gl5MD3XQSojU3apy6AElC829eDQ==</FRMA>
+    </CAF>
+    <TSTED>2023-02-15T09:42:41</TSTED>
+   </DD>
+   <FRMT algoritmo="SHA1withRSA">kkNlOdnih05KuxGLD4W+8V26PS46P6dW6GJFSebLsEW3Auf0LBiOUzXVbqDbWx6fTEk2OYeI5NXpnRoQKrGy2g==</FRMT>
+  </TED>
+  <TmstFirma>2023-02-15T09:42:41</TmstFirma>
+ </Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#R77937650-8T52F47068"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HUl9IlDBoKZTjkFa+dEhLCF3oPk=</DigestValue></Reference></SignedInfo><SignatureValue>IX23DxLFThFtiyK//c0Qjq5wb6L+0ybAyijuw61ai7iOXfZlrL3nmFgeTN06yqfaQ9MzM8bjHoaYXPu2p5Uh3Y34urslA/oHyVewPr8fzbH15Vf0Pag+LKB/KQrAZVIcwo4qBLUqnB06TiWcw6c+Mes9vuiw2OlrZUPzBrNfGrb2TG+MHjXq+JuCiV7njJQmCiBZBlOTPmaRxGMdZkL1nCItL2nhuzVtwN+S+zEFtrvUCYaO6uX/s+Hz5X2VOrc2D36wdkdRqJYSH8FPsepGq2hIoCkyJuEjA5pItOnt9cbByN/QiAcqlyGjCP5UfnM5goh5w1yAIj1tgXaYhEn2LQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>gu+urwu2qY1bd9htq6lxfjjvwhWVwK74ESsKTaWcz/vBW9dDXnNKOGq9273IsZ+vAi2jI4tAxSimPDRlAcpx7oE07n37+NG6cJV2CRVRK5iKMo7yeGWRP9z+SR4fB6OYHWwQstIQB90keyQSTAlu9j7ai6QGpdY37Ivg6zzRQEfiHHNQT+5BXIUpi9ptzJsPy2MqLJ74zBw9FQiM/jaez8VX4D5A/jjYGgB6oGZoIHUECAP3u7FqQFYnGKamq+78qNy56Skgj8hEdz/Jh1xX7Z+6z/2fe1gq1OaIAgXPsj3hXqe9DdGhqeripKxgsOz3qZ5qaV6up9lpq3yvrqiZJw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIGdzCCBV+gAwIBAgIDAfNRMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yMjAyMTcyMDAxNDZaFw0yNTAyMTcy
+MDAxNDZaMIGJMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSYwJAYDVQQD
+Ex1JR05BQ0lPIEFORFJFUyBNVU5PWiBBUkVMTEFOTzEjMCEGCSqGSIb3DQEJARYUSU1VTk9aQENB
+RkVYUFJFU1MuQ0wxEzARBgNVBAUTCjEzMjM0MDA3LTIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCC766vC7apjVt32G2rqXF+OO/CFZXArvgRKwpNpZzP+8Fb10Nec0o4ar3bvcixn68C
+LaMji0DFKKY8NGUBynHugTTuffv40bpwlXYJFVErmIoyjvJ4ZZE/3P5JHh8Ho5gdbBCy0hAH3SR7
+JBJMCW72PtqLpAal1jfsi+DrPNFAR+Icc1BP7kFchSmL2m3Mmw/LYyosnvjMHD0VCIz+Np7PxVfg
+PkD+ONgaAHqgZmggdQQIA/e7sWpAVicYpqar7vyo3LnpKSCPyER3P8mHXFftn7rP/Z97WCrU5ogC
+Bc+yPeFep70N0aGp6uKkrGCw7PepnmppXq6n2WmrfK+uqJknAgMBAAGjggLHMIICwzAfBgNVHSME
+GDAWgBSq/b3F6TdN9plNV47BcRr568MG4zAdBgNVHQ4EFgQUbHPPeIXwxQgXnLs2lBsW5+f+4ZQw
+CwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEE
+BAMCBaAwgfoGA1UdIASB8jCB7zCB7AYIKwYBBAG1awIwgd8wMQYIKwYBBQUHAgEWJWh0dHBzOi8v
+YWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgakGCCsGAQUFBwICMIGcMBYWD0FjZXB0YS5j
+b20gUy5BLjADAgECGoGBRWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1hIHByZXNl
+bmNpYWwsIHF1ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1c28gdHJpYnV0
+YXJpbywgcGFnb3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYK
+OTY5MTkwNTAtOKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFj
+ZXB0YS5jb20wXwYDVR0RBFgwVqAYBggrBgEEAcEBAaAMFgoxMzIzNDAwNy0yoCQGCCsGAQUFBwgD
+oBgwFgwKMTMyMzQwMDctMgYIKwYBBAHBAQKBFElNVU5PWkBDQUZFWFBSRVNTLkNMMEcGCCsGAQUF
+BwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9vY3NwL0Ns
+YXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2Ny
+bC9DbGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQAW4sbkJg5eWm3+qPYX0ftLHA4tTIcO
+qHb2PCDQf2FiIv5CjHWCC3s7wGE8zaoFs/ew0Uy+O1ZJmhZuaA6asrtJVMKQ5r/UIAlRROnSmg4y
+DYFm3GAWiTT0qBeD0sBNVkYwjkWAzpoLKg/qTgp9uXbs6WWBOhz1sPGhrv95ZruWdk80MUDMJoR5
+1+4V96O8feZmUOSJwgG//15kIM74lbkLL8JT0wXZMX/0RPvuteU8nRbXcze/1SMAzq4cdhlXEsMc
+qyzpq79UdWb6W9OMRIe0yz86fxb5eKub2S5hUt6QVjNoimWtY+w7vfrzBn+LFJoZO5VTogx3w4La
++Rpn5esZ</X509Certificate></X509Data></KeyInfo></Signature></DTE></SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#RE77937650-8_RR76245828-4_T20230215T094241"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1aK/4LsaeZs2z1CZhNO9RCcQ+lQ=</DigestValue></Reference></SignedInfo><SignatureValue>cxTSg5fzB74Dc0jF4o1ULcg8gggmCYd6d+hiIUBgCo9Yo90KoLzg7ExXUENb2q92kJ55DInkYijcPRsb9mGmVUCw+OsZMHgAY+dvhQ/x73M8CGlr+X+ydOOvRCG1tL55PKtaIOzwVmhZZU6FfLYXIgRDgOKc8kATKGKPbJtVlQZpKGf+ydDy9axp4OQwNZQbB+HYyozakvBBVM6r0gjhzDjAhPQnuE7YfwguZ/pwt6wDC3XZlndc5iz5h29Ee4IuOo28sUGV+LIULztSbK/ACLCx3IHe0JVqpB6R3YiD5NPKPv95EVNFAagrlbuNh5mi5dlShSCOfhKbyc2U9llnpg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>gu+urwu2qY1bd9htq6lxfjjvwhWVwK74ESsKTaWcz/vBW9dDXnNKOGq9273IsZ+vAi2jI4tAxSimPDRlAcpx7oE07n37+NG6cJV2CRVRK5iKMo7yeGWRP9z+SR4fB6OYHWwQstIQB90keyQSTAlu9j7ai6QGpdY37Ivg6zzRQEfiHHNQT+5BXIUpi9ptzJsPy2MqLJ74zBw9FQiM/jaez8VX4D5A/jjYGgB6oGZoIHUECAP3u7FqQFYnGKamq+78qNy56Skgj8hEdz/Jh1xX7Z+6z/2fe1gq1OaIAgXPsj3hXqe9DdGhqeripKxgsOz3qZ5qaV6up9lpq3yvrqiZJw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIGdzCCBV+gAwIBAgIDAfNRMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yMjAyMTcyMDAxNDZaFw0yNTAyMTcy
+MDAxNDZaMIGJMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSYwJAYDVQQD
+Ex1JR05BQ0lPIEFORFJFUyBNVU5PWiBBUkVMTEFOTzEjMCEGCSqGSIb3DQEJARYUSU1VTk9aQENB
+RkVYUFJFU1MuQ0wxEzARBgNVBAUTCjEzMjM0MDA3LTIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCC766vC7apjVt32G2rqXF+OO/CFZXArvgRKwpNpZzP+8Fb10Nec0o4ar3bvcixn68C
+LaMji0DFKKY8NGUBynHugTTuffv40bpwlXYJFVErmIoyjvJ4ZZE/3P5JHh8Ho5gdbBCy0hAH3SR7
+JBJMCW72PtqLpAal1jfsi+DrPNFAR+Icc1BP7kFchSmL2m3Mmw/LYyosnvjMHD0VCIz+Np7PxVfg
+PkD+ONgaAHqgZmggdQQIA/e7sWpAVicYpqar7vyo3LnpKSCPyER3P8mHXFftn7rP/Z97WCrU5ogC
+Bc+yPeFep70N0aGp6uKkrGCw7PepnmppXq6n2WmrfK+uqJknAgMBAAGjggLHMIICwzAfBgNVHSME
+GDAWgBSq/b3F6TdN9plNV47BcRr568MG4zAdBgNVHQ4EFgQUbHPPeIXwxQgXnLs2lBsW5+f+4ZQw
+CwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEE
+BAMCBaAwgfoGA1UdIASB8jCB7zCB7AYIKwYBBAG1awIwgd8wMQYIKwYBBQUHAgEWJWh0dHBzOi8v
+YWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgakGCCsGAQUFBwICMIGcMBYWD0FjZXB0YS5j
+b20gUy5BLjADAgECGoGBRWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1hIHByZXNl
+bmNpYWwsIHF1ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1c28gdHJpYnV0
+YXJpbywgcGFnb3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYK
+OTY5MTkwNTAtOKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFj
+ZXB0YS5jb20wXwYDVR0RBFgwVqAYBggrBgEEAcEBAaAMFgoxMzIzNDAwNy0yoCQGCCsGAQUFBwgD
+oBgwFgwKMTMyMzQwMDctMgYIKwYBBAHBAQKBFElNVU5PWkBDQUZFWFBSRVNTLkNMMEcGCCsGAQUF
+BwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9vY3NwL0Ns
+YXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2Ny
+bC9DbGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQAW4sbkJg5eWm3+qPYX0ftLHA4tTIcO
+qHb2PCDQf2FiIv5CjHWCC3s7wGE8zaoFs/ew0Uy+O1ZJmhZuaA6asrtJVMKQ5r/UIAlRROnSmg4y
+DYFm3GAWiTT0qBeD0sBNVkYwjkWAzpoLKg/qTgp9uXbs6WWBOhz1sPGhrv95ZruWdk80MUDMJoR5
+1+4V96O8feZmUOSJwgG//15kIM74lbkLL8JT0wXZMX/0RPvuteU8nRbXcze/1SMAzq4cdhlXEsMc
+qyzpq79UdWb6W9OMRIe0yz86fxb5eKub2S5hUt6QVjNoimWtY+w7vfrzBn+LFJoZO5VTogx3w4La
++Rpn5esZ</X509Certificate></X509Data></KeyInfo></Signature></EnvioDTE>

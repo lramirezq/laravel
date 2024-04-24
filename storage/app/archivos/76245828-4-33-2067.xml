@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+<SetDTE ID="SDTE1934970836">
+  <Caratula version="1.0">
+    <RutEmisor>3114014-5</RutEmisor>
+    <RutEnvia>3114014-5</RutEnvia>
+    <RutReceptor>76245828-4</RutReceptor>
+    <FchResol>2014-10-21</FchResol>
+    <NroResol>99</NroResol>
+    <TmstFirmaEnv>2023-09-07T11:13:56</TmstFirmaEnv>
+    <SubTotDTE>
+      <TpoDTE>33</TpoDTE>
+      <NroDTE>1</NroDTE>
+    </SubTotDTE>
+  </Caratula>
+<DTE version="1.0" xmlns="http://www.sii.cl/SiiDte">
+  <!-- O Win32 Chrome 109 central VERSION: v20190409 -->
+<Documento ID="MiPE3114014-12321">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>2067</Folio>
+        <FchEmis>2023-09-07</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>1</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>3114014-5</RUTEmisor>
+        <RznSoc>SANTOS ISABEL PEDRERO ARRIAGADA</RznSoc>
+        <GiroEmis>RESIDENCIAL DE TURISMO</GiroEmis>
+        <Telefono>41 2371176</Telefono>
+        <CorreoEmisor>HOTEL@MIRA-RIO.CL</CorreoEmisor>
+        <Acteco>551003</Acteco>
+        <CdgSIISucur>572445</CdgSIISucur>
+        <DirOrigen>PEDRO AGUIRRE CERDA 556   SAN PEDRO</DirOrigen>
+        <CmnaOrigen>SAN PEDRO DE LA PAZ</CmnaOrigen>
+        <CiudadOrigen>CONCEPCION</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76245828-4</RUTRecep>
+        <RznSocRecep>PORSCHE CHILE SPA.</RznSocRecep>
+        <GiroRecep>OTRAS ACTIVIDADES DE SERVICIOS DE APOYO</GiroRecep>
+        <DirRecep>APOQUINDO 5400  2001 PISO 20</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+    <Transporte>
+  </Transporte>
+      <Totales>
+        <MntNeto>31933</MntNeto>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>6067</IVA>
+        <MntTotal>38000</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>alojamiento con desayuno</NmbItem>
+      <QtyItem>1.00</QtyItem>
+      <UnmdItem>dia</UnmdItem>
+      <PrcItem>31933.00</PrcItem>
+      <MontoItem>31933</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>3114014-5</RE><TD>33</TD><F>2067</F><FE>2023-09-07</FE><RR>76245828-4</RR><RSR>PORSCHE CHILE SPA.</RSR><MNT>38000</MNT><IT1>alojamiento con desayuno</IT1><CAF version="1.0"><DA><RE>3114014-5</RE><RS>SANTOS ISABEL PEDRERO ARRIAGADA</RS><TD>33</TD><RNG><D>2067</D><H>2067</H></RNG><FA>2023-09-07</FA><RSAPK><M>wZuYCcVia77W0qRqKDX+qh5EAFU0V1xJw9AuGLclNT6amJvQaP97DqnIQklwLuION2BlOpmukcI74s4u44EuGQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">Vp2y2Qjk4VTyzJrgcaFwNxXw9Eqb7AI+pPGItFCUw76ayM5eQxEvHlRRZSx48nW3vqPi7EoPl7Dp4EoVfjsn5Q==</FRMA></CAF><TSTED>2023-09-07T11:13:46</TSTED></DD><FRMT algoritmo="SHA1withRSA">QHIZOHUh5wzL6qWiAUwmrC6UIqu+PAdU+sNO6xMkpiTNbi5dNWTsGAMV6AUsdhUw66cdUjB29ZTktcr7izgPfg==</FRMT></TED>
+    <TmstFirma>2023-09-07T11:13:46</TmstFirma>
+
+  </Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#MiPE3114014-12321">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>64ULKMv4alNnUf9uqvXihY0y0Mo=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+HGXP7IhVQj4qURGo+i0cFl5C0PWCcujfus/AlpEnksYDy4ITL2W5qerQW9hbXbwbhbFT4Bxc0tpN
+0Yake+EsMMLNQxNBR1s7aob2EO5KcomqJ5TXVCFIGx8jWn0DmBsyPsFb6GPFaW1+o0qDDqWNBFmM
+Ju66fVYbpIdg05wwPfw=
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+uwtanzOSvnbYMR1Qih1p8/oHDjumS1VsvQn09ZIqOoDoPR4jlJ/mUeUNNwRWFCSKlHxR0KhCGQ6V
+95MKtrzba6+7ZGovL8NyBEiAbDN7L2WUBttqUCZZyhT14tvVD8YJEOgUebaqEN5lPp7nk0EzgRiC
+/zhylekQde467Dc8M2c=
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGOzCCBSOgAwIBAgIKLn3vdwAAABWkyjANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0yMTA3MDUxOTQ1MTVaFw0yNDA3MDQxOTQ1MTVa
+MIG8MQswCQYDVQQGEwJDTDEQMA4GA1UECAwHQklPQsONTzEUMBIGA1UEBwwLQ09OQ0VQQ0nDk04x
+JzAlBgNVBAoTHkFSUklFTkRBTUlFTlRPIFNBTlRPUyBQRURSRVJPUzEKMAgGA1UECwwBKjEqMCgG
+A1UEAxMhU0FOVE9TIElTQUJFTCBQRURSRVJPICBBUlJJQUdBREEgMSQwIgYJKoZIhvcNAQkBFhVD
+T05UQUNUT0BWSVNUQS1SSU8uQ0wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALsLWp8zkr52
+2DEdUIodafP6Bw47pktVbL0J9PWSKjqA6D0eI5Sf5lHlDTcEVhQkipR8UdCoQhkOlfeTCra822uv
+u2RqLy/DcgRIgGwzey9llAbbalAmWcoU9eLb1Q/GCRDoFHm2qhDeZT6e55NBM4EYgv84cpXpEHXu
+Ouw3PDNnAgMBAAGjggKpMIICpTCCAU8GA1UdIASCAUYwggFCMIIBPgYIKwYBBAHDUgUwggEwMC0G
+CCsGAQUFBwIBFiFodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsL0NQUy5odG0wgf4GCCsGAQUFBwIC
+MIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQAZQAgAGYAbwByAG0AdQBsAGEA
+cgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBpAHQAbwAgAGkAbgBkAGkAcwBwAGUAbgBz
+AGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABpAG4AaQBjAGkAbwAgAGEAbAAgAHAAcgBvAGMA
+ZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBp
+AG8AcgBtAGUAbgB0AGUALDAdBgNVHQ4EFgQUwPyeLsu7mq9qU4+JRoCZ5WtzbZwwCwYDVR0PBAQD
+AgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDMxMTQwMTQtNTAfBgNVHSMEGDAWgBR44T6f
+0hKzejyNzTAOU7NDKQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY3JsLmUtY2VydGNoaWxl
+LmNsL2VjZXJ0Y2hpbGVjYUZFUy5jcmwwOgYIKwYBBQUHAQEELjAsMCoGCCsGAQUFBzABhh5odHRw
+Oi8vb2NzcC5lY2VydGNoaWxlLmNsL29jc3AwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIgtyD
+L4WTjGaF1Z0XguLcJ4Hv7DxhgcueFIaoglgCAWQCAQQwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAM
+Fgo5NjkyODE4MC01MA0GCSqGSIb3DQEBBQUAA4IBAQBLSVyHS/m3JdEUs9pxl7uiMpNzVLDWroZp
+PpoGmCbGMz09xvNrGIq9zFv3fW0CKUzJbHvaEhbruRPJzSans1ike49Uao43IIiDbFcyULqdPfP6
+mYtCTIUZzBb6VmTLQucL6ZZLakR7Z9tUUcGP5heRgbDZBsBI0NKJV9Il4jx86Q5Ko1YiR3z+HH/k
+p4ja/4RCIBQdmKP6bMAYjtYIP7u7MbOF4FdkFc4+UzNetsEVwYkLxOx2TgT+gKlqJzEVvCepAQsT
+Vf7Rhj6Rcdmh1rG22a+GAwQMzDhOOH9q80iok4p1R+TMoHN9PzLJdo8vE7KstUozaZ8KMDCm/PcT
+RY03
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></DTE></SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#SDTE1934970836">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>3778YPO6NwVxynmhhB2UH/nCg/o=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+L6rSdso5OiXLX/tSQHnvy9m8pMg4AFJb1VugVaPNNLS7N+Owhsw4qV1odYiuobzJiGQHXYh4JfqS
+LUPPiYs1W7z3nioGyCDVPBNr52+DF6N32ALX3jYeJr8Lb/rSXTNt1/eUcS4qqgPkgnbrFlesFfPC
+Naf/6GG0D0A7+d9nXgQ=
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+uwtanzOSvnbYMR1Qih1p8/oHDjumS1VsvQn09ZIqOoDoPR4jlJ/mUeUNNwRWFCSKlHxR0KhCGQ6V
+95MKtrzba6+7ZGovL8NyBEiAbDN7L2WUBttqUCZZyhT14tvVD8YJEOgUebaqEN5lPp7nk0EzgRiC
+/zhylekQde467Dc8M2c=
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGOzCCBSOgAwIBAgIKLn3vdwAAABWkyjANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0yMTA3MDUxOTQ1MTVaFw0yNDA3MDQxOTQ1MTVa
+MIG8MQswCQYDVQQGEwJDTDEQMA4GA1UECAwHQklPQsONTzEUMBIGA1UEBwwLQ09OQ0VQQ0nDk04x
+JzAlBgNVBAoTHkFSUklFTkRBTUlFTlRPIFNBTlRPUyBQRURSRVJPUzEKMAgGA1UECwwBKjEqMCgG
+A1UEAxMhU0FOVE9TIElTQUJFTCBQRURSRVJPICBBUlJJQUdBREEgMSQwIgYJKoZIhvcNAQkBFhVD
+T05UQUNUT0BWSVNUQS1SSU8uQ0wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALsLWp8zkr52
+2DEdUIodafP6Bw47pktVbL0J9PWSKjqA6D0eI5Sf5lHlDTcEVhQkipR8UdCoQhkOlfeTCra822uv
+u2RqLy/DcgRIgGwzey9llAbbalAmWcoU9eLb1Q/GCRDoFHm2qhDeZT6e55NBM4EYgv84cpXpEHXu
+Ouw3PDNnAgMBAAGjggKpMIICpTCCAU8GA1UdIASCAUYwggFCMIIBPgYIKwYBBAHDUgUwggEwMC0G
+CCsGAQUFBwIBFiFodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsL0NQUy5odG0wgf4GCCsGAQUFBwIC
+MIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQAZQAgAGYAbwByAG0AdQBsAGEA
+cgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBpAHQAbwAgAGkAbgBkAGkAcwBwAGUAbgBz
+AGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABpAG4AaQBjAGkAbwAgAGEAbAAgAHAAcgBvAGMA
+ZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBp
+AG8AcgBtAGUAbgB0AGUALDAdBgNVHQ4EFgQUwPyeLsu7mq9qU4+JRoCZ5WtzbZwwCwYDVR0PBAQD
+AgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDMxMTQwMTQtNTAfBgNVHSMEGDAWgBR44T6f
+0hKzejyNzTAOU7NDKQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY3JsLmUtY2VydGNoaWxl
+LmNsL2VjZXJ0Y2hpbGVjYUZFUy5jcmwwOgYIKwYBBQUHAQEELjAsMCoGCCsGAQUFBzABhh5odHRw
+Oi8vb2NzcC5lY2VydGNoaWxlLmNsL29jc3AwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIgtyD
+L4WTjGaF1Z0XguLcJ4Hv7DxhgcueFIaoglgCAWQCAQQwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAM
+Fgo5NjkyODE4MC01MA0GCSqGSIb3DQEBBQUAA4IBAQBLSVyHS/m3JdEUs9pxl7uiMpNzVLDWroZp
+PpoGmCbGMz09xvNrGIq9zFv3fW0CKUzJbHvaEhbruRPJzSans1ike49Uao43IIiDbFcyULqdPfP6
+mYtCTIUZzBb6VmTLQucL6ZZLakR7Z9tUUcGP5heRgbDZBsBI0NKJV9Il4jx86Q5Ko1YiR3z+HH/k
+p4ja/4RCIBQdmKP6bMAYjtYIP7u7MbOF4FdkFc4+UzNetsEVwYkLxOx2TgT+gKlqJzEVvCepAQsT
+Vf7Rhj6Rcdmh1rG22a+GAwQMzDhOOH9q80iok4p1R+TMoHN9PzLJdo8vE7KstUozaZ8KMDCm/PcT
+RY03
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></EnvioDTE>

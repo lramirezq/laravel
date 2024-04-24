@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+    <SetDTE ID="EC20230725170231">
+        <Caratula version="1.0">
+            <RutEmisor>76470970-5</RutEmisor>
+            <RutEnvia>13171884-5</RutEnvia>
+            <RutReceptor>76245828-4</RutReceptor>
+            <FchResol>2006-08-03</FchResol>
+            <NroResol>94</NroResol>
+            <TmstFirmaEnv>2023-07-25T17:02:31</TmstFirmaEnv>
+            <SubTotDTE>
+                <TpoDTE>33</TpoDTE>
+                <NroDTE>1</NroDTE>
+            </SubTotDTE>
+        </Caratula>
+    <DTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Documento ID="F86062T33">
+        <Encabezado>
+            <IdDoc>
+                <TipoDTE>33</TipoDTE>
+                <Folio>86062</Folio>
+                <FchEmis>2023-07-25</FchEmis>
+                <TpoTranVenta>1</TpoTranVenta>
+                <FmaPago>2</FmaPago>
+                <FchVenc>2023-08-04</FchVenc>
+            </IdDoc>
+            <Emisor>
+                <RUTEmisor>76470970-5</RUTEmisor>
+                <RznSoc>AG.DE ADUANA JORGE CORREA B. Y CIA. LTDA.</RznSoc>
+                <GiroEmis>AGENCIA DE ADUANAS</GiroEmis>
+                <Acteco>71912</Acteco>
+                <DirOrigen>COCHRANE 639 OF 105-106</DirOrigen>
+                <CmnaOrigen>VALPARAISO</CmnaOrigen>
+                <CiudadOrigen>VALPARAISO</CiudadOrigen>
+            </Emisor>
+            <Receptor>
+                <RUTRecep>76245828-4</RUTRecep>
+                <RznSocRecep>PORSCHE CHILE SPA.</RznSocRecep>
+                <GiroRecep>SOC.INVERSIONES, IMPORTACION DISTRIBUCIO</GiroRecep>
+                <DirRecep>AVDA. APOQUINDO NO.5400, OF.2001,PISOS 19 Y 20</DirRecep>
+                <CmnaRecep>LAS CONDES</CmnaRecep>
+                <CiudadRecep>SANTIAGO</CiudadRecep>
+            </Receptor>
+            <Totales>
+                <MntNeto>86030</MntNeto>
+                <TasaIVA>19</TasaIVA>
+                <IVA>16346</IVA>
+                <MntTotal>102376</MntTotal>
+                <MontoNF>4467871</MontoNF>
+                <SaldoAnterior>-4180486</SaldoAnterior>
+                <VlrPagar>389761</VlrPagar>
+            </Totales>
+        </Encabezado>
+        <Detalle>
+            <NroLinDet>1</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTADN</TpoCodigo>
+                <VlrCodigo>HONORARIOS</VlrCodigo>
+            </CdgItem>
+            <NmbItem>HONORARIOS</NmbItem>
+            <QtyItem>1</QtyItem>
+            <PrcItem>66008.00</PrcItem>
+            <MontoItem>66008</MontoItem>
+        </Detalle>
+        <Detalle>
+            <NroLinDet>2</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTADN</TpoCodigo>
+                <VlrCodigo>IVAGCP</VlrCodigo>
+            </CdgItem>
+            <IndExe>2</IndExe>
+            <NmbItem>I.V.A. GCP</NmbItem>
+            <QtyItem>1</QtyItem>
+            <Subcantidad>
+                <SubQty>5219.80</SubQty>
+                <SubCod>US</SubCod>
+            </Subcantidad>
+            <PrcItem>4180486.00</PrcItem>
+            <MontoItem>4180486</MontoItem>
+        </Detalle>
+        <Detalle>
+            <NroLinDet>3</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTADN</TpoCodigo>
+                <VlrCodigo>GASTOS_DESP</VlrCodigo>
+            </CdgItem>
+            <NmbItem>GASTOS DE DESPACHO</NmbItem>
+            <QtyItem>1</QtyItem>
+            <PrcItem>20022</PrcItem>
+            <MontoItem>20022</MontoItem>
+        </Detalle>
+        <Detalle>
+            <NroLinDet>4</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTADN</TpoCodigo>
+                <VlrCodigo>DESEMBOLSO</VlrCodigo>
+            </CdgItem>
+            <IndExe>2</IndExe>
+            <NmbItem>HAPAG LLOYD CHILE SPA  FT-1129761/24-7-2023</NmbItem>
+            <QtyItem>1</QtyItem>
+            <Subcantidad>
+                <SubQty>187500</SubQty>
+                <SubCod>NETO</SubCod>
+            </Subcantidad>
+            <Subcantidad>
+                <SubQty>35625</SubQty>
+                <SubCod>IVA</SubCod>
+            </Subcantidad>
+            <PrcItem>223125</PrcItem>
+            <MontoItem>223125</MontoItem>
+        </Detalle>
+        <Detalle>
+            <NroLinDet>5</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTADN</TpoCodigo>
+                <VlrCodigo>DESEMBOLSO</VlrCodigo>
+            </CdgItem>
+            <IndExe>2</IndExe>
+            <NmbItem>HAPAG LLOYD CHILE SPA  FT-1128880/21-7-2023</NmbItem>
+            <QtyItem>1</QtyItem>
+            <Subcantidad>
+                <SubQty>54000</SubQty>
+                <SubCod>NETO</SubCod>
+            </Subcantidad>
+            <Subcantidad>
+                <SubQty>10260</SubQty>
+                <SubCod>IVA</SubCod>
+            </Subcantidad>
+            <PrcItem>64260</PrcItem>
+            <MontoItem>64260</MontoItem>
+        </Detalle>
+        <Detalle>
+            <NroLinDet>6</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>INTSG</TpoCodigo>
+                <VlrCodigo>INFADN</VlrCodigo>
+            </CdgItem>
+            <NmbItem>INFORMACION ADUANERA</NmbItem>
+            <DscItem>ID_DI=118111
+FECHA_ACEPTA=2023-07-24
+NUM_ACEPTA=6450118111-9
+ADUANA=SAN ANTONIO
+TPOOPERACION=IMPORT.CTDO.ANTIC.
+NAVE=GUAYAQUIL EXPRESS
+CdgReferencia=MOBILIARIO AUDI
+TOTAL_KGBRUTOS=1496.0
+FECHA_VENCGCP=2023-08-08
+FECHA_PAGOGCP=2023-07-25
+NRO_CEMB=HLCUHAM230601682
+FECHA_CEMB=2023-06-20
+NRO_MANIF=232910
+ID_GUIADESP=0
+BULTO1:QBULTOS=1
+BULTO1:TIPO_BULTO=CONT40
+BULTO1:CONTENIDO=476827
+BULTO1:DESC_MERC=ESTACIONES PARA TRABAJO; ISARIA-
+BULTO1:ID_PART=94033090
+TOT_FOB=23037.82
+TOT_FLETE=4405.81
+TOT_SEGURO=28.96
+TOT_CIF=27472.59
+AJUSTE=0.00
+VAL_ADNERO_US=27472.59
+VAL_ADNERO_PESOS=2.20025226051E7
+TIPO_CAMBIO=800.89
+MULTAS=0.00
+PAGODIR_DESEMBSN=N
+FACTURADOR=hsalinas
+PROVISION=0.00
+VALOR_PAGODIR=4180486.00</DscItem>
+            <MontoItem>0</MontoItem>
+        </Detalle>
+        <Referencia>
+            <NroLinRef>1</NroLinRef>
+            <TpoDocRef>801</TpoDocRef>
+            <FolioRef>MOBILIARIO AUDI</FolioRef>
+            <FchRef>2023-07-25</FchRef>
+            <RazonRef>MOBILIARIO AUDI</RazonRef>
+        </Referencia>
+        <TED version="1.0">
+            <DD>
+                <RE>76470970-5</RE>
+                <TD>33</TD>
+                <F>86062</F>
+                <FE>2023-07-25</FE>
+                <RR>76245828-4</RR>
+                <RSR>PORSCHE CHILE SPA.</RSR>
+                <MNT>102376</MNT>
+                <IT1>HONORARIOS</IT1>
+                <CAF version="1.0">
+                    <DA>
+                        <RE>76470970-5</RE>
+                        <RS>AGENCIA DE ADUANAS JORGE MANUEL CORREA B</RS>
+                        <TD>33</TD>
+                        <RNG>
+                            <D>83575</D>
+                            <H>87164</H>
+                        </RNG>
+                        <FA>2023-02-17</FA>
+                        <RSAPK>
+                            <M>lz5igmIQn8tc8yFlG65i7U0GGuLmsybWFVUxnsup06dBLKFJFFVv+dSR7e1QmpXolIcq93xxAkBICxoixzDMZw==</M>
+                            <E>Aw==</E>
+                        </RSAPK>
+                        <IDK>300</IDK>
+                    </DA>
+                    <FRMA algoritmo="SHA1withRSA">InWH25mfnD/BFTdPNSloA9zDWIVyJSuU8PAojbOaTDVmIJzw8A2uNN1uwz3TjdBiHNfJ/ZbKKCdWqxP1t8S4lw==</FRMA>
+                </CAF>
+                <TSTED>2023-07-25T16:56:12</TSTED>
+            </DD>
+            <FRMT algoritmo="SHA1withRSA">NgaFvLbeTvF5bH+MszMf7JL45ZDZhDpb9U6OwFJLL3evTCZj0BXG2D4C8XExKvvhQrQvyq72/pzpuVnGuv0e8g==</FRMT>
+        </TED>
+        <TmstFirma>2023-07-25T16:56:12.574</TmstFirma>
+    </Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#F86062T33">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>V0+yg5+lAtaB8glX03wdIpGIAf8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+Dsk2ztnN7VKxg0PymJnsv7tCA0PN2B0fJcM4SrAsv34uD+A98a06ydria8KbWS7bcLdg7dGlZTl6
+xRYczGqat2DQldj6J4rWW9b91mRCOqhny8OzrPETZA+ZWKAStneQtlID8TQtpKTvfSALzKkXZ7bR
+OgDif9GRqrLniLXecTw=
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>lY7o4IqDi7A8vNCedSNF8Zn9u6VjPQd6l5JtbPF0nLEsPOi8CrTDiAC480iK2RnTLGjs2TbMxYD3
+3sadRPUF35NrsQyFJ6wi+W7oGeqgOoYlDPDAj5UNp6+YIeOktbNIBuTuc4PYsLFC5vngSZq826X1
+XvEGmDAXCRwuhl4f88k=</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIGWDCCBUCgAwIBAgIKHcrB5AAAABUNvzANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0yMTA1MTAxODE3NTRaFw0yNDA1MDkxODE3NTRa
+MIHZMQswCQYDVQQGEwJDTDETMBEGA1UECBMKVkFMUEFSQUlTTzEUMBIGA1UEBwwLVkFMUEFSQcON
+U08xPjA8BgNVBAoMNUFHRU5DSUEgREUgQURVQU5BUyBKT1JHRSBDT1JSRUEgQkVDRVJSQSBZIEPD
+jUEuIExUREEuMQowCAYDVQQLDAEqMSQwIgYDVQQDExtKT1JHRSBNQU5VRUwgQ09SUkVBIEJFQ0VS
+UkExLTArBgkqhkiG9w0BCQEWHkpPUkdFLkNPUlJFQUBBR0VOQ0lBQ09SUkVBLkNPTTCBnzANBgkq
+hkiG9w0BAQEFAAOBjQAwgYkCgYEAlY7o4IqDi7A8vNCedSNF8Zn9u6VjPQd6l5JtbPF0nLEsPOi8
+CrTDiAC480iK2RnTLGjs2TbMxYD33sadRPUF35NrsQyFJ6wi+W7oGeqgOoYlDPDAj5UNp6+YIeOk
+tbNIBuTuc4PYsLFC5vngSZq826X1XvEGmDAXCRwuhl4f88kCAwEAAaOCAqkwggKlMIIBTwYDVR0g
+BIIBRjCCAUIwggE+BggrBgEEAcNSBTCCATAwLQYIKwYBBQUHAgEWIWh0dHA6Ly93d3cuZS1jZXJ0
+Y2hpbGUuY2wvQ1BTLmh0bTCB/gYIKwYBBQUHAgIwgfEege4ARQBsACAAcgBlAHMAcABvAG4AZABl
+AHIAIABlAHMAdABlACAAZgBvAHIAbQB1AGwAYQByAGkAbwAgAGUAcwAgAHUAbgAgAHIAZQBxAHUA
+aQBzAGkAdABvACAAaQBuAGQAaQBzAHAAZQBuAHMAYQBiAGwAZQAgAHAAYQByAGEAIABkAGEAcgAg
+AGkAbgBpAGMAaQBvACAAYQBsACAAcAByAG8AYwBlAHMAbwAgAGQAZQAgAGMAZQByAHQAaQBmAGkA
+YwBhAGMAaQDzAG4ALgAgAFAAbwBzAHQAZQByAGkAbwByAG0AZQBuAHQAZQAsMB0GA1UdDgQWBBSy
+n+Udb6imi5duXMljdFqjfTNqmDALBgNVHQ8EBAMCBPAwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAM
+FgowNTQxNDY4OS0yMB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUw
+M6AxoC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNybDA6Bggr
+BgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0Y2hpbGUuY2wvb2NzcDA9
+BgkrBgEEAYI3FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBy54UhqiCWAIB
+ZAIBBDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgwLTUwDQYJKoZIhvcNAQEFBQAD
+ggEBAJjv7e8gO82FJkjC8Jm4yv3BC/eQumy1iJBH7IYexe8UhbSJZi18yzjtdnARSLKoSyLgX7Y6
+qU/VcZW6rSJ1OSpojKObDZcrI0TC7GAJjcU1+PtxMl6/kw0iNb2oSDN3Y0uEfT/HGUGXk+UT8SdU
+Lw9iBZmeLWJ5Wxr2Pi8oNUfsZ4/nAMetGQlMTjJFtHapR6vudgZCbukxAZHisGApLr8gJpdgmnfU
+dVA6btClKoew09nuzSwtp81Lp6YX1RkoiiVtCeI/xE/Y3WCsZ3GHO0QZljLNVyvsJAzgMD006Qo8
+oMGB69RWL0+/rmElnrX77I5hSHMqOcjeOjYnOqs/d1M=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></DTE>
+
+    </SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#EC20230725170231">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>lnt6BP7k/vHlUkKphiHDc+rs3Bk=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+jrfpc/POkPZt8sgAo9Rdx8IJvUUVIvUDhC0o0BwmuVKm9gk3hG+3fKhJKhqGLJorN34/Qx59itLO
+HGOHRTKMaXdosPrxXcV3G7Ut7YAShv3QU62oGuHX1MTTtUAnv8MSYkYWHTDZS+0AtA1EuTJ3u+c3
+ygCzA+guiPCL2EZU+tWniOaSy7DwN7sxSJmKC4S4RbaVDc3OJ/+EpfdtJ5t+nd+1I8gOIblWwW3R
+YXz9MtCFWxDLc3PNeLZMbWXCkbhO3gQGnzsCqBEpC/EnoMLxK7+gXedbAC9Qnia7q1t4bZ4oD07y
+w6Z7xo8VKLpwh391V8P4lOkFcbJtK4/T2Ncd0A==
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+mIsq0inZ+lRMN4N4kBxf4/0G7E8kQM6ySmXZ1XrCFw71yjdq3/fz12CJDKmEEC9kahip4IuR/hIi
+/+kfKaRVwjA6C0JOs03j/la7+4ChEp6a12jMWfvyLN/hkU4qxHhurS+rCkitJQVAXN65nbOpELRG
+qRfUfJ+4pBsEbvZexZr22PDG/RhDYJJC2USBjV56iKcV4X9C26TAVhGDKwpaVNluxZV5Vz0QNuox
+sJ/CjCpX4NyaVlNLsHduMWTvWSCGPjTE3qjBOykqn2JEks2Gy1RKkCwTsbjyaxDpNo6KeNKU8Q4S
+txqllr7G+jEjDMlGx+Rqp5nLy4i3UIcWrWlpSw==
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIHvjCCBaagAwIBAgIKLEj5zgABAAarkDANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQD
+ExVFLUNFUlRDSElMRSBDQSBGRVMgMDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNo
+aWxlLmNsMB4XDTIzMDcxNzE4MTIxOVoXDTI2MDcxNjE4MTIxOVowgboxCzAJBgNVBAYTAkNMMSIw
+IAYDVQQIExlNRVRST1BPTElUQU5BIERFIFNBTlRJQUdPMREwDwYDVQQHEwhTQU5USUFHTzEcMBoG
+A1UEChMTRURJVFJBREUgQ0hJTEUgUy5BLjEKMAgGA1UECwwBKjEjMCEGA1UEAxMaSlVBTiBFTlJJ
+UVVFIE9SVFVaQVIgRUxUT04xJTAjBgkqhkiG9w0BCQEWFkpFT1JUVVpBUkVARURJVFJBREUuQ0ww
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCYiyrSKdn6VEw3g3iQHF/j/QbsTyRAzrJK
+ZdnVesIXDvXKN2rf9/PXYIkMqYQQL2RqGKngi5H+EiL/6R8ppFXCMDoLQk6zTeP+Vrv7gKESnprX
+aMxZ+/Is3+GRTirEeG6tL6sKSK0lBUBc3rmds6kQtEapF9R8n7ikGwRu9l7FmvbY8Mb9GENgkkLZ
+RIGNXnqIpxXhf0LbpMBWEYMrClpU2W7FlXlXPRA26jGwn8KMKlfg3JpWU0uwd24xZO9ZIIY+NMTe
+qME7KSqfYkSSzYbLVEqQLBOxuPJrEOk2jop40pTxDhK3GqWWvsb6MSMMyUbH5GqnmcvLiLdQhxat
+aWlLAgMBAAGjggK9MIICuTCCAV8GA1UdIASCAVYwggFSMIIBTgYIKwYBBAHDUgUwggFAMD0GCCsG
+AQUFBwIBFjFodHRwczovL3d3dy5lLWNlcnRjaGlsZS5jbC9wb2xpdGljYXMteS1wcmFjdGljYXMv
+MIH+BggrBgEFBQcCAjCB8R6B7gBFAGwAIAByAGUAcwBwAG8AbgBkAGUAcgAgAGUAcwB0AGUAIABm
+AG8AcgBtAHUAbABhAHIAaQBvACAAZQBzACAAdQBuACAAcgBlAHEAdQBpAHMAaQB0AG8AIABpAG4A
+ZABpAHMAcABlAG4AcwBhAGIAbABlACAAcABhAHIAYQAgAGQAYQByACAAaQBuAGkAYwBpAG8AIABh
+AGwAIABwAHIAbwBjAGUAcwBvACAAZABlACAAYwBlAHIAdABpAGYAaQBjAGEAYwBpAPMAbgAuACAA
+UABvAHMAdABlAHIAaQBvAHIAbQBlAG4AdABlACwwHQYDVR0OBBYEFC4P+MAQqId8VnE2SYh+4Q1i
+aS9KMAsGA1UdDwQEAwIE8DAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzMTcxODg0LTUwHwYD
+VR0jBBgwFoAUdNYhs/Ra6C18u1kGY0PvabQ6kwQwQAYDVR0fBDkwNzA1oDOgMYYvaHR0cDovL2Ny
+bC5lY2VydGNoaWxlLmNsL0UtQ0VSVENISUxFQ0FGRVMwMi5jcmwwPQYIKwYBBQUHAQEEMTAvMC0G
+CCsGAQUFBzABhiFodHRwOi8vb2NzcGZlcy5lY2VydGNoaWxlLmNsL29jc3AwPAYJKwYBBAGCNxUH
+BC8wLQYlKwYBBAGCNxUIgd3STZfUOoaJnQaHiM5vg6/MYEWG0uwIhsfKfQIBZAIBBzAjBgNVHRIE
+HDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgwLTUwDQYJKoZIhvcNAQELBQADggIBAEOIUuUMisAo
++Mf35csZTNM3Ga0H6gnbunJJufDoaM7p02pYMg0dQBKPcuPPwCUNxLXOfKv+lpLbE+8ez43b65Yt
+sfTRUQ4QnNI6XtKPpndopFzy0oME7B64wougVEPAyeGvQFEMM9lvwa5ZRlVtX1GwAqIYus42f22a
+gk/XOgGwYKio6PClULNsYL+wTwboIqu66MO/aauS2QBebmov0NvN8+FiIN26GDDbWm681Ic3tRrb
+j6x05PTJq49m595FcpEN+NeMsqnKmh5oeBhuqdF4s2VWHOelCRu9joQ4dSJKRVd16OSeB58DXl/H
+Fs4lQuq2JGJTk/vWFWQW+2gF82SHDQnBGDF6X8Qo9nMKjxa9ofLbkppZ/ftLOqXgf68xel+lx2Zj
+X7if31RrRB4l4iJJCIiGIqI4QyPFgblpH2EbTEW+QJ7mnxWCZwIbWV9xIskGcuZcKaytqUOY3Vgb
+bRIQMM3iDq4c1cRhdxu1VPQd+2mJUJO7UIdvJ32xyLSYW4jH1LQipMHgbZh+fDC15yhNDR+NBZL3
+WFyX4GVdPIZ9u+09Sa0Hju57k1eZaqvGia8fnUjhxq9j3t/q429MoYEj1dyfAK9Vf9diQVC3qU51
+2HR0imP4ZQ+ihnad4A8Pj+4x+dn/tkC1LxeUIdvwuF9FVNyJGl3V3cPW/AP+6j4D
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></EnvioDTE>

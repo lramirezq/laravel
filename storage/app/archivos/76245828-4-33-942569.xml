@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+<SetDTE ID="EnvioDTE-79853470-K-76245828-4-20240115-121931-623F59A2">
+<Caratula version="1.0">
+<RutEmisor>79853470-K</RutEmisor>
+<RutEnvia>13272698-1</RutEnvia>
+<RutReceptor>76245828-4</RutReceptor>
+<FchResol>2012-02-17</FchResol>
+<NroResol>23</NroResol>
+<TmstFirmaEnv>2024-01-15T12:19:31</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>33</TpoDTE>
+<NroDTE>1</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+      <Documento ID="T33F942569">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>942569</Folio>
+            <FchEmis>2024-01-15</FchEmis>
+            <TpoImpresion>N</TpoImpresion>
+            <FmaPago>2</FmaPago>
+            <FchVenc>2024-02-14</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>79853470-K</RUTEmisor>
+            <RznSoc>Automotriz Cordillera S.A.</RznSoc>
+            <GiroEmis>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTORES</GiroEmis>
+            <Telefono>33</Telefono>
+            <Acteco>451001</Acteco>
+            <Sucursal>VW Autoplaza Plaza O</Sucursal>
+            <DirOrigen>Autoplaza Plaza Oeste, Av. Américo Vespucio 1501</DirOrigen>
+            <CmnaOrigen>Cerrillos, Santiago</CmnaOrigen>
+            <CiudadOrigen>Cerrillos, Santiago</CiudadOrigen>
+            <CdgVendedor>Ricardo Gabriel Fredes Oyarzun</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76245828-4</RUTRecep>
+            <RznSocRecep>PORSCHE CHILE S.P.A.</RznSocRecep>
+            <GiroRecep>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTO</GiroRecep>
+            <Contacto>+223224000</Contacto>
+            <DirRecep>AVDA. APOQUINDO 5400, PISO 19 Y 20</DirRecep>
+            <CmnaRecep>Las Condes</CmnaRecep>
+            <CiudadRecep>Santiago</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>71052150</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19</TasaIVA>
+            <IVA>13499909</IVA>
+            <MntTotal>84552059</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo></TpoCodigo>
+            <VlrCodigo></VlrCodigo>
+          </CdgItem>
+          <NmbItem>ACCIONES COMERCIALES LNF DICIEMBRE 2023</NmbItem>
+          <DscItem> </DscItem>
+          <QtyItem>1</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>71052150</PrcItem>
+          <MontoItem>71052150</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>801</TpoDocRef>
+          <FolioRef>86480</FolioRef>
+          <FchRef>2024-01-08</FchRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>79853470-K</RE>
+            <TD>33</TD>
+            <F>942569</F>
+            <FE>2024-01-15</FE>
+            <RR>76245828-4</RR>
+            <RSR>PORSCHE CHILE S.P.A.</RSR>
+            <MNT>84552059</MNT>
+            <IT1>ACCIONES COMERCIALES LNF DICIEMBRE 2023</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>79853470-K</RE>
+                <RS>AUTOMOTRIZ CORDILLERA S.A.</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>912323</D>
+                  <H>964158</H>
+                </RNG>
+                <FA>2023-10-16</FA>
+                <RSAPK>
+                  <M>0Cj9FcBKY2Y39LUIoNOnv7n/H4PkqjUtnIF/O0drYNXx2Z/wkOkbw/acWQTUG77E5HpTVNeTp4QCUAJDbagGoQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">XPK+kojniVzZql1fEXyhKd0Zf2ddQE0oCd0F3ZSrSlKmHnMP4AKxAgjuWPHDLZ2uI+15yQkCPFWFfb0qurFS7g==</FRMA>
+            </CAF>
+            <TSTED>2024-01-15T12:17:15</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">uk/o9Q25BoBDAjfKub8SS1clWfTwORFPchDrjAx74CJiW87ZOuefZVTkWfi91d+HFa3g005vqLKL
+u51S2S6V0Q==</FRMT>
+        </TED>
+        <TmstFirma>2024-01-15T12:17:15</TmstFirma>
+      </Documento>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<SignedInfo>
+		<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+		<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+		<Reference URI="#T33F942569">
+			<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+			<DigestValue>4yafPhLlZQEQ51Sml2Ost4rlx5s=</DigestValue>
+		</Reference>
+	</SignedInfo>
+	<SignatureValue>hAUHe8+A/GMqwDN6RL7qnshIWFfPASSC74Io8/Gbu6+AVUj2M2DQtokahp7o86ysPd3UT8t9p1zi
+ap5NUKclvVIqr8hEw573CIVw+Cjvo79mB0KAbjeau5A+sXsKPC8Wtrhy8Y+F+1diECqHVFv1DCSR
+UkYhz/Y2TFysALg85GT9qkpmzPPrMWmBOM8NU2UdtJL6SKKLneZxXbtP1V3bk0XrjzqFTCdFVMSi
+TMijxd3qnhWwy5ziPOlZn68/BaulryCGl/vW+PMWkKllhRwHJomYlsLbXA1zMIGOkEEdCG8Aq9ct
+ShrW3LvJSNWXfAq8iG5HyAtmNg7+LzqxlfKRxQ==</SignatureValue>
+	<KeyInfo>
+		<KeyValue>
+			<RSAKeyValue>
+				<Modulus>pcudeGTx9rn1BKUdNKAWexxDWjweMNONANbE52GvZwmY9jnDulgIPqI5p0vfY8/109SPGYei6kGE
+BnqqX1X+wIKkDi6knYlEeqU96toXn2Wp4I3p7G4t2duZdYXBOOu85N8HWv9QW4LKOAhGaCTMjX9D
+ZinvEnxMth5hB8+mc/JxWyxvH/arvthvh5A5wUfdSYZe+axv2xtrz8K0rnlHU7+fnM4mDHtRxmnb
+WGdaM1Ge4H9sRBRFKg3zXJn5eo7LHwvwuHkyODd27fXAlO1i88elF349bEvJdNcQaog7ii7Q1icW
+rX2oBL8d0GeDaFAEKgMtRo7+sTm3iXilBcOOgQ==</Modulus>
+				<Exponent>AQAB</Exponent>
+			</RSAKeyValue>
+		</KeyValue>
+		<X509Data>
+			<X509Certificate>MIIGgDCCBWigAwIBAgIDAPuEMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yMTA1MzExNTEzMjFaFw0yNDA1MzEx
+NTEzMjFaMIGJMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMR0wGwYDVQQD
+ExRKT1NFIE1BTlVFTCBGRVJSRVIgLjEsMCoGCSqGSIb3DQEJARYdQ09OVEFCSUxJREFEQFNBTEFa
+QVJJU1JBRUwuQ0wxEzARBgNVBAUTCjE0NjU3MDk1LUswggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCly514ZPH2ufUEpR00oBZ7HENaPB4w040A1sTnYa9nCZj2OcO6WAg+ojmnS99jz/XT
+1I8Zh6LqQYQGeqpfVf7AgqQOLqSdiUR6pT3q2hefZangjensbi3Z25l1hcE467zk3wda/1Bbgso4
+CEZoJMyNf0NmKe8SfEy2HmEHz6Zz8nFbLG8f9qu+2G+HkDnBR91Jhl75rG/bG2vPwrSueUdTv5+c
+ziYMe1HGadtYZ1ozUZ7gf2xEFEUqDfNcmfl6jssfC/C4eTI4N3bt9cCU7WLzx6UXfj1sS8l01xBq
+iDuKLtDWJxatfagEvx3QZ4NoUAQqAy1Gjv6xObeJeKUFw46BAgMBAAGjggLQMIICzDAfBgNVHSME
+GDAWgBSq/b3F6TdN9plNV47BcRr568MG4zAdBgNVHQ4EFgQUXMMpmolZh/bYonX7OnBw09tmhtkw
+CwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEE
+BAMCBaAwgfoGA1UdIASB8jCB7zCB7AYIKwYBBAG1awIwgd8wMQYIKwYBBQUHAgEWJWh0dHBzOi8v
+YWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgakGCCsGAQUFBwICMIGcMBYWD0FjZXB0YS5j
+b20gUy5BLjADAgECGoGBRWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1hIHByZXNl
+bmNpYWwsIHF1ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1c28gdHJpYnV0
+YXJpbywgcGFnb3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYK
+OTY5MTkwNTAtOKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFj
+ZXB0YS5jb20waAYDVR0RBGEwX6AYBggrBgEEAcEBAaAMFgoxNDY1NzA5NS1LoCQGCCsGAQUFBwgD
+oBgwFgwKMTQ2NTcwOTUtSwYIKwYBBAHBAQKBHUNPTlRBQklMSURBREBTQUxBWkFSSVNSQUVMLkNM
+MEcGCCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNn
+NC9vY3NwL0NsYXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNv
+bS9hY2c0L2NybC9DbGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQCBnfrqu2HOqYWLEf4O
+gSkbHSh1gl+7O0GKfoESr8b2qdKR9tKsRFZnLOECUyAQAauKzevfDpFy71Irv9vJcOfStOejS+56
+xNQhMR7RmZHqyuTlQzDrQxEmw7iI2ULIQP6ZSlnINN49cyS00CSo8SRjApFslVOj3VUyW4Z5awRK
+FK2hUIya4rYYOPPXsVfl9eUEEfCqxgIYq/n39M9S/eZMNIN70Fo78IMorjzhsmKRl7Lo7brD3ZPB
+p60IQeRl2ub7YFoSwg4qQEcuzStXrZsfxZpwrib9d1uQ4Z7MA97Ug06JwUA7CFIP/RQ5HouhjzdQ
+ruJ1LnppuBHFx1rpttNJ</X509Certificate>
+		</X509Data>
+	</KeyInfo>
+</Signature>
+    </DTE></SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod><Reference URI="#EnvioDTE-79853470-K-76245828-4-20240115-121931-623F59A2"><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod><DigestValue>YiuNX8Ivs83q2U0eB7N5S4xJaEg=</DigestValue></Reference></SignedInfo><SignatureValue>f+QiIAjAanCVcRNPEbuhcnssrMe17s6K/GV2YxGXm/d2XjglvU00hAc1wBAuxq/AFcjbVPmWNcNL
+y80wNLUTXnd8DHW+AP/TDkq3SBd44uXbcvzOWl/4vmTLtxvHRyG6Y7dlu967JPTGoyNVh94/34se
+Wo+08Rs6yGCSzvXlbe/YNUHzw1WJHZS2Cw6nHggKZA0538bS6RZxPoao57P4XwCuYfZ3aFvALvvX
+zycbQyd5juHK2UM5YFsMDHPO55UnqSywajHv58I0TRFM6xmDueqH7WbzUmV3cINBosGqoHJha474
+4Va1FXXfRfCUMfKRq9ihmgfG//g3DJMXM0o/qA==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yq60b4VHWDgqO+PVNVpscmOzwEjJ9m5F8dEAXo/o0eGo4WtQK7HYUTaWFBkIg51Ns8yp94LNXhCA
+g14a9cCo8HwX0ohl/RqsRUa/4CGAeV//OwjILEDC6VgvROAMtmBv4cRRKnleLKVLu5CFSRe5Jk1/
+unB8h6kwOQ1JmrhA3+1JaOv7dgoX1ajjnPNBfk2Fd3WWqHAErcwUcNW5beUsYiEOP9+dlh/haDNI
+tDn1FV+DQ4Swit01OzRJmv7sv82CU9yyUx20tddE5nnkDoH3oim7S4tAFLSn9rv4V2ZNVOrax1NN
+9CywnCHGo7ljGziVCKGwf/JCODzo4it/GjnH3Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIGeDCCBWCgAwIBAgIDBgULMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yMjA5MDIyMTAyMjJaFw0yNTA5MDIy
+MTAyMjJaMIGKMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSIwIAYDVQQD
+ExlBTFZBUk8gR09OWkFMRVogUklFREVNQU5OMSgwJgYJKoZIhvcNAQkBFhlhbHZhcm8uZ29uemFs
+ZXpAc292b3MuY29tMRMwEQYDVQQFEwoxMzI3MjY5OC0xMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAyq60b4VHWDgqO+PVNVpscmOzwEjJ9m5F8dEAXo/o0eGo4WtQK7HYUTaWFBkIg51N
+s8yp94LNXhCAg14a9cCo8HwX0ohl/RqsRUa/4CGAeV//OwjILEDC6VgvROAMtmBv4cRRKnleLKVL
+u5CFSRe5Jk1/unB8h6kwOQ1JmrhA3+1JaOv7dgoX1ajjnPNBfk2Fd3WWqHAErcwUcNW5beUsYiEO
+P9+dlh/haDNItDn1FV+DQ4Swit01OzRJmv7sv82CU9yyUx20tddE5nnkDoH3oim7S4tAFLSn9rv4
+V2ZNVOrax1NN9CywnCHGo7ljGziVCKGwf/JCODzo4it/GjnH3QIDAQABo4ICxzCCAsMwHwYDVR0j
+BBgwFoAUZaWrPj/ItlFtEX5fwwoH5kOgCLYwHQYDVR0OBBYEFAw/Ircznj9uurwACe/unGySEIln
+MAsGA1UdDwQEAwIE8DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4QgEB
+BAQDAgWgMIH1BgNVHSAEge0wgeowgecGCCsGAQQBtWsCMIHaMDEGCCsGAQUFBwIBFiVodHRwczov
+L2FjZzQuYWNlcHRhLmNvbS9DUFMtQWNlcHRhY29tMIGkBggrBgEFBQcCAjCBlzAWFg9BY2VwdGEu
+Y29tIFMuQS4wAwIBCRp9RWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1hIG9ubGlu
+ZSwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0cmlidXRhcmlv
+LCBwYWdvcywgY29tZXJjaW8geSBvdHJvcy4wWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAMFgo5Njkx
+OTA1MC04oCQGCCsGAQUFBwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9AYWNlcHRh
+LmNvbTBkBgNVHREEXTBboBgGCCsGAQQBwQEBoAwWCjEzMjcyNjk4LTGgJAYIKwYBBQUHCAOgGDAW
+DAoxMzI3MjY5OC0xBggrBgEEAcEBAoEZYWx2YXJvLmdvbnphbGV6QHNvdm9zLmNvbTBHBggrBgEF
+BQcBAQQ7MDkwNwYIKwYBBQUHMAGGK2h0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvb2NzcC9D
+bGFzZTItRzQwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9j
+cmwvQ2xhc2UyLUc0LmNybDANBgkqhkiG9w0BAQsFAAOCAQEAqYvy0m3S0Hfm1EyuxwZX80dboaZU
+maYWVD7fgrkB89xM0c/D51hwPvClf3P7g8D+KGgXaRNXu+qj2k66ExDr53byhxO+JGyjfSn8Tfei
+1VYzkEQnjzTyYhFG700Kbt1K7kh7T0hddIzIpfE4qVJ49v4yVfJBwpJkuo2g7xqmcf6SvtFDI1D4
+NHyW7mAp9Vij80AWXSpqLg1NWQ1xjr60wjYBBHyerjmpem2yBQcf9H/tq+G0E3EjVgkIsHXNEogS
+bYUFLH30AhYqXhPIHk5MVbWwhDpxLcYcfTBYAahO/DQByfOynsb62wCxeyNFR3l5PYn0hNwhZMXb
+/I6Svq6vEw==</X509Certificate></X509Data></KeyInfo></Signature></EnvioDTE>

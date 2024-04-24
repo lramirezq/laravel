@@ -29,7 +29,7 @@ class CopyToSFTP extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'This function allow copy docs to sftp server';
 
     /**
      * Execute the console command.
@@ -37,62 +37,71 @@ class CopyToSFTP extends Command
     public function handle()
     {
         Log::info('Copy to SFTP ');
-
+      
         //buscar todos los pendientes de pasar por SFTP
-        $documents = Document::whereNull('copy_to_sftp')->get();
-
+        $documents = Document::whereNull('copy_to_sftp')
+                     ->whereNotNull('path_pdf')
+                     ->whereNotNull('path_xml')
+                     ->get();
+        Log::info(" Vamos a copiar XML y PDF de  [" .$documents->count()."] Documentos");
         foreach ($documents as $document) {
 
             //debemos pasar el pdf y el xml
-            $pdf = '/app/archivos/' . basename($document->DocumentReceiverCode . '-' . $document->DocumentTypeId . '-' . $document->Number) . '.pdf';
-            $xml = '/app/archivos/' . basename($document->DocumentReceiverCode . '-' . $document->DocumentTypeId . '-' . $document->Number) . '.xml';
+            $pdf = '/app/' . $document->path_pdf;
+            $xml = '/app/' . $document->path_pdf;
 
-            Log::info("Validar q exista en el Storage...pdf [" . $pdf . "] xml [" . $xml . "]");
+            Log::debug("Buscando files [" . $pdf . "] xml [" . $xml . "]");
             if ($this->verificarArchivo($pdf) && $this->verificarArchivo($xml)) {
                 //Vamos a pasar el PDF
 
+                $valida = 0;
 
-                $this->copiarArchivoPorSFTP($pdf);
                 try {
+                    $this->copiarArchivoPorSFTP($pdf);
                     $document->save();
                     $evento = new Evento();
                     $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
                     $evento->observacion = "PDF Copiado a Servidor SFTP";
                     $document->eventos()->save($evento);
                     Log::debug("PDF Copiado SFTP: " . $document->Number);
-
+                    $valida = +1;
                 } catch (\Exception $e) {
-                    Log::debug("" . $e->getMessage());
+                    Log::error("Error al Copiar a SFTP PDF" . $e->getMessage());
                     continue;
                 }
 
 
-                $this->copiarArchivoPorSFTP($xml);
+
                 try {
+                    $this->copiarArchivoPorSFTP($xml);
                     $document->save();
                     $evento = new Evento();
                     $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
                     $evento->observacion = "XML Copiado a Servidor SFTP";
                     $document->eventos()->save($evento);
-                    Log::debug("PDF Copiado SFTP: " . $document->Number);
-
+                    Log::debug("XML Copiado SFTP: " . $document->Number);
+                    $valida = +1;
                 } catch (\Exception $e) {
-                    Log::debug("" . $e->getMessage());
+                    Log::error("Error al Copiar a SFTP XML" . $e->getMessage());
+                    $document->copy_to_sftp = null;
+                    $document->save();
                     continue;
                 }
 
                 try {
-                    $document->copy_to_sftp = true;
-                    $document->save();
-
-                   
-                        
-
+                    if ($valida == 2) {
+                        $document->copy_to_sftp = true;
+                        $document->save();
+                    }
                 } catch (\Exception $e) {
                     Log::debug("" . $e->getMessage());
+                    $document->copy_to_sftp = null;
+                    $document->save();
                     continue;
                 }
 
+            }else{
+                Log::error("No existen ambos documentos para pasar a SFTP");
             }
 
 

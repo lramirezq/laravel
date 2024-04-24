@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTEd248d9f703fd4d32af644941641c406d">
+    <Caratula version="1.0">
+      <RutEmisor>97036000-K</RutEmisor>
+      <RutEnvia>97036000-K</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2004-11-30</FchResol>
+      <NroResol>105</NroResol>
+      <TmstFirmaEnv>2023-11-20T20:40:42</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>34</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F11367809T34">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>34</TipoDTE>
+            <Folio>11367809</Folio>
+            <FchEmis>2023-11-20</FchEmis>
+            <FmaPago>1</FmaPago>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>97036000-K</RUTEmisor>
+            <RznSoc>Santander - Chile</RznSoc>
+            <GiroEmis>Banco Comercial</GiroEmis>
+            <Acteco>3131</Acteco>
+            <DirOrigen>Bandera 140</DirOrigen>
+            <CmnaOrigen>Santiago Centro</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76245828-4</RUTRecep>
+            <RznSocRecep>PORSCHE CHILE SPA</RznSocRecep>
+            <GiroRecep>VENTA AL POR MAYOR DE VEHICULOS AUTOMOTO</GiroRecep>
+            <DirRecep>APOQUINDO 5400</DirRecep>
+            <CmnaRecep>LAS CONDES</CmnaRecep>
+            <CiudadRecep>No Disponible</CiudadRecep>
+            <DirPostal>APOQUINDO 5400</DirPostal>
+            <CmnaPostal>LAS CONDES</CmnaPostal>
+            <CiudadPostal>No Disponible</CiudadPostal>
+          </Receptor>
+          <Totales>
+            <MntExe>0</MntExe>
+            <MntTotal>0</MntTotal>
+            <MontoNF>226625000</MontoNF>
+            <MontoPeriodo>226625000</MontoPeriodo>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>MONEDA</TpoCodigo>
+            <VlrCodigo>13</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>TRANSACC</TpoCodigo>
+            <VlrCodigo>VENTA</VlrCodigo>
+          </CdgItem>
+          <IndExe>2</IndExe>
+          <NmbItem>TS VENTA  USD - 000000250000.00 - 0906.5</NmbItem>
+          <DscItem>TS VENTA  USD - 000000250000.00 - 0906.500000 C OP. CAMBIO: 20090</DscItem>
+          <QtyItem>250000.000000</QtyItem>
+          <PrcItem>906.500000</PrcItem>
+          <MontoItem>226625000</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>MONEDA</TpoCodigo>
+            <VlrCodigo>56</VlrCodigo>
+          </CdgItem>
+          <CdgItem>
+            <TpoCodigo>TRANSACC</TpoCodigo>
+            <VlrCodigo>03</VlrCodigo>
+          </CdgItem>
+          <NmbItem>000032648456</NmbItem>
+          <DscItem>000032648456</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>MONEDA</TpoCodigo>
+            <VlrCodigo>000</VlrCodigo>
+          </CdgItem>
+          <NmbItem>0000025000000</NmbItem>
+          <DscItem>0000025000000</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>TRANSACC</TpoCodigo>
+            <VlrCodigo>V-</VlrCodigo>
+          </CdgItem>
+          <IndExe>2</IndExe>
+          <NmbItem>013V-000</NmbItem>
+          <DscItem>013V-000</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>97036000-K</RE>
+            <TD>34</TD>
+            <F>11367809</F>
+            <FE>2023-11-20</FE>
+            <RR>76245828-4</RR>
+            <RSR>PORSCHE CHILE SPA</RSR>
+            <MNT>0</MNT>
+            <IT1>TS VENTA  USD - 000000250000.00 - 0906.5</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>97036000-K</RE>
+                <RS>BANCO SANTANDER CHILE</RS>
+                <TD>34</TD>
+                <RNG>
+                  <D>11157398</D>
+                  <H>11457397</H>
+                </RNG>
+                <FA>2023-09-06</FA>
+                <RSAPK>
+                  <M>5V12VqW5fPsI+R76KnhSxE/UCrqu3Cq29KuTeAx6M6ftnzGlyZqqiKuezSpZcRf+S21qKpCkMdLsa5dQX0yQow==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">Hc7F5OALRzRtCvizzY5dbiNQMdSrNAU+oGBFa4QSXNZwPDp2iCrOE81E8FG6pZxCY9E5ii7SeIvvMGilJz4QCA==</FRMA>
+            </CAF>
+            <TSTED>2023-11-20T20:40:42</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">dph6DN9NzBZXeSnRbMuEiUPiiHz23FOZmcet3lvsfhJfmOGa2Xv3JtEpakbIQcP3y4agGzek2vrRoGqbLlvpbA==</FRMT>
+        </TED>
+        <TmstFirma>2023-11-20T20:40:45</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F11367809T34"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OaDMFuQDC7OsbMujkqIKfki9ePs=</DigestValue></Reference></SignedInfo><SignatureValue>
+rpwJ9ZSjYz1AUub1OMW/zby1ldT5sB7wyK0lsllBkWad/6wvxYTOUShJbmpJWOSa
+XwTidzkOdsaPBFVZOY6DiwPK9V2tkKmR2Tl67QMidZBiDTZTCEq7X9tey4mGrgWt
+5ESB33KRlqa+S300zxMb0EFWnNr035S+SfpIMsFIAwcfANnsDv9tGOfHTYyD5WZg
+7EUAcKkmpiyOPzeuCRvYiEojM/wP6OiQw3YoI4ERQHBVuQA+SM3ANxS0b6T+ZCZK
+RE83W4JOjh66UxceB1WXrjWwSzTqMDoobKxmMDOJK8ZwjHjeM45x2MjJ4BmalkYD
+CZbksl6e+rU95cHDioTTyQ==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+0x1SxZMcWxNSM7G7JgJjfW1D1gtpcsS/QWSaENjpnqMOgqK0dpQlj34a2AI0G4vc
+8CzrChWsnCrgViSEcP4dGQAW3cF7qr6OCZ24PeL93ugyQ66vjVilvf4CkakDyy8g
+QXwxtC/+bBmB+NFUstF5WCcgmSz+GkVEk2OapMFfHBzAULFUv91SFba45FFfb4nX
+dD513OhsS4NR2rzI/7/fTisVB6RmgoJ7Rcf1CSyQDVS4r+MEnQyuV5Uf2PpdKqV4
+KDcTpm+DRbdNpWsh6GzWeAgRVF5CoKhgWMkPgCuWp8lPuHDdKQXRhy7v3G1qtwl5
+rT0x7MbuxmlTWifvXpSmYQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIHuzCCBaOgAwIBAgIKSoJaOQABAAQ1XTANBgkqhkiG9w0BAQsFADCBvzELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQDExVFLUNFUlRDSElMRSBDQSBGRVMg
+MDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNoaWxlLmNsMB4XDTIz
+MDEwNTE4MjAxOFoXDTI2MDEwNDE4MjAxOFowgbcxCzAJBgNVBAYTAkNMMSIwIAYD
+VQQIExlNRVRST1BPTElUQU5BIERFIFNBTlRJQUdPMREwDwYDVQQHEwhTQU5USUFH
+TzEYMBYGA1UEChMPQkFOQ08gU0FOVEFOREVSMQowCAYDVQQLDAEqMR8wHQYDVQQD
+ExZBTkdFTEEgSFVSVEFETyBSRVRBTUFMMSowKAYJKoZIhvcNAQkBFhtBTkdFTEEu
+SFVSVEFET0BTQU5UQU5ERVIuQ0wwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDTHVLFkxxbE1IzsbsmAmN9bUPWC2lyxL9BZJoQ2Omeow6CorR2lCWPfhrY
+AjQbi9zwLOsKFaycKuBWJIRw/h0ZABbdwXuqvo4Jnbg94v3e6DJDrq+NWKW9/gKR
+qQPLLyBBfDG0L/5sGYH40VSy0XlYJyCZLP4aRUSTY5qkwV8cHMBQsVS/3VIVtrjk
+UV9vidd0PnXc6GxLg1HavMj/v99OKxUHpGaCgntFx/UJLJANVLiv4wSdDK5XlR/Y
++l0qpXgoNxOmb4NFt02layHobNZ4CBFUXkKgqGBYyQ+AK5anyU+4cN0pBdGHLu/c
+bWq3CXmtPTHsxu7GaVNaJ+9elKZhAgMBAAGjggK9MIICuTCCAV8GA1UdIASCAVYw
+ggFSMIIBTgYIKwYBBAHDUgUwggFAMD0GCCsGAQUFBwIBFjFodHRwczovL3d3dy5l
+LWNlcnRjaGlsZS5jbC9wb2xpdGljYXMteS1wcmFjdGljYXMvMIH+BggrBgEFBQcC
+AjCB8R6B7gBFAGwAIAByAGUAcwBwAG8AbgBkAGUAcgAgAGUAcwB0AGUAIABmAG8A
+cgBtAHUAbABhAHIAaQBvACAAZQBzACAAdQBuACAAcgBlAHEAdQBpAHMAaQB0AG8A
+IABpAG4AZABpAHMAcABlAG4AcwBhAGIAbABlACAAcABhAHIAYQAgAGQAYQByACAA
+aQBuAGkAYwBpAG8AIABhAGwAIABwAHIAbwBjAGUAcwBvACAAZABlACAAYwBlAHIA
+dABpAGYAaQBjAGEAYwBpAPMAbgAuACAAUABvAHMAdABlAHIAaQBvAHIAbQBlAG4A
+dABlACwwHQYDVR0OBBYEFDBRxrJX88/lAppYli8wlA9aduduMAsGA1UdDwQEAwIE
+8DAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjE3MzY5Mzk5LTAwHwYDVR0jBBgw
+FoAUdNYhs/Ra6C18u1kGY0PvabQ6kwQwQAYDVR0fBDkwNzA1oDOgMYYvaHR0cDov
+L2NybC5lY2VydGNoaWxlLmNsL0UtQ0VSVENISUxFQ0FGRVMwMi5jcmwwPQYIKwYB
+BQUHAQEEMTAvMC0GCCsGAQUFBzABhiFodHRwOi8vb2NzcGZlcy5lY2VydGNoaWxl
+LmNsL29jc3AwPAYJKwYBBAGCNxUHBC8wLQYlKwYBBAGCNxUIgd3STZfUOoaJnQaH
+iM5vg6/MYEWG0uwIhsfKfQIBZAIBBzAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwW
+Cjk2OTI4MTgwLTUwDQYJKoZIhvcNAQELBQADggIBACGitZMbYiFyNtiLCCMiOUOr
+XvsNYJlMihiV2E9UF391brcD6FjlySvbTTuAGEADyWdTZ8/1+hSkrxLX6IOPRf4p
+7xFybhaJArVqgskV+lPbXq21qgVW4kF7jiRZ7mWVhgHSBnd/6M8yQ5+mhN+SH2Dt
+DkRtLqUBC90RQIV5glp7BMty2bFn+Zf04UiKDG3G7k/ZSUjBO/r4LYW5oxpE9FHQ
+ZwIlpDV3DpzeZwMYN8O+2Oc9Oot3AJo1NKlKGobtGanEo9ERyOJh/NrlPX/8Tl0q
+rXKpsEhrJg9DBjtlryRDXiajheqiUSybZGaWqJgKF6aQi0WuaEv3IAQOLFSVY2Ke
+IZNTKA4dSgdZhavqRbIr0nICyOlqvimK3m0dhnHwYHinggPer38OY1j4hizI4B0S
+wH0/pcwhJN/QE555eH3dB9zS/PTxCcJEpUAWTIRJCZ8zRl66N2nulujylTzh5YjX
+fMUHu+bsZYVFU5hLXoVNxuANQPPbf7FUqGaRASCEddreB6vGxLujBR8gjy1Hwg0a
+5EPxu9K/xkdJ64eDir4Y2oFFi5mE9ZaHynNLyTh7nbiXjeoxOdtYOk4I5hQJOKaS
+iV46nVoyRGu+DiCwLg604VGb2ahJ/prS+AweKh06ema8Lt2AWF8Ouw1RYf6rYTwT
+t8Ml9BjWWqgXLSt1EpKk
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

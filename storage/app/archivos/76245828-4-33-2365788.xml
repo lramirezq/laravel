@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE version="1.0" xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+  <SetDTE ID="SETDTE6752df598fd74f04988238c9c18999ca">
+    <Caratula version="1.0">
+      <RutEmisor>76178493-5</RutEmisor>
+      <RutEnvia>76178493-5</RutEnvia>
+      <RutReceptor>60803000-K</RutReceptor>
+      <FchResol>2013-05-16</FchResol>
+      <NroResol>48</NroResol>
+      <TmstFirmaEnv>2023-08-23T15:51:20</TmstFirmaEnv>
+      
+    <SubTotDTE><TpoDTE>33</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+    
+  <DTE version="1.0">
+      <Documento ID="F2365788T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>2365788</Folio>
+            <FchEmis>2023-08-23</FchEmis>
+            <FmaPago>2</FmaPago>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76178493-5</RUTEmisor>
+            <RznSoc>Porsche Inter Auto Chile SpA</RznSoc>
+            <GiroEmis>COMPRA, VENTA Y DISTRIBUCION DE VEHICULOS</GiroEmis>
+            <Acteco>501010</Acteco>
+            <DirOrigen>Raul Labbe 12509</DirOrigen>
+            <CmnaOrigen>Lo Barnechea</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76245828-4</RUTRecep>
+            <RznSocRecep>Porsche Chile SpA</RznSocRecep>
+            <GiroRecep>VENTA AL POR MAYOR VEHICULO AUTOMOTORES</GiroRecep>
+            <Contacto>+56990814826-+56990814826-</Contacto>
+            <DirRecep>Apoquindo 5400, piso 20</DirRecep>
+            <CmnaRecep>Las Condes (13)</CmnaRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>3005210</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>570990</IVA>
+            <MntTotal>3576200</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>BNA</NmbItem>
+          <DscItem>BONO VOLUMEN VOLKSWAGEN MALL PLAZA NORTE</DscItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>3005210.000000</PrcItem>
+          <MontoItem>3005210</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <NmbItem>17885540301</NmbItem>
+          <DscItem>JULIO 2023</DscItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>76178493-5</RE>
+            <TD>33</TD>
+            <F>2365788</F>
+            <FE>2023-08-23</FE>
+            <RR>76245828-4</RR>
+            <RSR>Porsche Chile SpA</RSR>
+            <MNT>3576200</MNT>
+            <IT1>BNA</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76178493-5</RE>
+                <RS>PORSCHE INTER AUTO CHILE SPA</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>2359800</D>
+                  <H>2369799</H>
+                </RNG>
+                <FA>2023-06-29</FA>
+                <RSAPK>
+                  <M>uGos4nTFSThBBASElhvZullW3WCRJnSoAqNFysUxgPBkOMnhx9sAEokJUqn/3M8gPHSkXVAdB7qCdbRNQwofJQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">ldnL5DkJBfvxuvXK9w8+CwEbvA9pOT93LT9FdSZxFdsP5671ZnfKgV7Kt3TrsMuqMHbXXOTZWgxvlwAPrAF9sA==</FRMA>
+            </CAF>
+            <TSTED>2023-08-23T15:51:20</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">Gy7FzL7nxyG/v0LTjRRly6Dr04iST/Y5QMexg9khH+uxW7M7P1s1GQtFpE3qmkZ1q1rUePKyyQ5jgdJ5i3FadA==</FRMT>
+        </TED>
+        <TmstFirma>2023-08-23T15:51:20</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F2365788T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CqwUpZTk4hNlh0xZWn7MpD3mqUE=</DigestValue></Reference></SignedInfo><SignatureValue>
+DHJd7hWQ6P946E6uQrYlYTPPqmt0Utsh/UuAK5U0bwQ0CNK4SBYogF4342NF4qNY
+2u+46Dl0uFe6dKT10R6TFWFAms/U3yixClr+WtOb9zltvoNgVs9MfwtnpPiGYIZe
+/jGrVkWgBbgW56ppmLBguZ4quGRBtRYK2JBuDVmn0idomBoKZWFZd/J06LSknehf
+nTO3mcmCBB/w4ACw7KOQLI2XLPqD/bRx6IA7hq1hBRZ/Az3gvi9O/71ZADQkzDiD
+HuBjk1aPOv4MqMvB//yLjZBsWqPj8kkSfs9Eh+irppMFK7aKe23mR2DiWZJmaU4z
+h+CCanPSA1TMjGST7MtI2Q==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+0fHaQMrZO454kTjrFw2QcTF1IFMaIM1+588q/YXZiCUPj1/ZaP6uwHzP8LKAPifd
+MBUS+z4STyTK/zVrhwuTPGV9ZswAkRpD7t8VbIukg1h5CxhBP//AmvVp/vfW7gM9
+3oOBacxU4u30qs4RRAkd71hScMVY+KmbsZzRVXVfMZve3h0OTrdnWM1MYdEY9yfH
+rfwTl3Et34BXGbQj3aF10xeP2K49PvtBRqr07bgEqA8EWjCndQOyfwxCaWsBGVjG
+3PM6/NoOlGuq5WYaInuGeRkR6fvd+Q4gRMYwmQ9CcgnQ3r8hfPCWh1m/cXAdKjWs
+OmvfIYMs5x7qT+uqCvExRQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIGejCCBWKgAwIBAgIDBbL0MA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0yMTAzMjYxNTQwMDBaFw0yNDAzMjYxNTQwMDBaMIGPMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSowKAYDVQQDEyFI
+RUNUT1IgRU5SSVFVRSBNT05UT1lBIFNBTlRJQkFORVoxJTAjBgkqhkiG9w0BCQEW
+Fmhtb250b3lhMTk4N0BnbWFpbC5jb20xEzARBgNVBAUTCjE2NzQzMDI1LTIwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDR8dpAytk7jniROOsXDZBxMXUg
+UxogzX7nzyr9hdmIJQ+PX9lo/q7AfM/wsoA+J90wFRL7PhJPJMr/NWuHC5M8ZX1m
+zACRGkPu3xVsi6SDWHkLGEE//8Ca9Wn+99buAz3eg4FpzFTi7fSqzhFECR3vWFJw
+xVj4qZuxnNFVdV8xm97eHQ5Ot2dYzUxh0Rj3J8et/BOXcS3fgFcZtCPdoXXTF4/Y
+rj0++0FGqvTtuASoDwRaMKd1A7J/DEJpawEZWMbc8zr82g6Ua6rlZhoie4Z5GRHp
++935DiBExjCZD0JyCdDevyF88JaHWb9xcB0qNaw6a98hgyznHupP66oK8TFFAgMB
+AAGjggLEMIICwDAfBgNVHSMEGDAWgBRlpas+P8i2UW0Rfl/DCgfmQ6AItjAdBgNV
+HQ4EFgQUGsgudfF9lOswpD7JR70YvbHFdr4wCwYDVR0PBAQDAgTwMB0GA1UdJQQW
+MBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhCAQEEBAMCBaAwgfUGA1Ud
+IASB7TCB6jCB5wYIKwYBBAG1awIwgdowMQYIKwYBBQUHAgEWJWh0dHBzOi8vYWNn
+NC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgaQGCCsGAQUFBwICMIGXMBYWD0Fj
+ZXB0YS5jb20gUy5BLjADAgEJGn1FbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8g
+ZW4gZm9ybWEgb25saW5lLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmlj
+YWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBjb21lcmNpbyB5IG90cm9z
+LjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYIKwYBBQUH
+CAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMGEG
+A1UdEQRaMFigGAYIKwYBBAHBAQGgDBYKMTY3NDMwMjUtMqAkBggrBgEFBQcIA6AY
+MBYMCjE2NzQzMDI1LTIGCCsGAQQBwQECgRZobW9udG95YTE5ODdAZ21haWwuY29t
+MEcGCCsGAQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0
+YS5jb20vYWNnNC9vY3NwL0NsYXNlMi1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRw
+czovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTItRzQuY3JsMA0GCSqG
+SIb3DQEBCwUAA4IBAQAHwrN7j20UhImBa91U6x0tJVp8uMdhLyped8yNhsdPhqWX
+kkGfwE3W5NcZKf7VWwj2aZpJQZ4uBXn82GugO8V1U6wi5N1s5DifE9+bcrLQntUb
+zLfKRV0W5I5Jy7HJd6Bl+uTM+gwvP9oOTxBcgGwrSS+C4JO8H/BVpyilHq2q0JHu
+xa9Oojw38XMaqJj41zSG8gBrexArpRSi35o43HHdANJvjtXFeFFmdpTJe+CiN4m6
+wEqXZQUC+DrCC63y0x5urevWXFfgri5iOKgQUjzNTjaP46YIpGNLBiVLpgoZ225m
+KhuW2pNJILg0VNFA7VLP0CUm+Kzhc7jrwpGRzNq4
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE></SetDTE>
+  
+</EnvioDTE>

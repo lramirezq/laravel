@@ -36,7 +36,7 @@ class DownloadPDF extends Command
        
         Log::info('Inicio descarga de PDF');
         $documents = Document::whereNull('path_pdf')->get();
-
+        Log::info("A descargar [" .$documents->count()."] PDF");
         foreach ($documents as $document) {
             Log::debug("Descargando Documento PDF: [" .$document->Number."]");
             try {
@@ -67,7 +67,7 @@ class DownloadPDF extends Command
                
                } else {
                    // La solicitud no fue exitosa
-                   Log::info( 'Hubo un error al descargar el archivo desde la URL: ' . $document->Number);
+                   Log::error( 'ERROR: al descargar PDF ' . $document->Number);
                }
     
            } catch (\Exception $e) {

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+<SetDTE ID="EnvioDTE-79702040-0-76245828-4-20230329-175324-D9E16C60">
+<Caratula version="1.0">
+<RutEmisor>79702040-0</RutEmisor>
+<RutEnvia>13272698-1</RutEnvia>
+<RutReceptor>76245828-4</RutReceptor>
+<FchResol>2010-01-28</FchResol>
+<NroResol>21</NroResol>
+<TmstFirmaEnv>2023-03-29T17:53:24</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>33</TpoDTE>
+<NroDTE>1</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+      <Documento ID="T33F15711">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>15711</Folio>
+            <FchEmis>2023-03-29</FchEmis>
+            <FchVenc>2023-03-29</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>79702040-0</RUTEmisor>
+            <RznSoc>COMERCIAL DEL REAL E HIJOS LTDA.</RznSoc>
+            <GiroEmis>COMERCIAL</GiroEmis>
+            <Acteco>502080</Acteco>
+            <DirOrigen>CALLE FREIRE 471</DirOrigen>
+            <CmnaOrigen>RANCAGUA</CmnaOrigen>
+            <CiudadOrigen>RANCAGUA</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76245828-4</RUTRecep>
+            <RznSocRecep>PORSCHE CHILE SPA</RznSocRecep>
+            <GiroRecep>VENTA AL POR MAYOR DE VEHÍCULOS AUTOMOTO</GiroRecep>
+            <Contacto>PORSCHE</Contacto>
+            <DirRecep>AV. APOQUINDO 5400 PISO 19 Y 20 OFICINA 2001</DirRecep>
+            <CmnaRecep>LAS CONDES</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>1345798</MntNeto>
+            <TasaIVA>19</TasaIVA>
+            <IVA>255702</IVA>
+            <MntTotal>1601500</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>001</VlrCodigo>
+          </CdgItem>
+          <NmbItem>ACCIONES COMERCIALES LNF FEBRERO 2023</NmbItem>
+          <QtyItem>1</QtyItem>
+          <PrcItem>1345798</PrcItem>
+          <MontoItem>1345798</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>801</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Orden de Compra: 77443</NmbItem>
+          <QtyItem>1</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>.</VlrCodigo>
+          </CdgItem>
+          <NmbItem>Fecha Orden de Compra: 21-03-2023</NmbItem>
+          <QtyItem>1</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>801</TpoDocRef>
+          <FolioRef>77443</FolioRef>
+          <FchRef>2023-03-21</FchRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>79702040-0</RE>
+            <TD>33</TD>
+            <F>15711</F>
+            <FE>2023-03-29</FE>
+            <RR>76245828-4</RR>
+            <RSR>PORSCHE CHILE SPA</RSR>
+            <MNT>1601500</MNT>
+            <IT1>ACCIONES COMERCIALES LNF FEBRERO 2023</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>79702040-0</RE>
+                <RS>COMERCIAL DEL REAL E HIJOS LIMITADA</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>15343</D>
+                  <H>15942</H>
+                </RNG>
+                <FA>2022-10-24</FA>
+                <RSAPK>
+                  <M>uFlCl/zNq3Dm6JejdFrGj8773O96NIpEPBgS6xwO241akyOYlOzFPbEMqQWJya31PHVn6F7jDLXwt5O5t66MGQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">KuccdKT8wmM5MHjhY6ShMBImdky1AEGIS/6Zj25+fyUY3PCPmn6fw19ApQNPlqn8gtYsIPEdTEzDLiZam+70GA==</FRMA>
+            </CAF>
+            <TSTED>2023-03-29T16:32:25</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">ALggP/f+M98uizFy4wUrTI7y6S0BUwxZsneAbhwxp8v1/p7iclK9RLB++Vcp1E1C/J94ZI/mzKab
+RaGWNuH3JA==</FRMT>
+        </TED>
+        <TmstFirma>2023-03-29T16:32:25</TmstFirma>
+      </Documento>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<SignedInfo>
+		<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+		<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+		<Reference URI="#T33F15711">
+			<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+			<DigestValue>qqy6H3pCTVpM0TV7cZzQhqCZlrg=</DigestValue>
+		</Reference>
+	</SignedInfo>
+	<SignatureValue>XlSLKle7gpFOYNmz/MaJp9hHy29h40kPQOmSvDTp2XqN222sRJWPMLqbRhXFUwf1Whgg7C5deXR/
+ps4cRjYEXJW9pmPfcmOtU4klUZ6ozitWbgfegzUCi71d92b7oTf9Hn7q1+m0piGxov6IUnlqhzzc
+q8JuN3VRUHJ61WJBb1rV5I9ZiEXp9hXA9g3KoNmm6OulZ+Zrabg08EHC0vMdTA5M9hTv563kX8aU
+AYPCFA9hla7umkk8ABXONKPE9ghOVCOX8O0bdRw4t0oq4L+bTEpS1+sVPnxytIk9tHSjbxAb/A0F
+WI9+p5OEDt/HJCw6fKxqrLqKhoHMo5zRALsTdQ==</SignatureValue>
+	<KeyInfo>
+		<KeyValue>
+			<RSAKeyValue>
+				<Modulus>qVYd6dL/VJOjecooKWtur5yfcOO8FX/BPZ1CQe0HFBWdw30GZ0zM6xbwPsRMe2G2KZOMPtsCUxud
+NDb3dPkaYLIbGcIydmwy2MCEO+i99bzRMXSI7j1Upx131qncxcFUg4Dgmj6lhiDIU1Nqka1MGo4Y
+F0k3y8xUaOdOzeIxGhbWgbKgNFuXyzdpd0x9KtPbjIBCDw04KasmmcaCJqa6HTSlTvogJThht6/R
+zZbvs7OL1n6cKl/AYja5F6oIOtoqUR2n4SCYk9sru9KE0BrsevyP+U8RFIJocNEJS5Cu5emPeY8L
+pOMElFATyFj3vCiejuxuRsR4EStG/22H5mJMbQ==</Modulus>
+				<Exponent>AQAB</Exponent>
+			</RSAKeyValue>
+		</KeyValue>
+		<X509Data>
+			<X509Certificate>MIIGfDCCBWSgAwIBAgIDBT5YMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yMDEyMTAxMTE1NTlaFw0yMzEyMTAx
+MTE1NTlaMIGQMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSkwJwYDVQQD
+EyBKT1NFIE1BWElNSUxJQU5PIERFTCBSRUFMIEFMRkFSTzEoMCYGCSqGSIb3DQEJARYZaW50ZWdy
+YWNpb25mZUBhdWRhdGV4LmNvbTESMBAGA1UEBRMJNjcwMTM3MS05MIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAqVYd6dL/VJOjecooKWtur5yfcOO8FX/BPZ1CQe0HFBWdw30GZ0zM6xbw
+PsRMe2G2KZOMPtsCUxudNDb3dPkaYLIbGcIydmwy2MCEO+i99bzRMXSI7j1Upx131qncxcFUg4Dg
+mj6lhiDIU1Nqka1MGo4YF0k3y8xUaOdOzeIxGhbWgbKgNFuXyzdpd0x9KtPbjIBCDw04KasmmcaC
+Jqa6HTSlTvogJThht6/RzZbvs7OL1n6cKl/AYja5F6oIOtoqUR2n4SCYk9sru9KE0BrsevyP+U8R
+FIJocNEJS5Cu5emPeY8LpOMElFATyFj3vCiejuxuRsR4EStG/22H5mJMbQIDAQABo4ICxTCCAsEw
+HwYDVR0jBBgwFoAUZaWrPj/ItlFtEX5fwwoH5kOgCLYwHQYDVR0OBBYEFIv9+Ex103UGm7XNPZMA
+M/GDu9RGMAsGA1UdDwQEAwIE8DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZI
+AYb4QgEBBAQDAgWgMIH1BgNVHSAEge0wgeowgecGCCsGAQQBtWsCMIHaMDEGCCsGAQUFBwIBFiVo
+dHRwczovL2FjZzQuYWNlcHRhLmNvbS9DUFMtQWNlcHRhY29tMIGkBggrBgEFBQcCAjCBlzAWFg9B
+Y2VwdGEuY29tIFMuQS4wAwIBCRp9RWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1h
+IG9ubGluZSwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0cmli
+dXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvcy4wWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAM
+Fgo5NjkxOTA1MC04oCQGCCsGAQUFBwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9A
+YWNlcHRhLmNvbTBiBgNVHREEWzBZoBcGCCsGAQQBwQEBoAsWCTY3MDEzNzEtOaAjBggrBgEFBQcI
+A6AXMBUMCTY3MDEzNzEtOQYIKwYBBAHBAQKBGWludGVncmFjaW9uZmVAYXVkYXRleC5jb20wRwYI
+KwYBBQUHAQEEOzA5MDcGCCsGAQUFBzABhitodHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L29j
+c3AvQ2xhc2UyLUc0MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2Fj
+ZzQvY3JsL0NsYXNlMi1HNC5jcmwwDQYJKoZIhvcNAQELBQADggEBAHYs0O0zUnNsZJheW6H1x7lu
+F82H6WzTrhizN2btuZqpaMZIwEtk4ltU2id0BY82cn4kVtsnT/D5sI9ldprWwq/sOiumrOVfme21
+4QkxgSOTPiiERUCi+8HgTNtVroz1hb5wWAd330wx2tZ+CVn+DjKxMTqEtw1zURyj+Jcbsp3JeTdT
+YobBGzI6ggwLiYRKXOvJNS+1if2ofyIuQ0nioHB5e2q6FNpC0vA+N5zieN7C2lOfnnowiMnzfrB1
+kYX9GWEIWY1TsSQi18FJ2ZuMm61isV9phGxfgdlaSArBxjC5YOWkDo69mSDHb2G7St16jmaxBgeZ
+zkSGeWmqHP+SlFc=</X509Certificate>
+		</X509Data>
+	</KeyInfo>
+</Signature>
+    </DTE></SetDTE>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod><Reference URI="#EnvioDTE-79702040-0-76245828-4-20230329-175324-D9E16C60"><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod><DigestValue>dbCet/bpGxCn0qiHJPLzsCXoe7A=</DigestValue></Reference></SignedInfo><SignatureValue>qmfQC5z5iltKlsQ9bki3cTzHFoZK6uxmG2Mgt275E8zGzNZa3ZxNSehHlFUPa7/oVwO1x9h11lXf
+4EWCsJ4QgvZGm/cA83Is/qfolzDt/dS3MvXIcJH9dBtYdSVOpBfD2vNkELQqkc9H/10xJV0/fW66
+3VaXb56VZEcNoHRp+M25eYZ26SLtLMfGw7XbTHQ4h/FtwkQSFAobfO7gdUo2smbYqIxm5xhYm8Em
+79AD2jYf+YArffx2eo/uRX8SzdrRb+cMnvniVllJX3ZlQYH9lJDnn6VZacZ5nFtU5rhuvnau0oNi
+U2Cp9n9A0G9gIypMnOr4gVWiexV6kLfDUIdDmw==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yq60b4VHWDgqO+PVNVpscmOzwEjJ9m5F8dEAXo/o0eGo4WtQK7HYUTaWFBkIg51Ns8yp94LNXhCA
+g14a9cCo8HwX0ohl/RqsRUa/4CGAeV//OwjILEDC6VgvROAMtmBv4cRRKnleLKVLu5CFSRe5Jk1/
+unB8h6kwOQ1JmrhA3+1JaOv7dgoX1ajjnPNBfk2Fd3WWqHAErcwUcNW5beUsYiEOP9+dlh/haDNI
+tDn1FV+DQ4Swit01OzRJmv7sv82CU9yyUx20tddE5nnkDoH3oim7S4tAFLSn9rv4V2ZNVOrax1NN
+9CywnCHGo7ljGziVCKGwf/JCODzo4it/GjnH3Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIGeDCCBWCgAwIBAgIDBgULMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yMjA5MDIyMTAyMjJaFw0yNTA5MDIy
+MTAyMjJaMIGKMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSIwIAYDVQQD
+ExlBTFZBUk8gR09OWkFMRVogUklFREVNQU5OMSgwJgYJKoZIhvcNAQkBFhlhbHZhcm8uZ29uemFs
+ZXpAc292b3MuY29tMRMwEQYDVQQFEwoxMzI3MjY5OC0xMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAyq60b4VHWDgqO+PVNVpscmOzwEjJ9m5F8dEAXo/o0eGo4WtQK7HYUTaWFBkIg51N
+s8yp94LNXhCAg14a9cCo8HwX0ohl/RqsRUa/4CGAeV//OwjILEDC6VgvROAMtmBv4cRRKnleLKVL
+u5CFSRe5Jk1/unB8h6kwOQ1JmrhA3+1JaOv7dgoX1ajjnPNBfk2Fd3WWqHAErcwUcNW5beUsYiEO
+P9+dlh/haDNItDn1FV+DQ4Swit01OzRJmv7sv82CU9yyUx20tddE5nnkDoH3oim7S4tAFLSn9rv4
+V2ZNVOrax1NN9CywnCHGo7ljGziVCKGwf/JCODzo4it/GjnH3QIDAQABo4ICxzCCAsMwHwYDVR0j
+BBgwFoAUZaWrPj/ItlFtEX5fwwoH5kOgCLYwHQYDVR0OBBYEFAw/Ircznj9uurwACe/unGySEIln
+MAsGA1UdDwQEAwIE8DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4QgEB
+BAQDAgWgMIH1BgNVHSAEge0wgeowgecGCCsGAQQBtWsCMIHaMDEGCCsGAQUFBwIBFiVodHRwczov
+L2FjZzQuYWNlcHRhLmNvbS9DUFMtQWNlcHRhY29tMIGkBggrBgEFBQcCAjCBlzAWFg9BY2VwdGEu
+Y29tIFMuQS4wAwIBCRp9RWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1hIG9ubGlu
+ZSwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0cmlidXRhcmlv
+LCBwYWdvcywgY29tZXJjaW8geSBvdHJvcy4wWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAMFgo5Njkx
+OTA1MC04oCQGCCsGAQUFBwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9AYWNlcHRh
+LmNvbTBkBgNVHREEXTBboBgGCCsGAQQBwQEBoAwWCjEzMjcyNjk4LTGgJAYIKwYBBQUHCAOgGDAW
+DAoxMzI3MjY5OC0xBggrBgEEAcEBAoEZYWx2YXJvLmdvbnphbGV6QHNvdm9zLmNvbTBHBggrBgEF
+BQcBAQQ7MDkwNwYIKwYBBQUHMAGGK2h0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvb2NzcC9D
+bGFzZTItRzQwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9j
+cmwvQ2xhc2UyLUc0LmNybDANBgkqhkiG9w0BAQsFAAOCAQEAqYvy0m3S0Hfm1EyuxwZX80dboaZU
+maYWVD7fgrkB89xM0c/D51hwPvClf3P7g8D+KGgXaRNXu+qj2k66ExDr53byhxO+JGyjfSn8Tfei
+1VYzkEQnjzTyYhFG700Kbt1K7kh7T0hddIzIpfE4qVJ49v4yVfJBwpJkuo2g7xqmcf6SvtFDI1D4
+NHyW7mAp9Vij80AWXSpqLg1NWQ1xjr60wjYBBHyerjmpem2yBQcf9H/tq+G0E3EjVgkIsHXNEogS
+bYUFLH30AhYqXhPIHk5MVbWwhDpxLcYcfTBYAahO/DQByfOynsb62wCxeyNFR3l5PYn0hNwhZMXb
+/I6Svq6vEw==</X509Certificate></X509Data></KeyInfo></Signature></EnvioDTE>

@@ -27,7 +27,7 @@ class DownloadXML extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'This command allow do download the xml files';
 
     /**
      * Execute the console command.
@@ -36,7 +36,7 @@ class DownloadXML extends Command
     {
         Log::info('Inicio descarga de XML');
         $documents = Document::whereNull('path_xml')->get();
-
+        Log::info("A descargar [" .$documents->count()."] XML");
         foreach ($documents as $document) {
             Log::debug("Descargando Documento XML: [" . $document->Number . "]");
             try {
@@ -52,9 +52,10 @@ class DownloadXML extends Command
                     $rutaArchivo = 'archivos/' . basename($document->DocumentReceiverCode . '-' . $document->DocumentTypeId . '-' . $document->Number) . '.xml'; // Ruta donde se guardará el archivo
                     Storage::put($rutaArchivo, $contents);
 
-                    $document->path_xml = $rutaArchivo;
+                    
 
                     try {
+                        $document->path_xml = $rutaArchivo;
                         $document->save();
                         $evento = new Evento();
                         $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
@@ -63,7 +64,7 @@ class DownloadXML extends Command
                         Log::debug("XML guardado: ".$document->Number);
 
                     } catch (\Exception $e) {
-                        Log::debug("". $e->getMessage());
+                        Log::debug("ERROR al descargar XML". $e->getMessage());
                         continue;
                     }
 
