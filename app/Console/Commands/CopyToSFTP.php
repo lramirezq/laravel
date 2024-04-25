@@ -181,22 +181,26 @@ class CopyToSFTP extends Command
             // Autenticarse con usuario y contraseña
             if (!$sftp->login($user, $password)) {
                 Log::error('USER O PASS FALLIDA PARA CONECTAR A SFTP');
+                $sftp->disconnect();
                 return false; // Si la autenticación falla, puedes retornar false aquí
             }
 
             // Verificar si el archivo remoto ya existe
             if ($sftp->file_exists($rutaArchivoRemoto)) {
                 Log::error('El archivo remoto ya existe: ' . $rutaArchivoRemoto);
+                $sftp->disconnect();
                 return false; // Si el archivo remoto ya existe, puedes retornar false aquí
             }
 
             try {
                 if (!$sftp->put($rutaArchivoRemoto, $rutaArchivoLocal, SFTP::SOURCE_LOCAL_FILE)) {
                     Log::error('Error al pasar el archivo: ' . $sftp->getLastSFTPError());
+                    $sftp->disconnect();
                     return false;
                 }
             } catch (\Exception $e) {
                 Log::error('Excepción al pasar el archivo: ' . $e->getMessage());
+                $sftp->disconnect();
                 return false;
             }
 
