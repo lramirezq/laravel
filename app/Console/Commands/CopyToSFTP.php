@@ -36,18 +36,17 @@ class CopyToSFTP extends Command
      */
     public function handle()
     {
-        Log::info('Copy to SFTP ');
-      
+        Log::info('------------Copy to SFTP -------------------');
+
         //buscar todos los pendientes de pasar por SFTP
         $documents = Document::whereNull('copy_to_sftp')
-                     ->whereNotNull('path_pdf')
-                     ->whereNotNull('path_xml')
-                     ->get();
-        Log::info(" Vamos a copiar XML y PDF de  [" .$documents->count()."] Documentos");
+            ->whereNotNull('path_pdf')
+            ->whereNotNull('path_xml')
+            ->get();
+        Log::info(" Vamos a copiar XML y PDF de  [" . $documents->count() . "] Documentos");
         foreach ($documents as $document) {
-            $vv =  Document::find($document->id)->copy_to_sftp;
-            if ($vv != null){
-                Log::info("Otro proceso ya lo realizo[". $document->Number."]");
+            if ($vv != null) {
+                Log::info("Otro proceso ya realizo la copia a SFTP[" . $document->Number . "]");
                 continue;
             }
             //debemos pasar el pdf y el xml
@@ -62,6 +61,11 @@ class CopyToSFTP extends Command
 
                 try {
                     $this->copiarArchivoPorSFTP($pdf);
+                    $vv = Document::find($document->id)->copy_to_sftp;
+                    if ($vv != null) {
+                        Log::info("Otro proceso ya realizo la copia a SFTP[" . $document->Number . "]");
+                        continue;
+                    }
                     $document->save();
                     $evento = new Evento();
                     $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
@@ -78,6 +82,10 @@ class CopyToSFTP extends Command
 
                 try {
                     $this->copiarArchivoPorSFTP($xml);
+                    if ($vv != null) {
+                        Log::info("Otro proceso ya realizo la copia a SFTP[" . $document->Number . "]");
+                        continue;
+                    }
                     $document->save();
                     $evento = new Evento();
                     $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
@@ -92,7 +100,7 @@ class CopyToSFTP extends Command
                 }
 
                 try {
-                    Log::info("valida : ".$valida);
+                    Log::info("valida : " . $valida);
                     if ($valida == 2) {
                         $document->copy_to_sftp = true;
                         $document->save();
@@ -103,7 +111,7 @@ class CopyToSFTP extends Command
                     continue;
                 }
 
-            }else{
+            } else {
                 Log::error("No existen ambos documentos para pasar a SFTP");
             }
 
