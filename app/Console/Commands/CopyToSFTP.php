@@ -89,8 +89,8 @@ class CopyToSFTP extends Command
                         Log::info("Otro proceso ya realizo la copia a SFTP[" . $document->Number . "]");
                         continue;
                     } else {
-                        $this->copiarArchivoPorSFTP($xml);
-
+                        $a =  $this->copiarArchivoPorSFTP($xml);
+                        if ($a){
                         $document->save();
                         $evento = new Evento();
                         $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
@@ -98,6 +98,7 @@ class CopyToSFTP extends Command
                         $document->eventos()->save($evento);
                         Log::info("XML Copiado SFTP: " . $document->Number);
                         $valida = $valida + 1;
+                    }
                     }
                 } catch (\Exception $e) {
                     Log::error("Error al Copiar a SFTP XML" . $e->getMessage());
@@ -147,56 +148,66 @@ class CopyToSFTP extends Command
     public function copiarArchivoPorSFTP(string $archivo)
     {
         Log::info('Vamos a pasar por SFTP el archivo: ' . $archivo);
-
+    
         $host = env('SFTP_HOSTNAME');
         $user = env('SFTP_USERNAME');
         $port = env('SFTP_PORT');
         $password = env('SFTP_PASSWORD');
         $path = env('SFTP_PATH');
         Log::info('Host: [' . $host . '] User: [' . $user . '] Port: [' . $port . ']');
-
+    
         Log::info("esto llego: " . $archivo);
         $rutaArchivoLocal = storage_path("{$archivo}");
         Log::info("este es el path completo: " . $rutaArchivoLocal);
         $rutaArchivoRemoto = '/files/' . basename($archivo);
-
-
+    
+    
         Log::info('archivo remoto: ' . $rutaArchivoRemoto);
-
-
+    
+    
         if (!file_exists($rutaArchivoLocal)) {
             Log::error('El archivo local no existe en la ruta especificada: ' . $rutaArchivoLocal);
             // Manejo del error aquí
+            return false; // Por ejemplo, puedes retornar false si el archivo local no existe
         }
-
-
-
+    
         try {
-
+    
             // Crear una instancia de SFTP
             $sftp = new SFTP($host, $port);
-
+    
             // Autenticarse con usuario y contraseña
             if (!$sftp->login($user, $password)) {
                 Log::error('USER O PASS FALLIDA PARA CONECTAR A SFTP');
+                return false; // Si la autenticación falla, puedes retornar false aquí
             }
-
-
+    
+            // Verificar si el archivo remoto ya existe
+            if ($sftp->file_exists($rutaArchivoRemoto)) {
+                Log::error('El archivo remoto ya existe: ' . $rutaArchivoRemoto);
+                return false; // Si el archivo remoto ya existe, puedes retornar false aquí
+            }
+    
             try {
                 if (!$sftp->put($rutaArchivoRemoto, $rutaArchivoLocal, SFTP::SOURCE_LOCAL_FILE)) {
                     Log::error('Error al pasar el archivo: ' . $sftp->getLastSFTPError());
+                    return false;
                 }
             } catch (\Exception $e) {
                 Log::error('Excepción al pasar el archivo: ' . $e->getMessage());
+                return false;
             }
-
+    
             // Cerrar la conexión SFTP
             $sftp->disconnect();
-
+    
             Log::info('Copiado Exitosamente' . $rutaArchivoRemoto);
-
+            return true; // Indicar que la copia fue exitosa
+    
         } catch (\Exception $e) {
             Log::error('Ocurrio un error conectando' . $e->getMessage());
+            return false;
         }
     }
+    
 }
