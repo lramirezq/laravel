@@ -45,7 +45,10 @@ class CopyToSFTP extends Command
                      ->get();
         Log::info(" Vamos a copiar XML y PDF de  [" .$documents->count()."] Documentos");
         foreach ($documents as $document) {
-
+            $vv =  Document::find($document->id)->copy_to_sftp;
+            if ($vv != null){
+                continue;
+            }
             //debemos pasar el pdf y el xml
             $pdf = '/app/' . $document->path_pdf;
             $xml = '/app/' . $document->path_xml;

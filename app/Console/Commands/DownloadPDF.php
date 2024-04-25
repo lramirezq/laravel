@@ -39,6 +39,10 @@ class DownloadPDF extends Command
         Log::info("A descargar [" .$documents->count()."] PDF");
         foreach ($documents as $document) {
             Log::debug("Descargando Documento PDF: [" .$document->Number."]");
+            $vv = $d = Document::find($document->id)->path_pdf;
+            if ($vv != null){
+                continue;
+            }
             try {
                 $response = Http::get($document->UrlPdf);
     
