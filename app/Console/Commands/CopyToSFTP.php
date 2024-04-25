@@ -83,7 +83,7 @@ class CopyToSFTP extends Command
 
 
                 try {
-                    
+                    $vv = Document::find($document->id)->copy_to_sftp;
                     if ($vv != null) {
                         Log::info("Otro proceso ya realizo la copia a SFTP[" . $document->Number . "]");
                         continue;
@@ -110,7 +110,6 @@ class CopyToSFTP extends Command
                     }
                 } catch (\Exception $e) {
                     Log::error("" . $e->getMessage());
-                    $document->save();
                     continue;
                 }
 
