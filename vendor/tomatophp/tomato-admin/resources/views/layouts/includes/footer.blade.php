@@ -10,7 +10,7 @@
     <div>
  
         <span class="text-sm">
-            Creado By <a href="https://discord.gg/VZc8nBJ3ZU" target="_blank" class="text-primary-500 hover:text-primary-600">Luis Ramirez Queupul</a>
+            Creado By Luis Ramirez Queupul
         </span>
     </div>
     <div class="ml-4 text-center text-xs text-gray-500 sm:text-right sm:ml-0">
