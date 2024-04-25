@@ -13,11 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::middleware(['splade'])->group(function () {
   //  Route::get('/', fn () => view('welcome'))->name('home');
 
     Route::get('/', function () {
         return redirect()->route('login');
+    });
+
+    //Deshabilitar registro en Web
+    Route::any('admin/register', function () {
+        abort(404); // Retorna un error 404 para cualquier método HTTP en esta ruta
     });
 
     // Registers routes to support the interactive components...

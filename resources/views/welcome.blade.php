@@ -2,6 +2,8 @@
     <x-splade-link :href="route('login')">
         <x-tomato-application-logo class="w-16 h-16" />
     </x-splade-link>
+    <p> HOLA </p>
+
     <div class="text-center">
         <h1 class="font-bold text-3xl text-white">{{ config('app.name') }}</h1>
         <p class="text-gray-400 text-lg"> <b>Laravel</b> v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})</p>

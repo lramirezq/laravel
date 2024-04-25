@@ -3,6 +3,11 @@
         {{ __('Documentos Recibidos') }}
     </x-slot:header>
    
+    <x-tomato-admin-widget 
+   :title="__('Total Documentos')" 
+   icon="bx bx-file-find" 
+   :counter="\App\Models\Document::query()->count()"
+    />
     
     <x-slot:buttons>
         <x-tomato-admin-button :modal="true" :href="route('admin.documents.create')" type="link">

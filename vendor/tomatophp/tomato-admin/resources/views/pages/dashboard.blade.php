@@ -52,6 +52,33 @@
             @include($item)
         @endforeach
 
-        <img src="{{ asset('img/logo.svg') }}" alt="Porsche" height="5%">
+      <hr/>
+      <x-tomato-admin-widget 
+   :title="__('Total Documentos Recibidos')" 
+   icon="bx bx-file-find" 
+   :counter="\App\Models\Document::query()->count()"
+    />
+    <x-tomato-admin-widget 
+   :title="__('Total Documentos PDF Descargados')" 
+   icon="bx bxs-file-pdf" 
+   :counter="\App\Models\Document::whereNotNull('path_pdf')->count()"
+    />
+    </div>
+    <x-tomato-admin-widget 
+   :title="__('Total Documentos XML Descargados')" 
+   icon="bx bx-file" 
+   :counter="\App\Models\Document::whereNotNull('path_xml')->count()"
+    />
+
+    <x-tomato-admin-widget 
+   :title="__('Total Documentos Copiados al SFTP')" 
+   icon="bx bx-server" 
+   :counter="\App\Models\Document::where('copy_to_sftp', true)->count()"
+    />
+    <x-tomato-admin-widget 
+   :title="__('Total Documentos Confirmados en GOSocket')" 
+   icon="bx bx-copy-alt" 
+   :counter="\App\Models\Document::where('confirm_gosocket', true)->count()"
+    />
     </div>
 </x-tomato-admin-layout>
