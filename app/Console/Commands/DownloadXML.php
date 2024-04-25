@@ -39,7 +39,7 @@ class DownloadXML extends Command
         Log::info("A descargar [" .$documents->count()."] XML");
         foreach ($documents as $document) {
             Log::debug("Descargando Documento XML: [" . $document->Number . "]");
-            $vv = Document::find($document->id)->path_pdf;
+            $vv = Document::find($document->id)->path_xml;
             if ($vv != null){
                 Log::info("Otro proceso ya descargo el XML[". $document->Number."]");
                 continue;
