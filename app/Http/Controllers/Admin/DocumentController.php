@@ -144,7 +144,7 @@ class DocumentController extends Controller
             'eventos' => SpladeTable::for($eventos)
             ->column(
                 key: 'fecha_evento',
-                label: __('FECHA'),
+                label: 'FECHA',
                 as: function ($date) {
                     return Carbon::parse($date)->format('d/m/Y H:i:s A');
                 }
