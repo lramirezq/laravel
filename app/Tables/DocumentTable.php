@@ -2,12 +2,13 @@
 
 namespace App\Tables;
 
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use ProtoneMedia\Splade\AbstractTable;
 use ProtoneMedia\Splade\Facades\Toast;
 use ProtoneMedia\Splade\SpladeTable;
 use Illuminate\Database\Eloquent\Builder;
-
+use Illuminate\Support\Facades\Log;
 class DocumentTable extends AbstractTable
 {
     /**
@@ -58,17 +59,23 @@ class DocumentTable extends AbstractTable
                 columns: ['id','Number',]
             )
             
-            ->defaultSort('id', 'desc')
+            ->defaultSort('Date', 'asc')
  
             ->column(
                 key: 'Date',
                 label: __('FECHA'),
-                sortable: true
+                sortable: true,
+                as: function ($date) {
+                    return Carbon::parse($date)->format('d/m/Y');
+                }
             )
             ->column(
                 key: 'Number',
-                label: __('Numero'),
-                sortable: true
+                label: __('Folio'),
+                sortable: true,
+                as: function ($value) {
+                    return number_format($value, 0, ',', '.');
+                }
             )
  
             ->column(
@@ -89,29 +96,37 @@ class DocumentTable extends AbstractTable
             ->column(
                 key: 'NetAmount',
                 label: __('NetAmount'),
-                sortable: true
-            )
-            ->column(
-                key: 'FreeAmount',
-                label: __('FreeAmount'),
-                sortable: true
+                sortable: true,
+                as: function ($value) {
+                    return number_format($value, 0, ',', '.');
+                }
             )
             ->column(
                 key: 'TaxAmount',
                 label: __('TaxAmount'),
-                sortable: true
+                sortable: true,
+                as: function ($value) {
+                    return number_format($value, 0, ',', '.');
+                }
             )
             ->column(
                 key: 'TotalAmount',
                 label: __('TotalAmount'),
-                sortable: true
+                sortable: true,
+                as: function ($value) {
+                    return number_format($value, 0, ',', '.');
+                }
             )
             ->column(
                 key: 'CurrencyType',
                 label: __('CurrencyType'),
                 sortable: true
             )
- 
+            ->column(
+                key: 'GlobalDocumentId',
+                label: __('GlobalDocumentId'),
+                sortable: true
+            )
             ->column(key: 'actions',label: trans('tomato-admin::global.crud.actions'))
             ->export()
             ->paginate(100);

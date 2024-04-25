@@ -4,10 +4,12 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Mantenedor;
+use Carbon\Carbon;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
+use ProtoneMedia\Splade\SpladeTable;
 use TomatoPHP\TomatoAdmin\Facade\Tomato;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
@@ -35,19 +37,11 @@ class DocumentController extends Controller
     public function index(Request $request): View
     {
        
-        /*
-        $documents = DB::table("Documents")->get();
-        foreach ($documents as $document) {
-            $fecha = $document->Date;
-            Log::info(substr($fecha, 0, 10));
-            $document->Date = substr($fecha, 0, 10);
-        }
-*/
+       
 
         return Tomato::index(
             request: $request,
             model: $this->model,
-            //model: $documents,
             view: 'admin.documents.index',
             table: \App\Tables\DocumentTable::class
         );
@@ -142,15 +136,22 @@ class DocumentController extends Controller
     public function show(\App\Models\Document $model): View|JsonResponse
     {
         
+ 
+        $eventos = $model->eventos()->get();
+        
 
-    
-
-
-        return Tomato::get(
-            model: $model,
-            view: 'admin.documents.show',
-           
-        );
+        return view ('admin.documents.show', [
+            'eventos' => SpladeTable::for($eventos)
+            ->column(
+                key: 'fecha_evento',
+                label: __('FECHA'),
+                as: function ($date) {
+                    return Carbon::parse($date)->format('d/m/Y H:i:s A');
+                }
+            )
+            ->column('observacion'),
+            'model' => $model
+        ]);
     }
 
     /**

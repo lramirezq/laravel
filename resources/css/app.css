@@ -58,3 +58,14 @@
         top: -1px;
     }
 }
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.styled-table td, .styled-table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider
         \TomatoPHP\TomatoAdmin\Facade\TomatoMenu::register([
             \TomatoPHP\TomatoAdmin\Services\Contracts\Menu::make()
                 ->group('App')
-                ->label('Document')
+                ->label('Documentos Recibidos')
                 ->icon('bx bx-file-find')
                 ->route('admin.documents.index'),
         ]);
