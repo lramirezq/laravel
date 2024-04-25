@@ -9,11 +9,7 @@
    :counter="\App\Models\Document::query()->count()"
     />
     
-    <x-slot:buttons>
-        <x-tomato-admin-button :modal="true" :href="route('admin.documents.create')" type="link">
-            {{trans('tomato-admin::global.crud.create-new')}} {{__('Document')}}
-        </x-tomato-admin-button>
-    </x-slot:buttons>
+   
 
     <div class="pb-12">
         <div class="mx-auto">
