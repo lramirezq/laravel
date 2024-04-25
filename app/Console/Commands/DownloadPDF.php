@@ -41,6 +41,7 @@ class DownloadPDF extends Command
             Log::debug("Descargando Documento PDF: [" .$document->Number."]");
             $vv = Document::find($document->id)->path_pdf;
             if ($vv != null){
+                Log::info("Otro proceso ya descargo el PDF[". $document->Number."]");
                 continue;
             }
             try {

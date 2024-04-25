@@ -47,6 +47,7 @@ class CopyToSFTP extends Command
         foreach ($documents as $document) {
             $vv =  Document::find($document->id)->copy_to_sftp;
             if ($vv != null){
+                Log::info("Otro proceso ya lo realizo[". $document->Number."]");
                 continue;
             }
             //debemos pasar el pdf y el xml
