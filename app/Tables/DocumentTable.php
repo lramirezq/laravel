@@ -56,7 +56,7 @@ class DocumentTable extends AbstractTable
         $table
             ->withGlobalSearch(
                 label: trans('tomato-admin::global.search'),
-                columns: ['id','Number',]
+                columns: ['id','Number','DocumentSenderCode','DocumentSenderName','TaxAmount','GlobalDocumentId','DocumentTypeName','NetAmount','TotalAmount']
             )
             
             ->defaultSort('Date', 'asc')
