@@ -36,12 +36,12 @@ class DownloadXML extends Command
     {
         Log::info('Inicio descarga de XML');
         $documents = Document::whereNull('path_xml')->get();
-        Log::info("A descargar [" .$documents->count()."] XML");
+        Log::info("A descargar [" . $documents->count() . "] XML");
         foreach ($documents as $document) {
             Log::debug("Descargando Documento XML: [" . $document->Number . "]");
             $vv = Document::find($document->id)->path_xml;
-            if ($vv != null){
-                Log::info("Otro proceso ya descargo el XML[". $document->Number."]");
+            if ($vv != null) {
+                Log::info("Otro proceso ya descargo el XML[" . $document->Number . "]");
                 continue;
             }
             try {
@@ -57,19 +57,24 @@ class DownloadXML extends Command
                     $rutaArchivo = 'archivos/' . basename($document->DocumentReceiverCode . '-' . $document->DocumentTypeId . '-' . $document->Number) . '.xml'; // Ruta donde se guardará el archivo
                     Storage::put($rutaArchivo, $contents);
 
-                    
+
 
                     try {
-                        $document->path_xml = $rutaArchivo;
-                        $document->save();
-                        $evento = new Evento();
-                        $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
-                        $evento->observacion = "XML Descargado en [" . $rutaArchivo . "]";
-                        $document->eventos()->save($evento);
-                        Log::debug("XML guardado: ".$document->Number);
-
+                        $vv = Document::find($document->id)->path_xml;
+                        if ($vv != null) {
+                            Log::info("Otro proceso ya descargo el XML[" . $document->Number . "]");
+                            continue;
+                        } else {
+                            $document->path_xml = $rutaArchivo;
+                            $document->save();
+                            $evento = new Evento();
+                            $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
+                            $evento->observacion = "XML Descargado en [" . $rutaArchivo . "]";
+                            $document->eventos()->save($evento);
+                            Log::debug("XML guardado: " . $document->Number);
+                        }
                     } catch (\Exception $e) {
-                        Log::debug("ERROR al descargar XML". $e->getMessage());
+                        Log::debug("ERROR al descargar XML" . $e->getMessage());
                         continue;
                     }
 

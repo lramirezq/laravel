@@ -12,6 +12,7 @@ use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Storage;
 
 use Illuminate\Support\Facades\Http;
+
 class DownloadPDF extends Command
 {
     /**
@@ -33,57 +34,62 @@ class DownloadPDF extends Command
      */
     public function handle()
     {
-       
+
         Log::info('Inicio descarga de PDF');
         $documents = Document::whereNull('path_pdf')->get();
-        Log::info("A descargar [" .$documents->count()."] PDF");
+        Log::info("A descargar [" . $documents->count() . "] PDF");
         foreach ($documents as $document) {
-            Log::debug("Descargando Documento PDF: [" .$document->Number."]");
+            Log::debug("Descargando Documento PDF: [" . $document->Number . "]");
             $vv = Document::find($document->id)->path_pdf;
-            if ($vv != null){
-                Log::info("Otro proceso ya descargo el PDF[". $document->Number."]");
+            if ($vv != null) {
+                Log::info("Otro proceso ya descargo el PDF[" . $document->Number . "]");
                 continue;
             }
             try {
                 $response = Http::get($document->UrlPdf);
-    
-               // Verificar si la solicitud fue exitosa
-               if ($response->successful()) {
-                   // Obtener el contenido del archivo
-                   $contents = $response->body();
-    
-                   // Guardar el archivo en el directorio de almacenamiento de Laravel
-                   //DocumentReceiverCode-DocumentTypeId-Number
-                   $rutaArchivo = 'archivos/' . basename($document->DocumentReceiverCode.'-'.$document->DocumentTypeId.'-'.$document->Number) . '.pdf'; // Ruta donde se guardará el archivo
-                   Storage::put($rutaArchivo, $contents);
-                   
-                   $document->path_pdf=$rutaArchivo;
-                  
-                   try {
-                    $document->save();
-                    $evento = new Evento();
-                    $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
-                    $evento->observacion = "PDF Descargado en [".$rutaArchivo."]" ;
-                    $document->eventos()->save($evento);
 
-                } catch (\Exception $e) {
-                    continue;
+                // Verificar si la solicitud fue exitosa
+                if ($response->successful()) {
+                    // Obtener el contenido del archivo
+                    $contents = $response->body();
+
+                    // Guardar el archivo en el directorio de almacenamiento de Laravel
+                    //DocumentReceiverCode-DocumentTypeId-Number
+                    $rutaArchivo = 'archivos/' . basename($document->DocumentReceiverCode . '-' . $document->DocumentTypeId . '-' . $document->Number) . '.pdf'; // Ruta donde se guardará el archivo
+                    Storage::put($rutaArchivo, $contents);
+
+                    $document->path_pdf = $rutaArchivo;
+
+                    try {
+                        $vv = Document::find($document->id)->path_pdf;
+                        if ($vv != null) {
+                            Log::info("Otro proceso ya descargo el PDF[" . $document->Number . "]");
+                            continue;
+                        } else {
+                            $document->save();
+                            $evento = new Evento();
+                            $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
+                            $evento->observacion = "PDF Descargado en [" . $rutaArchivo . "]";
+                            $document->eventos()->save($evento);
+                        }
+                    } catch (\Exception $e) {
+                        continue;
+                    }
+
+                } else {
+                    // La solicitud no fue exitosa
+                    Log::error('ERROR: al descargar PDF ' . $document->Number);
                 }
-               
-               } else {
-                   // La solicitud no fue exitosa
-                   Log::error( 'ERROR: al descargar PDF ' . $document->Number);
-               }
-    
-           } catch (\Exception $e) {
-               continue;
-           }
+
+            } catch (\Exception $e) {
+                continue;
+            }
 
 
         }
 
 
 
-   
+
     }
 }

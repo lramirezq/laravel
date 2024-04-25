@@ -65,16 +65,17 @@ class CopyToSFTP extends Command
                     if ($vv != null) {
                         Log::info("Otro proceso ya realizo la copia a SFTP[" . $document->Number . "]");
                         continue;
+                    } else {
+                        $this->copiarArchivoPorSFTP($pdf);
+
+                        $document->save();
+                        $evento = new Evento();
+                        $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
+                        $evento->observacion = "PDF Copiado a Servidor SFTP";
+                        $document->eventos()->save($evento);
+                        Log::debug("PDF Copiado SFTP: " . $document->Number);
+                        $valida = $valida + 1;
                     }
-                    $this->copiarArchivoPorSFTP($pdf);
-                 
-                    $document->save();
-                    $evento = new Evento();
-                    $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
-                    $evento->observacion = "PDF Copiado a Servidor SFTP";
-                    $document->eventos()->save($evento);
-                    Log::debug("PDF Copiado SFTP: " . $document->Number);
-                    $valida = $valida + 1;
                 } catch (\Exception $e) {
                     Log::error("Error al Copiar a SFTP PDF" . $e->getMessage());
                     continue;
@@ -87,15 +88,17 @@ class CopyToSFTP extends Command
                     if ($vv != null) {
                         Log::info("Otro proceso ya realizo la copia a SFTP[" . $document->Number . "]");
                         continue;
+                    } else {
+                        $this->copiarArchivoPorSFTP($xml);
+
+                        $document->save();
+                        $evento = new Evento();
+                        $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
+                        $evento->observacion = "XML Copiado a Servidor SFTP";
+                        $document->eventos()->save($evento);
+                        Log::info("XML Copiado SFTP: " . $document->Number);
+                        $valida = $valida + 1;
                     }
-                    $this->copiarArchivoPorSFTP($xml);
-                    $document->save();
-                    $evento = new Evento();
-                    $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
-                    $evento->observacion = "XML Copiado a Servidor SFTP";
-                    $document->eventos()->save($evento);
-                    Log::info("XML Copiado SFTP: " . $document->Number);
-                    $valida = $valida + 1;
                 } catch (\Exception $e) {
                     Log::error("Error al Copiar a SFTP XML" . $e->getMessage());
                     $document->save();
