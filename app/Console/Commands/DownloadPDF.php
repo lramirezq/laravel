@@ -36,7 +36,7 @@ class DownloadPDF extends Command
     {
 
         Log::info('Inicio descarga de PDF');
-        $documents = Document::whereNull('path_pdf')->limit(1000)->get();
+        $documents = Document::whereNull('path_pdf')->limit(100)->get();
         Log::info("A descargar [" . $documents->count() . "] PDF");
 
         foreach ($documents as $document) {
