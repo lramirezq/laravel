@@ -68,6 +68,7 @@ class DownloadPDF extends Command
                             Log::info("Otro proceso ya descargo el PDF[" . $document->Number . "]");
                             continue;
                         } else {
+                            $document->path_pdf = $rutaArchivo;
                             $document->save();
                             $evento = new Evento();
                             $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
