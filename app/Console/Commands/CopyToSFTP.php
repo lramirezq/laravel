@@ -189,7 +189,7 @@ class CopyToSFTP extends Command
             if ($sftp->file_exists($rutaArchivoRemoto)) {
                 Log::error('El archivo remoto ya existe: ' . $rutaArchivoRemoto);
                 $sftp->disconnect();
-                return false; // Si el archivo remoto ya existe, puedes retornar false aquí
+                return true; // Si el archivo remoto ya existe, puedes retornar false aquí
             }
 
             try {
