@@ -40,7 +40,7 @@ class CopyToSFTP extends Command
         $documents = Document::whereNull('copy_to_sftp')
             ->whereNotNull('path_pdf')
             ->whereNotNull('path_xml')
-            ->limit(100)
+            ->limit(1000)
             ->get();
         Log::info("Vamos a copiar XML y PDF de [" . $documents->count() . "] Documentos");
 
