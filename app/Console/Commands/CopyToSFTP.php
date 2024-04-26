@@ -79,7 +79,7 @@ class CopyToSFTP extends Command
                         }
                     }
                 } catch (\Exception $e) {
-                    Log::error("Error al Copiar a SFTP PDF" . $e->getMessage());
+                    Log::error("Error al Copiar a SFTP PDF [" . $e->getTrace()."]");
                     continue;
                 }
 
