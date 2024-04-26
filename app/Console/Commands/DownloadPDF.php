@@ -36,10 +36,10 @@ class DownloadPDF extends Command
     {
 
         Log::info('Inicio descarga de PDF');
-        $documents = Document::whereNull('path_pdf')->get();
+        $documents = Document::whereNull('path_pdf')->limit(1000)->get();
         Log::info("A descargar [" . $documents->count() . "] PDF");
         foreach ($documents as $document) {
-            Log::debug("Descargando Documento PDF: [" . $document->Number . "]");
+            Log::info("Descargando Documento PDF: [" . $document->Number . "]");
             $vv = Document::find($document->id)->path_pdf;
             if ($vv != null) {
                 Log::info("Otro proceso ya descargo el PDF[" . $document->Number . "]");

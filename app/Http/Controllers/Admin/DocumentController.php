@@ -142,7 +142,7 @@ class DocumentController extends Controller
 
         return view ('admin.documents.show', [
             'eventos' => SpladeTable::for($eventos)
-            ->column(
+             ->column(
                 key: 'fecha_evento',
                 label: 'FECHA',
                 as: function ($date) {

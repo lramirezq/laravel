@@ -43,31 +43,31 @@
             <?php else: ?>
                 <?php if(!count(\TomatoPHP\TomatoAdmin\Facade\TomatoSlot::getDashboardTop())): ?>
                     <div class="col-span-1 filament-widget filament-account-widget">
-                    <div class="p-2 space-y-2 bg-white shadow rounded-xl dark:border-gray-600 dark:bg-gray-800">
-                        <div class="space-y-2">
-                            <div class="px-4 py-2 space-y-4">
-                                <div class="flex items-center h-12 space-v-4 rtl:space-v-reverse">
-                                    <div class="w-10 h-10 mx-4 bg-gray-200 bg-center bg-cover rounded-full dark:bg-gray-900"
-                                         style="background-image: url('https://avatars.dicebear.com/api/initials/<?php echo e(auth()->user()->name); ?>.svg')">
-                                    </div>
+                        <div class="p-2 space-y-2 bg-white shadow rounded-xl dark:border-gray-600 dark:bg-gray-800">
+                            <div class="space-y-2">
+                                <div class="px-4 py-2 space-y-4">
+                                    <div class="flex items-center h-12 space-v-4 rtl:space-v-reverse">
+                                        <div class="w-10 h-10 mx-4 bg-gray-200 bg-center bg-cover rounded-full dark:bg-gray-900"
+                                            style="background-image: url('https://avatars.dicebear.com/api/initials/<?php echo e(auth()->user()->name); ?>.svg')">
+                                        </div>
 
-                                    <div>
-                                        <h2 class="text-lg font-bold tracking-tight sm:text-xl">
-                                            <?php echo e(trans('tomato-admin::global.welcome')); ?>, <?php echo e(auth()->user()->name); ?>
+                                        <div>
+                                            <h2 class="text-lg font-bold tracking-tight sm:text-xl">
+                                                <?php echo e(trans('tomato-admin::global.welcome')); ?>, <?php echo e(auth()->user()->name); ?>
 
-                                        </h2>
+                                            </h2>
 
-                                        <Link href="<?php echo e(route('logout')); ?>" method="POST"
-                                              class="text-gray-600 hover:text-primary-500 focus:outline-none focus:underline dark:text-gray-300 dark:hover:text-primary-500">
+                                            <Link href="<?php echo e(route('logout')); ?>" method="POST"
+                                                class="text-gray-600 hover:text-primary-500 focus:outline-none focus:underline dark:text-gray-300 dark:hover:text-primary-500">
                                             <?php echo e(trans('tomato-admin::global.logout')); ?>
 
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <?php endif; ?>
             <?php endif; ?>
         </div>
@@ -76,7 +76,107 @@
             <?php echo $__env->make($item, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
-        <img src="<?php echo e(asset('img/logo.svg')); ?>" alt="Porsche" height="5%">
+        <hr />
+        <?php if (isset($component)) { $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $attributes; } ?>
+<?php $component = TomatoPHP\TomatoAdmin\Views\Widget::resolve(['title' => __('Total Documentos Recibidos'),'icon' => 'bx bx-file-find','counter' => \App\Models\Document::query()->count()] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('tomato-admin-widget'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(TomatoPHP\TomatoAdmin\Views\Widget::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $attributes = $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $component = $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
+        <?php if (isset($component)) { $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $attributes; } ?>
+<?php $component = TomatoPHP\TomatoAdmin\Views\Widget::resolve(['title' => __('Total Documentos PDF Descargados'),'icon' => 'bx bxs-file-pdf','counter' => \App\Models\Document::whereNotNull('path_pdf')->count()] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('tomato-admin-widget'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(TomatoPHP\TomatoAdmin\Views\Widget::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $attributes = $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $component = $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
+        <?php if (isset($component)) { $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $attributes; } ?>
+<?php $component = TomatoPHP\TomatoAdmin\Views\Widget::resolve(['title' => __('Total Documentos XML Descargados'),'icon' => 'bx bx-file','counter' => \App\Models\Document::whereNotNull('path_xml')->count()] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('tomato-admin-widget'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(TomatoPHP\TomatoAdmin\Views\Widget::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $attributes = $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $component = $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
+        <?php if (isset($component)) { $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $attributes; } ?>
+<?php $component = TomatoPHP\TomatoAdmin\Views\Widget::resolve(['title' => __('Total Documentos Copiados al SFTP'),'icon' => 'bx bx-server','counter' => \App\Models\Document::where('copy_to_sftp', true)->count()] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('tomato-admin-widget'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(TomatoPHP\TomatoAdmin\Views\Widget::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $attributes = $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $component = $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
+        <?php if (isset($component)) { $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0 = $attributes; } ?>
+<?php $component = TomatoPHP\TomatoAdmin\Views\Widget::resolve(['title' => __('Total Documentos Confirmados en GOSocket'),'icon' => 'bx bx-copy-alt','counter' => \App\Models\Document::where('confirm_gosocket', true)->count()] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('tomato-admin-widget'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(TomatoPHP\TomatoAdmin\Views\Widget::class))->getConstructor()): ?>
+<?php $attributes = $attributes->except(collect($constructor->getParameters())->map->getName()->all()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $attributes = $__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__attributesOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0)): ?>
+<?php $component = $__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0; ?>
+<?php unset($__componentOriginala6380e5d204a3c40c28cfa9d9ffd2fc0); ?>
+<?php endif; ?>
     </div>
  <?php echo $__env->renderComponent(); ?>
 <?php endif; ?>

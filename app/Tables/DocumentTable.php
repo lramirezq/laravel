@@ -54,13 +54,19 @@ class DocumentTable extends AbstractTable
         
      
         $table
+           
             ->withGlobalSearch(
                 label: trans('tomato-admin::global.search'),
-                columns: ['id','Number','DocumentSenderCode','DocumentSenderName','TaxAmount','GlobalDocumentId','DocumentTypeName','NetAmount','TotalAmount']
+                columns: ['id','Number','DocumentSenderCode','DocumentSenderName','GlobalDocumentId','DocumentTypeName']
             )
-            
+            ->selectFilter(
+                key: 'Date',
+                label: 'Date'
+                )
+
             ->defaultSort('Date', 'asc')
- 
+              
+          
             ->column(
                 key: 'Date',
                 label: __('FECHA'),
@@ -117,11 +123,7 @@ class DocumentTable extends AbstractTable
                     return number_format($value, 0, ',', '.');
                 }
             )
-            ->column(
-                key: 'CurrencyType',
-                label: __('CurrencyType'),
-                sortable: true
-            )
+            
             ->column(
                 key: 'GlobalDocumentId',
                 label: __('GlobalDocumentId'),
