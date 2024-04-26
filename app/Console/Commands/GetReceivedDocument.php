@@ -163,6 +163,50 @@ class GetReceivedDocument extends Command
                             Log::error("GlobalDocumentId : [".$documento->GlobalDocumentId."] - REGISTRO DUPLICADO");
                             continue;
                         }
+
+                        //a confirmar
+                        $endpoint = env('CONFIRM_RECEIVEDDOCUMENT_ENDPOINT');
+                        $username = env('CONFIRM_RECEIVEDDOCUMENT_USERNAME');
+                        $password = env('CONFIRM_RECEIVEDDOCUMENT_PASSWORD');
+                        $accountcode = env('ACCOUNTCODE');
+
+                        $globalid = $documento->GlobalDocumentId;
+                        $client = new Client();
+                        //create de url endpoint with param
+                        $url = $endpoint . "?AccountCode=" . $accountcode;
+                        //pass user and password as base64
+                        $credentials = base64_encode("$username:$password");
+            
+                        // Realizar la solicitud POST
+                        $response = $client->post($url, [
+                            'headers' => [
+                                'Content-Type' => 'application/json',
+                                'Authorization' => 'Basic ' . $credentials
+                            ],
+                            'json' => [$globalid]
+                        ]);
+            
+                        // Obtener el cuerpo de la respuesta
+                        $responseBody = $response->getBody()->getContents();
+                        $jsonResponse = json_decode($responseBody, true);
+                        $valida = $jsonResponse['StatusMessage'];
+                        $mensaje = "";
+                        if ($valida == "OK") {
+                            $documento->confirm_gosocket = true;
+                            $mensaje = "GOSOCKET CONFIRMACION - OK  con GlobalDocumentId : " . $globalid;
+                            $documento->save();
+                            try {
+                                $documento->save();
+                                $evento = new Evento();
+                                $evento->fecha_evento = Carbon::now()->format('Y-m-d H:i:s');
+                                $evento->observacion = $mensaje;
+                                $documento->eventos()->save($evento);
+                
+                            } catch (\Exception $e) {
+                                Log::error("Error al guardar el evento " . $e);
+                                continue;
+                            }
+                        }
                     }
                 }
 
