@@ -58,7 +58,7 @@ class DownloadPDF extends Command
                     $rutaArchivo = 'archivos/' . basename($document->DocumentReceiverCode . '-' . $document->DocumentTypeId . '-' . $document->Number) . '.pdf'; // Ruta donde se guardará el archivo
                     Storage::put($rutaArchivo, $contents);
 
-                    $document->path_pdf = $rutaArchivo;
+                    
 
                     try {
                         $vv = Document::find($document->id)->path_pdf;
