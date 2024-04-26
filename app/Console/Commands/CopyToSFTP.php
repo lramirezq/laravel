@@ -194,13 +194,15 @@ class CopyToSFTP extends Command
 
             try {
                 if (!$sftp->put($rutaArchivoRemoto, $rutaArchivoLocal, SFTP::SOURCE_LOCAL_FILE)) {
-                    Log::error('Error al pasar el archivo: ' . $sftp->getLastSFTPError());
                     $sftp->disconnect();
+                    Log::error('Error al pasar el archivo: ' . $sftp->getLastSFTPError());
+                    
                     return false;
                 }
             } catch (\Exception $e) {
-                Log::error('Excepción al pasar el archivo: ' . $e->getMessage());
                 $sftp->disconnect();
+                Log::error('Excepción al pasar el archivo: ' . $e->getMessage());
+                
                 return false;
             }
 
@@ -212,6 +214,7 @@ class CopyToSFTP extends Command
 
         } catch (\Exception $e) {
             Log::error('Ocurrio un error conectando: [' . $e->getTrace() . "]");
+            $sftp->disconnect();
             return false;
         }
     }
