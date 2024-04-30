@@ -131,6 +131,6 @@ class DocumentTable extends AbstractTable
             )
             ->column(key: 'actions',label: trans('tomato-admin::global.crud.actions'))
             ->export()
-            ->paginate(500);
+            ->paginate(100);
     }
 }
