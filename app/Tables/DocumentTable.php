@@ -57,14 +57,14 @@ class DocumentTable extends AbstractTable
            
             ->withGlobalSearch(
                 label: trans('tomato-admin::global.search'),
-                columns: ['id','Number','DocumentSenderCode','DocumentSenderName','GlobalDocumentId','DocumentTypeName']
+                columns: ['Number','DocumentSenderCode','DocumentSenderName','GlobalDocumentId','DocumentTypeName']
             )
             ->selectFilter(
                 key: 'Date',
                 label: 'Date'
                 )
 
-            ->defaultSort('Date', 'asc')
+            ->defaultSort('Date', 'desc')
               
           
             ->column(
@@ -131,6 +131,6 @@ class DocumentTable extends AbstractTable
             )
             ->column(key: 'actions',label: trans('tomato-admin::global.crud.actions'))
             ->export()
-            ->paginate(100);
+            ->paginate(500);
     }
 }
