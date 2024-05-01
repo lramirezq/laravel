@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use App\Models\Monitor;
+use App\Models\Document;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Log;
 use phpseclib3\Net\SFTP;
@@ -208,8 +209,14 @@ class CheckAvailable extends Command
             $m3->save();
         }
 
+        //Checker ultimo documento recibido
 
-
+       $fecha = Document::latest()->first()->created_at;
+       $m4 = Monitor::where('componente', 'ULTIMO-DOCUMENTO')->first();
+       $m4->estado = true;
+       $m3->observacion = "ULTIMO DOCUMENTO RECIBIDO [" . $fecha . "]";
+       $m3->last_check = Carbon::now()->format('Y-m-d H:i:s');
+       $m3->save();
     }
 
 
