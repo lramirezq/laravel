@@ -137,6 +137,7 @@ class CheckAvailable extends Command
 
         try {
             $client = new Client();
+            $globalid = "";
             $response = $client->post($this->confirmReceivedDocumentConfig['endpoint'], [
                 'headers' => [
                     'Authorization' => 'Basic ' . base64_encode($this->confirmReceivedDocumentConfig['username'] . ':' . $this->confirmReceivedDocumentConfig['password']),
