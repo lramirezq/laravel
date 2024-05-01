@@ -54,6 +54,7 @@
     </div>
 
         <hr />
+        <x-tomato-admin-widget :title="__('Total Documentos Recibidos este Mes')" icon="bx bx-copy-alt" :counter="\App\Models\Document::where('confirm_gosocket', true)->whereMonth('Date', '=', now()->month)->whereYear('Date', '=', now()->year)->count()" />
         <x-tomato-admin-widget :title="__('Total Documentos Recibidos')" icon="bx bx-file-find" :counter="\App\Models\Document::query()->count()" />
         <x-tomato-admin-widget :title="__('Total Documentos PDF Descargados')" icon="bx bxs-file-pdf" :counter="\App\Models\Document::whereNotNull('path_pdf')->count()" />
         <x-tomato-admin-widget :title="__('Total Documentos XML Descargados')" icon="bx bx-file" :counter="\App\Models\Document::whereNotNull('path_xml')->count()" />
