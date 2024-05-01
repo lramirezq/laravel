@@ -214,9 +214,9 @@ class CheckAvailable extends Command
        $fecha = Document::latest()->first()->created_at;
        $m4 = Monitor::where('componente', 'ULTIMO-DOCUMENTO')->first();
        $m4->estado = true;
-       $m3->observacion = "ULTIMO DOCUMENTO RECIBIDO [" . $fecha . "]";
-       $m3->last_check = Carbon::now()->format('Y-m-d H:i:s');
-       $m3->save();
+       $m4->observacion = "ULTIMO DOCUMENTO RECIBIDO [" . $fecha . "]";
+       $m4->last_check = Carbon::now()->format('Y-m-d H:i:s');
+       $m4->save();
     }
 
 
