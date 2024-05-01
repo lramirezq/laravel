@@ -13,211 +13,163 @@ use GuzzleHttp\Exception\RequestException;
 
 class CheckAvailable extends Command
 {
-    /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
     protected $signature = 'app:check-available';
 
-    /**
-     * The console command description.
-     *
-     * @var string
-     */
     protected $description = 'Comando para verificar disponibilidad de las plataformas';
 
-    /**
-     * Execute the console command.
-     */
+    protected $sftpConfig;
+    protected $getReceivedDocumentConfig;
+    protected $getDocumentConfig;
+    protected $confirmReceivedDocumentConfig;
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->sftpConfig = [
+            'host' => env('SFTP_HOSTNAME'),
+            'port' => env('SFTP_PORT'),
+            'username' => env('SFTP_USERNAME'),
+            'password' => env('SFTP_PASSWORD'),
+        ];
+
+        $this->getReceivedDocumentConfig = [
+            'endpoint' => env('GETRECEIVEDDOCUMENT_ENDPOINT'),
+            'username' => env('GETRECEIVEDDOCUMENT_USERNAME'),
+            'password' => env('GETRECEIVEDDOCUMENT_PASSWORD'),
+            'accountcode' => env('ACCOUNTCODE'),
+        ];
+
+        $this->getDocumentConfig = [
+            'endpoint' => env('GETDOCUMENT_ENDPOINT'),
+            'username' => env('GETDOCUMENT_USERNAME'),
+            'password' => env('GETDOCUMENT_PASSWORD'),
+            'accountcode' => env('ACCOUNTCODE'),
+        ];
+
+        $this->confirmReceivedDocumentConfig = [
+            'endpoint' => env('CONFIRM_RECEIVEDDOCUMENT_ENDPOINT'),
+            'username' => env('CONFIRM_RECEIVEDDOCUMENT_USERNAME'),
+            'password' => env('CONFIRM_RECEIVEDDOCUMENT_PASSWORD'),
+            'accountcode' => env('ACCOUNTCODE'),
+        ];
+    }
+
     public function handle()
     {
+        $this->checkSFTP();
+        $this->checkGetReceivedDocument();
+        $this->checkGetDocument();
+        $this->checkConfirmReceivedDocument();
+        $this->checkLastReceivedDocument();
+    }
+
+    protected function checkSFTP()
+    {
         Log::info("Vamos a ver la disponibilidad del SFTP");
+
         $monitor = Monitor::where('componente', 'SFTP')->first();
 
-        $host = env('SFTP_HOSTNAME');
-        $port = env('SFTP_PORT');
-        $user = env('SFTP_USERNAME');
-        $password = env('SFTP_PASSWORD');
-
         try {
-            $sftp = new SFTP($host, $port);
-            if (!$sftp->login($user, $password)) {
-                $monitor->estado = false;
-                $monitor->observacion = "USER O PASS FALLIDA PARA CONECTAR A SFTP";
-                $monitor->last_check = Carbon::now()->format('Y-m-d H:i:s');
+            $sftp = new SFTP($this->sftpConfig['host'], $this->sftpConfig['port']);
+            if (!$sftp->login($this->sftpConfig['username'], $this->sftpConfig['password'])) {
+                $this->updateMonitorState($monitor, false, "USER O PASS FALLIDA PARA CONECTAR A SFTP");
             }
 
             if ($sftp->isConnected()) {
-                $monitor->estado = true;
-                $monitor->observacion = "SFTP ONLINE";
-                $monitor->last_check = Carbon::now()->format('Y-m-d H:i:s');
+                $this->updateMonitorState($monitor, true, "SFTP ONLINE");
             }
             $sftp->disconnect();
-            $monitor->save();
         } catch (\Exception $e) {
-            $monitor->estado = false;
-            $monitor->observacion = $e->getMessage();
-            $monitor->last_check = Carbon::now()->format('Y-m-d H:i:s');
-            $monitor->save();
+            $this->updateMonitorState($monitor, false, $e->getMessage());
         }
+    }
 
-        //Prueba del Segundo Monitor
-
+    protected function checkGetReceivedDocument()
+    {
         Log::info("Ejecutando Call API Get-Received-Document");
 
-        $endpoint = env('GETRECEIVEDDOCUMENT_ENDPOINT');
-        $username = env('GETRECEIVEDDOCUMENT_USERNAME');
-        $password = env('GETRECEIVEDDOCUMENT_PASSWORD');
-        $accountcode = env('ACCOUNTCODE');
-
-        Log::debug("ENDPOINT: " . $endpoint);
-        Log::debug("Username: " . $username);
-        Log::debug("Password: " . $password);
-        Log::debug("AccountCode:  " . $accountcode);
         $m1 = Monitor::where('componente', 'GETRECEIVEDDOCUMENT')->first();
+
         try {
             $client = new Client();
-            //create de url endpoint with param
-            $url = $endpoint . "?AccountCode=" . $accountcode;
-            //pass user and password as base64
-            $credentials = base64_encode("$username:$password");
-            // execute GET 
-            $response = $client->request('GET', $url, [
+            $response = $client->request('GET', $this->getReceivedDocumentConfig['endpoint'], [
                 'headers' => [
-                    'Authorization' => 'Basic ' . $credentials,
+                    'Authorization' => 'Basic ' . base64_encode($this->getReceivedDocumentConfig['username'] . ':' . $this->getReceivedDocumentConfig['password']),
                 ],
+                'query' => ['AccountCode' => $this->getReceivedDocumentConfig['accountcode']]
             ]);
 
-            // Obtiene el cuerpo de la respuesta
-            $statusCode = $response->getStatusCode();
-            Log::info($statusCode);
-
-
-            if ($statusCode == 200) {
-                $m1->estado = true;
-                $m1->observacion = "API GETRECEIVEDDOCUMENT ONLINE";
-                $m1->last_check = Carbon::now()->format('Y-m-d H:i:s');
-                $m1->save();
-            } else {
-                $m1->estado = false;
-                $m1->observacion = "API GETRECEIVEDDOCUMENT OFFLINE CodeStatus [" . $statusCode . "]";
-                $m1->last_check = Carbon::now()->format('Y-m-d H:i:s');
-                $m1->save();
-            }
-
+            $this->updateMonitorState($m1, $response->getStatusCode() === 200, "API GETRECEIVEDDOCUMENT ONLINE");
         } catch (\Exception $e) {
-            $m1->estado = false;
-            $m1->observacion = "API GETRECEIVEDDOCUMENT OFFLINE Error [" . substr($e->getMessage(), 0, 100) . "]";
-            $m1->last_check = Carbon::now()->format('Y-m-d H:i:s');
-            $m1->save();
+            $this->updateMonitorState($m1, false, "API GETRECEIVEDDOCUMENT OFFLINE Error [" . substr($e->getMessage(), 0, 100) . "]");
         }
+    }
 
+    protected function checkGetDocument()
+    {
+        Log::info("Ejecutando Call API Get-Document");
 
-        //Prueba Tercer Monitoreo
-
-        //llamar al metodo q trae el document
-        $getdocument_endpoint = env('GETDOCUMENT_ENDPOINT');
-        $getdocument_username = env('GETDOCUMENT_USERNAME');
-        $getdocument_password = env('GETDOCUMENT_PASSWORD');
-        $globalid = "";
         $m2 = Monitor::where('componente', 'GETDOCUMENT')->first();
-        Log::debug("ENDPOINT: " . $getdocument_endpoint);
-        Log::debug("Username: " . $getdocument_username);
-        Log::debug("Password: " . $getdocument_password);
-        Log::debug("AccountCode:  " . $accountcode);
 
         try {
-
-            $getdocument_credentials = base64_encode("$getdocument_username:$getdocument_password");
-            $response = $client->request('POST', $getdocument_endpoint, [
+            $client = new Client();
+            $response = $client->request('POST', $this->getDocumentConfig['endpoint'], [
                 'headers' => [
-                    'Content-Type' => 'application/x-www-form-urlencoded',
-                    'Authorization' => 'Basic ' . $getdocument_credentials,
-
+                    'Authorization' => 'Basic ' . base64_encode($this->getDocumentConfig['username'] . ':' . $this->getDocumentConfig['password']),
                 ],
                 'form_params' => [
-                    'SenderCode' => $accountcode,
-                    //'DocumentTypeID' => $tipoDoc,
-                    'GlobalDocumentId' => $globalid,
-
+                    'SenderCode' => $this->getDocumentConfig['accountcode'],
                 ]
             ]);
 
-            $statusCode = $response->getStatusCode();
-            if ($statusCode == 200) {
-                $m2->estado = true;
-                $m2->observacion = "API GETDOCUMENT ONLINE";
-                $m2->last_check = Carbon::now()->format('Y-m-d H:i:s');
-                $m2->save();
-            } else {
-                $m2->estado = false;
-                $m2->observacion = "API GETDOCUMENT OFFLINE CodeStatus [" . $statusCode . "]";
-                $m2->last_check = Carbon::now()->format('Y-m-d H:i:s');
-                $m2->save();
-            }
-
+            $this->updateMonitorState($m2, $response->getStatusCode() === 200, "API GETDOCUMENT ONLINE");
         } catch (\Exception $e) {
-            $m2->estado = false;
-            $m2->observacion = "API GETDOCUMENT OFFLINE Error [" . substr($e->getMessage(), 0, 100) . "]";
-            $m2->last_check = Carbon::now()->format('Y-m-d H:i:s');
-            $m2->save();
+            $this->updateMonitorState($m2, false, "API GETDOCUMENT OFFLINE Error [" . substr($e->getMessage(), 0, 100) . "]");
         }
+    }
 
+    protected function checkConfirmReceivedDocument()
+    {
+        Log::info("Ejecutando Call API Confirm-Received-Document");
 
-        //Cuarta prueba
-        //Vamos a confirmar que lo tenemos
-        Log::info("------Ejecutando Call API Confirm----");
-        $endpoint = env('CONFIRM_RECEIVEDDOCUMENT_ENDPOINT');
-        $username = env('CONFIRM_RECEIVEDDOCUMENT_USERNAME');
-        $password = env('CONFIRM_RECEIVEDDOCUMENT_PASSWORD');
-        $accountcode = env('ACCOUNTCODE');
-        $globalid = "";
+        $m3 = Monitor::where('componente', 'CONFIRM_RECEIVEDDOCUMENT')->first();
+
         try {
             $client = new Client();
-            $m3 = Monitor::where('componente', 'CONFIRM_RECEIVEDDOCUMENT')->first();
-            //create de url endpoint with param
-            $url = $endpoint . "?AccountCode=" . $accountcode;
-            //pass user and password as base64
-            $credentials = base64_encode("$username:$password");
-
-            // Realizar la solicitud POST
-            $response = $client->post($url, [
+            $response = $client->post($this->confirmReceivedDocumentConfig['endpoint'], [
                 'headers' => [
-                    'Content-Type' => 'application/json',
-                    'Authorization' => 'Basic ' . $credentials
+                    'Authorization' => 'Basic ' . base64_encode($this->confirmReceivedDocumentConfig['username'] . ':' . $this->confirmReceivedDocumentConfig['password']),
                 ],
                 'json' => [$globalid]
             ]);
-            $statusCode = $response->getStatusCode();
-            if ($statusCode == 200) {
-                $m3->estado = true;
-                $m3->observacion = "API CONFIRM_RECEIVEDDOCUMENT ONLINE";
-                $m3->last_check = Carbon::now()->format('Y-m-d H:i:s');
-                $m3->save();
-            } else {
-                $m3->estado = false;
-                $m3->observacion = "API CONFIRM_RECEIVEDDOCUMENT OFFLINE CodeStatus [" . $statusCode . "]";
-                $m3->last_check = Carbon::now()->format('Y-m-d H:i:s');
-                $m3->save();
-            }
 
+            $this->updateMonitorState($m3, $response->getStatusCode() === 200, "API CONFIRM_RECEIVEDDOCUMENT ONLINE");
         } catch (\Exception $e) {
-            $m3->estado = false;
-            $m3->observacion = "API CONFIRM_RECEIVEDDOCUMENT OFFLINE Error [" . substr($e->getMessage(), 0, 100) . "]";
-            $m3->last_check = Carbon::now()->format('Y-m-d H:i:s');
-            $m3->save();
+            $this->updateMonitorState($m3, false, "API CONFIRM_RECEIVEDDOCUMENT OFFLINE Error [" . substr($e->getMessage(), 0, 100) . "]");
         }
-
-        //Checker ultimo documento recibido
-
-       $fecha = Document::latest()->first()->created_at;
-       $m4 = Monitor::where('componente', 'ULTIMO-DOCUMENTO')->first();
-       $m4->estado = true;
-       $m4->observacion = "ULTIMO DOCUMENTO RECIBIDO [" . $fecha . "]";
-       $m4->last_check = Carbon::now()->format('Y-m-d H:i:s');
-       $m4->save();
     }
 
+    protected function checkLastReceivedDocument()
+    {
+        Log::info("Ejecutando Checker del último documento recibido");
 
+        $m4 = Monitor::where('componente', 'ULTIMO-DOCUMENTO')->first();
+        $latestDocument = Document::latest()->first();
+
+        if ($latestDocument) {
+            $this->updateMonitorState($m4, true, "ÚLTIMO DOCUMENTO RECIBIDO [" . $latestDocument->created_at . "]");
+        } else {
+            $this->updateMonitorState($m4, false, "NO HAY DOCUMENTOS RECIBIDOS");
+        }
+    }
+
+    protected function updateMonitorState($monitor, $estado, $observacion)
+    {
+        $monitor->update([
+            'estado' => $estado,
+            'observacion' => $observacion,
+            'last_check' => Carbon::now()->format('Y-m-d H:i:s'),
+        ]);
+    }
 }
