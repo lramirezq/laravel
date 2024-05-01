@@ -63,7 +63,7 @@ Route::middleware(['auth', 'splade', 'verified'])->name('admin.')->group(functio
     
 });
 
-Route::get('/mostrar-files/{nombreArchivo}', function ($nombreArchivo) {
+Route::middleware(['auth'])->get('/mostrar-files/{nombreArchivo}', function ($nombreArchivo) {
     $rutaCompletaArchivo = storage_path('app/archivos/' . $nombreArchivo);
 
     if (Storage::exists('archivos/' . $nombreArchivo)) {
