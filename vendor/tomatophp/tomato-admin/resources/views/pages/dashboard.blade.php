@@ -46,6 +46,12 @@
         @foreach (\TomatoPHP\TomatoAdmin\Facade\TomatoSlot::getDashboardBottom() as $item)
             @include($item)
         @endforeach
+ 
+        <hr />
+                <!-- Aquí incluimos el componente Vue -->
+      <div id="app">
+        <monitor :data="{{ $monitores }}"></monitor>
+    </div>
 
         <hr />
         <x-tomato-admin-widget :title="__('Total Documentos Recibidos')" icon="bx bx-file-find" :counter="\App\Models\Document::query()->count()" />

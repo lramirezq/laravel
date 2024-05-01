@@ -1049,6 +1049,12 @@ class ComposerStaticInita9e266241ff9ec59efeab3c4c30b8d1d
     );
 
     public static $classMap = array (
+        'App\\Console\\Commands\\ConfirmGoSocket' => __DIR__ . '/../..' . '/app/Console/Commands/ConfirmGoSocket.php',
+        'App\\Console\\Commands\\CopyToSFTP' => __DIR__ . '/../..' . '/app/Console/Commands/CopyToSFTP.php',
+        'App\\Console\\Commands\\DownloadPDF' => __DIR__ . '/../..' . '/app/Console/Commands/DownloadPDF.php',
+        'App\\Console\\Commands\\DownloadXML' => __DIR__ . '/../..' . '/app/Console/Commands/DownloadXML.php',
+        'App\\Console\\Commands\\FindDocuments' => __DIR__ . '/../..' . '/app/Console/Commands/FindDocuments.php',
+        'App\\Console\\Commands\\GetReceivedDocument' => __DIR__ . '/../..' . '/app/Console/Commands/GetReceivedDocument.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Forms\\DocumentForm' => __DIR__ . '/../..' . '/app/Forms/DocumentForm.php',
@@ -1069,7 +1075,9 @@ class ComposerStaticInita9e266241ff9ec59efeab3c4c30b8d1d
         'App\\Http\\Resources\\DocumentsResource' => __DIR__ . '/../..' . '/app/Http/Resources/DocumentsResource.php',
         'App\\Http\\Resources\\MantenedorResource' => __DIR__ . '/../..' . '/app/Http/Resources/MantenedorResource.php',
         'App\\Models\\Document' => __DIR__ . '/../..' . '/app/Models/Document.php',
+        'App\\Models\\Evento' => __DIR__ . '/../..' . '/app/Models/Evento.php',
         'App\\Models\\Mantenedor' => __DIR__ . '/../..' . '/app/Models/Mantenedor.php',
+        'App\\Models\\Monitor' => __DIR__ . '/../..' . '/app/Models/Monitor.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
@@ -1387,6 +1395,7 @@ class ComposerStaticInita9e266241ff9ec59efeab3c4c30b8d1d
         'DASPRiD\\Enum\\Exception\\SerializeNotSupportedException' => __DIR__ . '/..' . '/dasprid/enum/src/Exception/SerializeNotSupportedException.php',
         'DASPRiD\\Enum\\Exception\\UnserializeNotSupportedException' => __DIR__ . '/..' . '/dasprid/enum/src/Exception/UnserializeNotSupportedException.php',
         'DASPRiD\\Enum\\NullValue' => __DIR__ . '/..' . '/dasprid/enum/src/NullValue.php',
+        'Database\\Factories\\MantenedorFactory' => __DIR__ . '/../..' . '/database/factories/MantenedorFactory.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'DateError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
@@ -10629,6 +10638,7 @@ class ComposerStaticInita9e266241ff9ec59efeab3c4c30b8d1d
         'Tests\\DuskTestCase' => __DIR__ . '/../..' . '/tests/DuskTestCase.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
+        'Tests\\Unit\\BuscarDocumentosTest' => __DIR__ . '/../..' . '/tests/Unit/BuscarDocumentosTest.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',

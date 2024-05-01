@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Validation\Rules\Password;
 use Illuminate\View\View;
+use App\Models\Monitor;
 
 class DashboardController extends Controller
 {
@@ -20,7 +21,9 @@ class DashboardController extends Controller
      */
     public function index(): View
     {
-        return view('tomato-admin::pages.dashboard');
+        $monitores = Monitor::all();
+
+        return view('tomato-admin::pages.dashboard', compact('monitores'));
     }
 
     public function switchLang(Request $request){

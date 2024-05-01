@@ -2,6 +2,7 @@ import "./bootstrap";
 import "../css/app.css";
 import "@protonemedia/laravel-splade/dist/style.css";
 
+
 import { createApp } from "vue/dist/vue.esm-bundler.js";
 import { renderSpladeApp, SpladePlugin } from "@protonemedia/laravel-splade";
 
@@ -26,10 +27,17 @@ import TomatoItems from "../../vendor/tomatophp/tomato-admin/resources/js/compon
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
+import Monitor from './component/Monitor.vue';
+ 
+
+
+
 
 
 createApp({
     render: renderSpladeApp({ el }),
+    
+
 })
     .use(SpladePlugin, {
         max_keep_alive: 10,
@@ -53,4 +61,7 @@ createApp({
     .component("TomatoSlider", TomatoSlider)
     .component("TomatoSearch", TomatoSearch)
     .component("TomatoItems", TomatoItems)
-    .mount(el);
+    .component('Monitor', Monitor)
+   .mount(el);
+   
+   

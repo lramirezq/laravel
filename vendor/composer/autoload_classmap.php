@@ -6,6 +6,12 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Console\\Commands\\ConfirmGoSocket' => $baseDir . '/app/Console/Commands/ConfirmGoSocket.php',
+    'App\\Console\\Commands\\CopyToSFTP' => $baseDir . '/app/Console/Commands/CopyToSFTP.php',
+    'App\\Console\\Commands\\DownloadPDF' => $baseDir . '/app/Console/Commands/DownloadPDF.php',
+    'App\\Console\\Commands\\DownloadXML' => $baseDir . '/app/Console/Commands/DownloadXML.php',
+    'App\\Console\\Commands\\FindDocuments' => $baseDir . '/app/Console/Commands/FindDocuments.php',
+    'App\\Console\\Commands\\GetReceivedDocument' => $baseDir . '/app/Console/Commands/GetReceivedDocument.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Forms\\DocumentForm' => $baseDir . '/app/Forms/DocumentForm.php',
@@ -26,7 +32,9 @@ return array(
     'App\\Http\\Resources\\DocumentsResource' => $baseDir . '/app/Http/Resources/DocumentsResource.php',
     'App\\Http\\Resources\\MantenedorResource' => $baseDir . '/app/Http/Resources/MantenedorResource.php',
     'App\\Models\\Document' => $baseDir . '/app/Models/Document.php',
+    'App\\Models\\Evento' => $baseDir . '/app/Models/Evento.php',
     'App\\Models\\Mantenedor' => $baseDir . '/app/Models/Mantenedor.php',
+    'App\\Models\\Monitor' => $baseDir . '/app/Models/Monitor.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
@@ -344,6 +352,7 @@ return array(
     'DASPRiD\\Enum\\Exception\\SerializeNotSupportedException' => $vendorDir . '/dasprid/enum/src/Exception/SerializeNotSupportedException.php',
     'DASPRiD\\Enum\\Exception\\UnserializeNotSupportedException' => $vendorDir . '/dasprid/enum/src/Exception/UnserializeNotSupportedException.php',
     'DASPRiD\\Enum\\NullValue' => $vendorDir . '/dasprid/enum/src/NullValue.php',
+    'Database\\Factories\\MantenedorFactory' => $baseDir . '/database/factories/MantenedorFactory.php',
     'Database\\Factories\\UserFactory' => $baseDir . '/database/factories/UserFactory.php',
     'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
     'DateError' => $vendorDir . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
@@ -9586,6 +9595,7 @@ return array(
     'Tests\\DuskTestCase' => $baseDir . '/tests/DuskTestCase.php',
     'Tests\\Feature\\ExampleTest' => $baseDir . '/tests/Feature/ExampleTest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
+    'Tests\\Unit\\BuscarDocumentosTest' => $baseDir . '/tests/Unit/BuscarDocumentosTest.php',
     'Tests\\Unit\\ExampleTest' => $baseDir . '/tests/Unit/ExampleTest.php',
     'TheSeer\\Tokenizer\\Exception' => $vendorDir . '/theseer/tokenizer/src/Exception.php',
     'TheSeer\\Tokenizer\\NamespaceUri' => $vendorDir . '/theseer/tokenizer/src/NamespaceUri.php',

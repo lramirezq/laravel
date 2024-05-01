@@ -8,6 +8,7 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use TomatoPHP\TomatoAdmin\Facade\Tomato;
+use App\Models\Monitor;
 
 class MantenedorController extends Controller
 {
@@ -24,6 +25,8 @@ class MantenedorController extends Controller
      */
     public function index(Request $request): View
     {
+
+   
         return Tomato::index(
             request: $request,
             model: $this->model,

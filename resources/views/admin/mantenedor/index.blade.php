@@ -34,4 +34,9 @@
             </x-splade-table>
         </div>
     </div>
+
+
+  
+    
+ 
 </x-tomato-admin-layout>
