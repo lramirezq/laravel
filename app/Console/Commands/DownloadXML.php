@@ -54,7 +54,7 @@ class DownloadXML extends Command
 
                     // Guardar el archivo en el directorio de almacenamiento de Laravel
                     //DocumentReceiverCode-DocumentTypeId-Number
-                    $rutaArchivo = 'archivos/' . basename($document->DocumentReceiverCode . '-' . $document->DocumentTypeId . '-' . $document->Number) . '.xml'; // Ruta donde se guardará el archivo
+                    $rutaArchivo = 'archivos/' . basename($document->DocumentSenderCode . '-' . $document->DocumentTypeId . '-' . $document->Number) . '.xml'; // Ruta donde se guardará el archivo
                     Storage::put($rutaArchivo, $contents);
 
 
