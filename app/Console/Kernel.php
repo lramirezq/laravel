@@ -21,7 +21,7 @@ class Kernel extends ConsoleKernel
         $schedule->command('app:download-pdf ')->everyFiveMinutes();
         $schedule->command('app:copy-to-sftp')->everyFiveMinutes();
         $schedule->command('app:confirm-go-socket')->everyFiveMinutes();
- 
+        $schedule->command('app:check-available')->everyTenMinutes();
     }
 
     /**
