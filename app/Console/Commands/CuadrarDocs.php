@@ -65,11 +65,17 @@ class CuadrarDocs extends Command
     {
     // Assuming the CSV has columns: id, name, email
     $id = $row[0];
-    if ($id == "Id Gosocket") {
+    $document = "";
+    if (preg_match('/^([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})$/i', $id)) {
+        $document =    Document::where('GlobalDocumentId', $id)->first();
+    } else {
         return;
     }
 
-    $document = Document::where('GlobalDocumentId', $id)->first();
+
+  
+
+   
 
     if(!$document){
         $this->info('Documento no encontrado: ['. $id .']');
@@ -161,7 +167,7 @@ class CuadrarDocs extends Command
                      $documento->eventos()->save($evento);
                      $this->info("GlobalDocumentId : [".$documento->GlobalDocumentId."] Registro Agregado");
                  } catch (\Exception $e) {
-                    $this->error("GlobalDocumentId : [".$documento->GlobalDocumentId."] - REGISTRO DUPLICADO");
+                    $this->error("GlobalDocumentId : [" . $documento->GlobalDocumentId . "]  . Error Insert: " . $e->getMessage());
                      continue;
                  }
                 }
